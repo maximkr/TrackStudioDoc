@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../helpproject.xsl" ?>
+<topic template="Default" lasteditedby="xp" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd">
+  <title translate="true">Как редактировать приложенные файлы через WebDav.</title>
+  <body>
+    <header>
+      <para styleclass="Heading1"><text styleclass="Heading1" translate="true">Как редактировать приложенные файлы через WebDav.</text></para>
+    </header>
+    <para styleclass="Normal" style="margin-top:16px; line-height:1.00; background-color:#ffffff; tabstops:none;"><text styleclass="Normal" style="font-family:Verdana; font-weight:bold; vertical-align:baseline; color:#666666;" translate="true">В TrackStudio есть возможность редактировать приложенные файлы через WebDav.</text></para>
+    <para styleclass="Normal" style="margin-top:16px; line-height:1.00; background-color:#ffffff; tabstops:none;"><text styleclass="Normal" style="font-family:Verdana; vertical-align:baseline; color:#666666;" translate="true">Данная возможность позволяет отредактировать приложенный в задачу файл и сохранить изменения сразу на сервере.</text></para>
+    <para styleclass="Normal" style="margin-top:16px; line-height:1.00; background-color:#ffffff; tabstops:none;"><text styleclass="Normal" style="font-family:Verdana; vertical-align:baseline; color:#666666;" translate="true">Для этого необходимо скопировать ссылку WebDav link</text></para>
+    <para styleclass="Normal" style="line-height:1.00; background-color:#ffffff; tabstops:none;"><image src="copyLink.PNG" scale="-100.00%" width="949" height="299" padding="1 0 1 0" styleclass="Image Caption"></image></para>
+    <para styleclass="Normal" style="margin-top:16px; line-height:1.00; background-color:#ffffff; tabstops:none;"><text styleclass="Normal" style="font-family:Verdana; vertical-align:baseline; color:#666666;" translate="true">Далее в редакторе Microsoft Word в меню открытия файла нужно вставить эту ссылку и открыть файл</text></para>
+    <para styleclass="Normal" style="line-height:1.00; background-color:#ffffff; tabstops:none;"><image src="open.PNG" scale="-100.00%" width="949" height="619" padding="1 0 1 0" styleclass="Image Caption"></image></para>
+    <para styleclass="Normal" style="margin-top:16px; line-height:1.00; background-color:#ffffff; tabstops:none;"><text styleclass="Normal" style="font-family:Verdana; vertical-align:baseline; color:#666666;" translate="true">Теперь все изменения, внесенные в документ, можно сохранять прямо на сервере.</text></para>
+    <para styleclass="Normal" style="line-height:1.00; background-color:#ffffff; tabstops:none;"><text styleclass="Normal" style="font-family:Verdana; vertical-align:baseline; color:#666666;" translate="true">Для редактирования файлов можно использовать Microsoft Office, XMLSpy и другие программы, поддерживающие работу с WebDav.</text></para>
+    <para styleclass="Normal" style="line-height:1.00; background-color:#ffffff; page-break-before:always; tabstops:none;"></para>
+  </body>
+</topic>

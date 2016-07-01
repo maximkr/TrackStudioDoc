@@ -1,0 +1,798 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<map xmlns:xsi="http://www.w3.org/2001/XInclude">
+  <topicref type="topic" id="425457537807716" build="ALL" modified="2016-06-24T16:11:50.679Z" icon="0" href="DocumentationEng">
+    <caption translate="true">DocumentationEng</caption>
+    <topicref type="topic" id="425456065944001" build="ALL" modified="2016-06-24T16:02:23.468Z" icon="0" href="Installation-Guide">
+      <caption translate="true">Installation Guide</caption>
+      <topicref type="topic" id="425457650527280" build="ALL" modified="2016-06-24T16:02:23.792Z" icon="0" href="Updating-TrackStudio">
+        <caption translate="true">Updating TrackStudio</caption>
+        <topicref type="topic" id="425456925213725" build="ALL" modified="2016-06-24T16:02:23.954Z" icon="0" href="Upgrade-from-version-4_0_x-to-">
+          <caption translate="true">Upgrade from version 4.0.x to 5.0.x</caption>
+        </topicref>
+        <topicref type="topic" id="425456740293694" build="ALL" modified="2016-06-24T16:02:24.129Z" icon="0" href="Upgrading-the-minor-versions-(">
+          <caption translate="true">Upgrading the minor versions (4.0.x)</caption>
+        </topicref>
+        <topicref type="topic" id="42546350550313" build="ALL" modified="2016-06-24T16:02:24.292Z" icon="0" href="Upgrade-from-version-3_5">
+          <caption translate="true">Upgrade from version 3.5</caption>
+        </topicref>
+      </topicref>
+      <topicref type="topic" id="42545035518867" build="ALL" modified="2016-06-24T16:02:24.454Z" icon="0" href="Installing-on-Windows">
+        <caption translate="true">Installing on Windows</caption>
+        <topicref type="topic" id="425458177991618" build="ALL" modified="2016-06-24T16:02:24.629Z" icon="0" href="Installing-TrackStudio-Standal">
+          <caption translate="true">Installing TrackStudio Standalone in Windows</caption>
+        </topicref>
+        <topicref type="topic" id="425454761402144" build="ALL" modified="2016-06-24T16:02:24.791Z" icon="0" href="Installing-TrackStudio-War-in-">
+          <caption translate="true">Installing TrackStudio War in Windows</caption>
+        </topicref>
+        <topicref type="topic" id="42546268021203" build="ALL" modified="2016-06-24T16:02:24.940Z" icon="0" href="Starting-TrackStudio-as-a-Wind">
+          <caption translate="true">Starting TrackStudio as a Windows service</caption>
+        </topicref>
+      </topicref>
+      <topicref type="topic" id="4256691037881" build="ALL" modified="2016-06-24T16:02:25.116Z" icon="0" href="Installing-on-Linux">
+        <caption translate="true">Installing on Linux</caption>
+        <topicref type="topic" id="42543704603292" build="ALL" modified="2016-06-24T16:02:25.264Z" icon="0" href="Installing-TrackStudio-Standa2">
+          <caption translate="true">Installing TrackStudio Standalone in Linux</caption>
+        </topicref>
+        <topicref type="topic" id="42546309662103" build="ALL" modified="2016-06-24T16:02:25.426Z" icon="0" href="Installing-TrackStudio-WAR-in2">
+          <caption translate="true">Installing TrackStudio WAR in Linux</caption>
+        </topicref>
+      </topicref>
+      <topicref type="topic" id="42545464537375" build="ALL" modified="2016-06-24T16:02:25.588Z" icon="0" href="Connecting-to-a-Database">
+        <caption translate="true">Connecting to a Database</caption>
+        <topicref type="topic" id="42543945782800" build="ALL" modified="2016-06-24T16:02:25.750Z" icon="0" href="Connecting-to-HSQL">
+          <caption translate="true">Connecting to HSQL</caption>
+        </topicref>
+        <topicref type="topic" id="425456479324887" build="ALL" modified="2016-06-24T16:02:25.913Z" icon="0" href="Connecting-to-PostgreSQL">
+          <caption translate="true">Connecting to PostgreSQL</caption>
+        </topicref>
+        <topicref type="topic" id="425457531633903" build="ALL" modified="2016-06-24T16:02:26.075Z" icon="0" href="Connecting-to-MS-SQL-Server">
+          <caption translate="true">Connecting to MS SQL Server</caption>
+        </topicref>
+        <topicref type="topic" id="425455657012573" build="ALL" modified="2016-06-24T16:02:26.237Z" icon="0" href="Connecting-to-Oracle">
+          <caption translate="true">Connecting to Oracle</caption>
+        </topicref>
+        <topicref type="topic" id="425455133135924" build="ALL" modified="2016-06-24T16:02:26.387Z" icon="0" href="Connecting-to-DB2">
+          <caption translate="true">Connecting to DB2</caption>
+        </topicref>
+        <topicref type="topic" id="425456069298508" build="ALL" modified="2016-06-24T16:02:26.533Z" icon="0" href="Connecting-to-Firebird">
+          <caption translate="true">Connecting to Firebird</caption>
+        </topicref>
+        <topicref type="topic" id="425457809234490" build="ALL" modified="2016-06-24T16:02:26.678Z" icon="0" href="Using-a-console-app-dbtool-for">
+          <caption translate="true">Using a console app dbtool for exporting and importing a database</caption>
+        </topicref>
+      </topicref>
+      <topicref type="topic" id="425456838681295" build="ALL" modified="2016-06-24T16:02:26.812Z" icon="0" href="Installing-SSL-Certificate">
+        <caption translate="true">Installing SSL Certificate</caption>
+      </topicref>
+      <topicref type="topic" id="425457781779379" build="ALL" modified="2016-06-24T16:02:26.946Z" icon="0" href="Configuring-NTLM-Authenticatio">
+        <caption translate="true">Configuring NTLM Authentication</caption>
+      </topicref>
+      <topicref type="topic" id="425457865674207" build="ALL" modified="2016-06-24T16:02:27.092Z" icon="0" href="Creation-and-initialization-of">
+        <caption translate="true">Creation and initialization of database in PostgreSQL</caption>
+      </topicref>
+    </topicref>
+    <topicref type="topic" id="425454776978753" build="ALL" modified="2016-06-24T16:02:27.226Z" icon="0" href="Administrator's-Guide">
+      <caption translate="true">Administrator's Guide</caption>
+      <topicref type="topic" id="425455329490358" build="ALL" modified="2016-06-24T16:02:27.517Z" icon="0" href="How-to-define-and-configure-th">
+        <caption translate="true">How to define and configure the categories of tasks?</caption>
+        <topicref type="topic" id="425458101502386" build="ALL" modified="2016-06-24T16:02:27.663Z" icon="0" href="How-to-configure-properties-of">
+          <caption translate="true">How to configure properties of the task with a particular category</caption>
+        </topicref>
+        <topicref type="topic" id="425455931982244" build="ALL" modified="2016-06-24T16:02:27.797Z" icon="0" href="How-to-configure-relations-bet">
+          <caption translate="true">How to configure relations between categories</caption>
+        </topicref>
+        <topicref type="topic" id="425457227643332" build="ALL" modified="2016-06-24T16:02:27.943Z" icon="0" href="How-to-configure-user-rules-fo">
+          <caption translate="true">How to configure user rules for tasks with a particular category</caption>
+        </topicref>
+        <topicref type="topic" id="425457433542612" build="ALL" modified="2016-06-24T16:02:28.077Z" icon="0" href="How-to-assign-triggers-for-cre">
+          <caption translate="true">How to assign triggers for creating and editing the tasks</caption>
+        </topicref>
+        <topicref type="topic" id="425454565833586" build="ALL" modified="2016-06-24T16:02:28.223Z" icon="0" href="How-to-set-the-specimen-for-fo">
+          <caption translate="true">How to set the specimen for formatting of Task</caption>
+        </topicref>
+        <topicref type="topic" id="425455206613188" build="ALL" modified="2016-06-24T16:02:28.368Z" icon="0" href="How-to-temporarily-disable-unu">
+          <caption translate="true">How to temporarily disable unused categories</caption>
+        </topicref>
+        <topicref type="topic" id="425458400002404" build="ALL" modified="2016-06-24T16:02:28.502Z" icon="0" href="How-to-Copy-a-Category">
+          <caption translate="true">How to Copy a Category</caption>
+        </topicref>
+        <topicref type="topic" id="425455558315546" build="ALL" modified="2016-06-24T16:02:28.648Z" icon="0" href="How-to-delete-an-unused-catego">
+          <caption translate="true">How to delete an unused category</caption>
+        </topicref>
+      </topicref>
+      <topicref type="topic" id="425455799575294" build="ALL" modified="2016-06-24T16:02:28.794Z" icon="0" href="How-to-define-and-configure-t2">
+        <caption translate="true">How to define and configure the workflows</caption>
+        <topicref type="topic" id="425458071972135" build="ALL" modified="2016-06-24T16:02:28.928Z" icon="0" href="How-to-configure-states-set-fo">
+          <caption translate="true">How to configure states set for the workflow</caption>
+        </topicref>
+        <topicref type="topic" id="425457682483864" build="ALL" modified="2016-06-24T16:02:29.074Z" icon="0" href="How-to-configure-the-set-of-pr">
+          <caption translate="true">How to configure the set of priorities for a workflow</caption>
+        </topicref>
+        <topicref type="topic" id="425454997324906" build="ALL" modified="2016-06-24T16:02:29.219Z" icon="0" href="How-to-configure-the-list-of-o">
+          <caption translate="true">How to configure the list of operations with task</caption>
+          <topicref type="topic" id="425457560486062" build="ALL" modified="2016-06-24T16:02:29.365Z" icon="0" href="How-to-configure-permissions-f">
+            <caption translate="true">How to configure permissions for users in operations</caption>
+          </topicref>
+          <topicref type="topic" id="425457143336599" build="ALL" modified="2016-06-24T16:02:29.536Z" icon="0" href="Configuring-UDF-Permissions-fo">
+            <caption translate="true">Configuring UDF Permissions for custom fields in operations</caption>
+          </topicref>
+          <topicref type="topic" id="425457091304682" build="ALL" modified="2016-06-24T16:02:29.681Z" icon="0" href="How-to-configure-triggers-for-">
+            <caption translate="true">How to configure triggers for operations</caption>
+          </topicref>
+          <topicref type="topic" id="425457070983707" build="ALL" modified="2016-06-24T16:02:29.827Z" icon="0" href="How-to-define-resolutions-set">
+            <caption translate="true">How to define resolutions set</caption>
+          </topicref>
+        </topicref>
+        <topicref type="topic" id="425454945150554" build="ALL" modified="2016-06-24T16:02:29.985Z" icon="0" href="How-to-configure-custom-fields">
+          <caption translate="true">How to configure custom fields for the workflow</caption>
+        </topicref>
+      </topicref>
+      <topicref type="topic" id="42545341681022" build="ALL" modified="2016-06-24T16:02:30.131Z" icon="0" href="Who-is-assignee-and-why-is-he-">
+        <caption translate="true">Who is assignee and why is he required?</caption>
+      </topicref>
+      <topicref type="topic" id="425456373981373" build="ALL" modified="2016-06-24T16:02:30.265Z" icon="0" href="How-to-Manage-Roles-of-Users">
+        <caption translate="true">How to Manage Roles of Users</caption>
+        <topicref type="topic" id="425457649264825" build="ALL" modified="2016-06-24T16:02:30.411Z" icon="0" href="How-to-create-a-new-role">
+          <caption translate="true">How to create a new role</caption>
+        </topicref>
+        <topicref type="topic" id="425454576290327" build="ALL" modified="2016-06-24T16:02:30.557Z" icon="0" href="How-to-define-the-roles-and-or">
+          <caption translate="true">How to define the roles and organize the users into groups</caption>
+          <topicref type="topic" id="425457669666895" build="ALL" modified="2016-06-24T16:02:30.703Z" icon="0" href="Extending-and-Overriding-the-R">
+            <caption translate="true">Extending and Overriding the Roles</caption>
+          </topicref>
+        </topicref>
+      </topicref>
+      <topicref type="topic" id="425455488263556" build="ALL" modified="2016-06-24T16:02:30.849Z" icon="0" href="How-to-Track-the-History-of-Ch">
+        <caption translate="true">How to Track the History of Changes in Task Parameters</caption>
+      </topicref>
+      <topicref type="topic" id="425456520362314" build="ALL" modified="2016-06-24T16:02:31.007Z" icon="0" href="How-to-change-TrackStudio-URL">
+        <caption translate="true">How to change TrackStudio URL</caption>
+      </topicref>
+      <topicref type="topic" id="425455287432556" build="ALL" modified="2016-06-24T16:02:31.153Z" icon="0" href="How-to-import-tasks-from-e-mai">
+        <caption translate="true">How to import tasks from e-mails sent by unregistered users</caption>
+      </topicref>
+      <topicref type="topic" id="425455870406365" build="ALL" modified="2016-06-24T16:02:31.298Z" icon="0" href="Security-Settings">
+        <caption translate="true">Security Settings</caption>
+      </topicref>
+      <topicref type="topic" id="425455578715900" build="ALL" modified="2016-06-24T16:02:31.444Z" icon="0" href="Time-Tracking-in-TrackStudio">
+        <caption translate="true">Time Tracking in TrackStudio</caption>
+      </topicref>
+    </topicref>
+    <topicref type="topic" id="425456072322265" build="ALL" modified="2016-06-24T16:02:31.590Z" icon="0" href="User's-Guide">
+      <caption translate="true">User's Guide</caption>
+      <topicref type="topic" id="425456084383046" build="ALL" modified="2016-06-24T16:02:31.882Z" icon="0" href="Project-Overview">
+        <caption translate="true">Project Overview</caption>
+      </topicref>
+      <topicref type="topic" id="4253332683458" build="ALL" modified="2016-06-24T16:02:32.028Z" icon="0" href="Basic-Definitions-in-TrackStud">
+        <caption translate="true">Basic Definitions in TrackStudio</caption>
+      </topicref>
+      <topicref type="topic" id="425457628760169" build="ALL" modified="2016-06-24T16:02:32.174Z" icon="0" href="Administrator's-Manual">
+        <caption translate="true">Administrator's Manual</caption>
+        <topicref type="topic" id="425454966784409" build="ALL" modified="2016-06-24T16:02:32.307Z" icon="0" href="How-to-Allow-Independent-Regis">
+          <caption translate="true">How to Allow Independent Registration of Users</caption>
+        </topicref>
+        <topicref type="topic" id="42545153498789" build="ALL" modified="2016-06-24T16:02:32.453Z" icon="0" href="How-to-Create-New-Category">
+          <caption translate="true">How to Create New Category</caption>
+        </topicref>
+        <topicref type="topic" id="425456821922973" build="ALL" modified="2016-06-24T16:02:32.587Z" icon="0" href="How-to-Divide-Users-into-Group">
+          <caption translate="true">How to Divide Users into Groups</caption>
+        </topicref>
+        <topicref type="topic" id="425457981927000" build="ALL" modified="2016-06-24T16:02:32.733Z" icon="0" href="How-to-change-the-States-List-">
+          <caption translate="true">How to change the States List in a Task</caption>
+        </topicref>
+        <topicref type="topic" id="425456337382249" build="ALL" modified="2016-06-24T16:02:32.867Z" icon="0" href="How-to-Filter-the-Tasks">
+          <caption translate="true">How to Filter the Tasks</caption>
+        </topicref>
+      </topicref>
+      <topicref type="topic" id="425454675537935" build="ALL" modified="2016-06-24T16:02:33.013Z" icon="0" href="User-Manual">
+        <caption translate="true">User Manual</caption>
+        <topicref type="topic" id="425456258882949" build="ALL" modified="2016-06-24T16:02:33.159Z" icon="0" href="How-to-Create-New-User">
+          <caption translate="true">How to Create New User</caption>
+        </topicref>
+        <topicref type="topic" id="425457905221789" build="ALL" modified="2016-06-24T16:02:33.304Z" icon="0" href="How-to-Filter-the-Tasks-List">
+          <caption translate="true">How to Filter the Tasks List</caption>
+        </topicref>
+        <topicref type="topic" id="425458498998523" build="ALL" modified="2016-06-24T16:02:33.438Z" icon="0" href="How-to-Create-Project-or-Versi">
+          <caption translate="true">How to Create Project or Version</caption>
+        </topicref>
+        <topicref type="topic" id="425457048200558" build="ALL" modified="2016-06-24T16:02:33.584Z" icon="0" href="How-to-Create-List-of-Requirem">
+          <caption translate="true">How to Create List of Requirements/ Bugs (Errors)/ Test Documentation/ Completions</caption>
+        </topicref>
+        <topicref type="topic" id="425455410144836" build="ALL" modified="2016-06-24T16:02:33.730Z" icon="0" href="How-to-Create-Requirement">
+          <caption translate="true">How to Create Requirement</caption>
+        </topicref>
+        <topicref type="topic" id="425963921406" build="ALL" modified="2016-06-24T16:02:33.864Z" icon="0" href="How-to-Change-the-State-of-Tas">
+          <caption translate="true">How to Change the State of Task, Assignee, and Deadlines etc</caption>
+        </topicref>
+        <topicref type="topic" id="425454779352081" build="ALL" modified="2016-06-24T16:02:34.010Z" icon="0" href="How-to-indicate-for-testing-wh">
+          <caption translate="true">How to indicate for testing which Requirement the Test Case is meant</caption>
+        </topicref>
+        <topicref type="topic" id="425454716882759" build="ALL" modified="2016-06-24T16:02:34.152Z" icon="0" href="How-to-indicate-which-Test-Cas">
+          <caption translate="true">How to indicate which Test Case is to be used for Testing the Requirement</caption>
+        </topicref>
+      </topicref>
+    </topicref>
+    <topicref type="topic" id="425456975659030" build="ALL" modified="2016-06-24T16:02:34.312Z" icon="0" href="Developer's-Guide">
+      <caption translate="true">Developer's Guide</caption>
+      <topicref type="topic" id="425455419629405" build="ALL" modified="2016-06-24T16:02:34.633Z" icon="0" href="How-to-build-project-from-mave">
+        <caption translate="true">How to build project from maven template</caption>
+      </topicref>
+      <topicref type="topic" id="425458729513717" build="ALL" modified="2016-06-24T16:02:34.780Z" icon="0" href="How-to-write-and-debug-scripts">
+        <caption translate="true">How to write and debug scripts in IntelliJ IDEA</caption>
+      </topicref>
+      <topicref type="topic" id="425455901591866" build="ALL" modified="2016-06-24T16:02:34.941Z" icon="0" href="How-to-use-SOAP-integration-in">
+        <caption translate="true">How to use SOAP integration in TrackStudio</caption>
+      </topicref>
+      <topicref type="topic" id="425458502842726" build="ALL" modified="2016-06-24T16:02:35.101Z" icon="0" href="Compiling-TrackStudio-from-sou">
+        <caption translate="true">Compiling TrackStudio from source code</caption>
+      </topicref>
+      <topicref type="topic" id="425456277268601" build="ALL" modified="2016-06-24T16:02:35.248Z" icon="0" href="How-to-Make-Dynamic-List-of-Po">
+        <caption translate="true">How to Make Dynamic List of Possible Values of Custom Field</caption>
+      </topicref>
+      <topicref type="topic" id="425456577845120" build="ALL" modified="2016-06-24T16:02:35.409Z" icon="0" href="How-to-Make-the-Value-of-Custo">
+        <caption translate="true">How to Make the Value of Custom Field Computable</caption>
+        <topicref type="topic" id="425458384610824" build="ALL" modified="2016-06-24T16:02:35.556Z" icon="0" href="Date-(Calendar)">
+          <caption translate="true">Date (Calendar)</caption>
+        </topicref>
+        <topicref type="topic" id="425458456700023" build="ALL" modified="2016-06-24T16:02:35.717Z" icon="0" href="Integer">
+          <caption translate="true">Integer</caption>
+          <topicref type="topic" id="425457345393455" build="ALL" modified="2016-06-24T16:02:35.877Z" icon="0" href="Number-of-days-since-task-upda">
+            <caption translate="true">Number of days since task update</caption>
+          </topicref>
+        </topicref>
+      </topicref>
+      <topicref type="topic" id="425455897158182" build="ALL" modified="2016-06-24T16:02:36.037Z" icon="0" href="How-to-Perform-Automatic-Task-">
+        <caption translate="true">How to Perform Automatic Task Escalation</caption>
+      </topicref>
+      <topicref type="topic" id="425455172016561" build="ALL" modified="2016-06-24T16:02:36.198Z" icon="0" href="How-to-Save-the-History-of-Cha">
+        <caption translate="true">How to Save the History of Changes in Task Parameters</caption>
+      </topicref>
+      <topicref type="topic" id="425457108497114" build="ALL" modified="2016-06-24T16:02:36.345Z" icon="0" href="How-to-check-data-before-savin">
+        <caption translate="true">How to check data before saving the task (Before Task Edit Trigger)</caption>
+      </topicref>
+      <topicref type="topic" id="425457213386136" build="ALL" modified="2016-06-24T16:02:36.506Z" icon="0" href="How-to-copy-access-control-rul">
+        <caption translate="true">How to copy access control rules into other project using single button</caption>
+      </topicref>
+      <topicref type="topic" id="425458723743708" build="ALL" modified="2016-06-24T16:02:36.666Z" icon="0" href="How-to-import-emails-from-user">
+        <caption translate="true">How to import emails from users to tasks</caption>
+      </topicref>
+      <topicref type="topic" id="42547255315859" build="ALL" modified="2016-06-24T16:02:36.827Z" icon="0" href="How-to-perform-actions-on-mult">
+        <caption translate="true">How to perform actions on multiple tasks</caption>
+      </topicref>
+      <topicref type="topic" id="425455601726503" build="ALL" modified="2016-06-24T16:02:36.987Z" icon="0" href="How-to-use-REST-API">
+        <caption translate="true">How to use REST API</caption>
+      </topicref>
+      <topicref type="topic" id="425455164126324" build="ALL" modified="2016-06-24T16:02:37.147Z" icon="0" href="List-of-Similar-Tasks">
+        <caption translate="true">List of Similar Tasks</caption>
+      </topicref>
+    </topicref>
+  </topicref>
+  <topicref type="topic" id="425455202011441" build="ALL" modified="2016-06-24T16:10:58.918Z" icon="0" href="Rus">
+    <caption translate="true">Rus</caption>
+    <topicref type="topic" id="422505567684203" build="ALL" modified="2015-10-12T20:08:12.263Z" icon="0" href="installation_guide">
+      <caption translate="true">Руководство по установке</caption>
+      <topicref type="topic" id="422507216302735" build="ALL" modified="2015-10-13T18:00:09.182Z" icon="0" href="update_trackStudio">
+        <caption translate="true">Обновление TrackStudio</caption>
+        <topicref type="topic" id="422505644713358" build="ALL" modified="2015-10-12T20:08:01.362Z" icon="0" href="update_5_0_x">
+          <caption translate="true">Обновление минорных версий (5.0.x)</caption>
+        </topicref>
+        <topicref type="topic" id="422506442886870" build="ALL" modified="2015-10-12T20:08:42.835Z" icon="0" href="update_to_5_0_x">
+          <caption translate="true">Обновление c версии 4.0.x до 5.0.x</caption>
+        </topicref>
+        <topicref type="topic" id="422506154388621" build="ALL" modified="2015-10-12T20:09:03.351Z" icon="0" href="update_minor_4_0_x">
+          <caption translate="true">Обновление минорных версий (4.0.x)</caption>
+        </topicref>
+        <topicref type="topic" id="422506136462258" build="ALL" modified="2015-10-12T20:09:19.171Z" icon="0" href="update_to_4_0_x">
+          <caption translate="true">Обновление c версии 3.5.x до 4.0.x</caption>
+        </topicref>
+      </topicref>
+      <topicref type="topic" id="422504616963041" build="ALL" modified="2015-10-13T16:20:31.128Z" icon="0" href="windows_setup">
+        <caption translate="true">Установка под Windows</caption>
+        <topicref type="topic" id="422504913667634" build="ALL" modified="2015-10-13T16:20:54.844Z" icon="0" href="windows_setup_sa">
+          <caption translate="true">Установка TrackStudio Standalone под Windows</caption>
+        </topicref>
+        <topicref type="topic" id="422504835150663" build="ALL" modified="2015-10-13T16:21:02.991Z" icon="0" href="windows_setup_war">
+          <caption translate="true">Установка WAR-версии TrackStudio под Windows</caption>
+        </topicref>
+        <topicref type="topic" id="422507958713808" build="ALL" modified="2015-10-13T16:21:38.628Z" icon="0" href="starting_windows_service">
+          <caption translate="true">Запуск TrackStudio как сервиса Windows</caption>
+        </topicref>
+      </topicref>
+      <topicref type="topic" id="422505335530282" build="ALL" modified="2015-10-13T16:22:03.083Z" icon="0" href="linux_setup">
+        <caption translate="true">Установка под Linux</caption>
+        <topicref type="topic" id="422507226014432" build="ALL" modified="2015-10-13T16:22:32.545Z" icon="0" href="linux_X-Window">
+          <caption translate="true">Настройка X Window</caption>
+        </topicref>
+        <topicref type="topic" id="422507281075244" build="ALL" modified="2015-10-13T16:22:47.437Z" icon="0" href="linux_setup_sa">
+          <caption translate="true">Установка TrackStudio Standalone</caption>
+        </topicref>
+        <topicref type="topic" id="422505187389463" build="ALL" modified="2015-10-13T16:23:20.403Z" icon="0" href="linux_setup_console">
+          <caption translate="true">Установка TrackStudio Standalone из консоли</caption>
+        </topicref>
+        <topicref type="topic" id="422507148793895" build="ALL" modified="2015-10-13T16:23:32.192Z" icon="0" href="linux_setup_war">
+          <caption translate="true">Установка TrackStudio WAR</caption>
+        </topicref>
+      </topicref>
+      <topicref type="topic" id="422507317896287" build="ALL" modified="2015-10-13T16:24:05.105Z" icon="0" href="initializing_database">
+        <caption translate="true">Создание и настройка базы данных</caption>
+        <topicref type="topic" id="42251846348442" build="ALL" modified="2015-10-13T16:24:35.292Z" icon="0" href="database_postgres">
+          <caption translate="true">Создание и инициализация базы данных под PostgreSQL</caption>
+        </topicref>
+        <topicref type="topic" id="422506251509352" build="ALL" modified="2015-10-13T16:24:45.122Z" icon="0" href="database_HSQL">
+          <caption translate="true">Создание и инициализация базы данных под HSQL</caption>
+        </topicref>
+        <topicref type="topic" id="422504532550524" build="ALL" modified="2015-10-13T16:24:52.238Z" icon="0" href="database_ORACLE">
+          <caption translate="true">Создание и инициализация базы данных под ORACLE</caption>
+        </topicref>
+        <topicref type="topic" id="422504151370166" build="ALL" modified="2015-10-13T16:24:59.305Z" icon="0" href="database_MS-SQL-Server">
+          <caption translate="true">Создание и инициализация базы данных под MS SQL Server</caption>
+        </topicref>
+        <topicref type="topic" id="422506249610756" build="ALL" modified="2015-10-13T16:25:04.438Z" icon="0" href="database_MySQL">
+          <caption translate="true">Создание и инициализация базы данных под MySQL</caption>
+        </topicref>
+        <topicref type="topic" id="422508261049771" build="ALL" modified="2015-10-13T16:25:10.438Z" icon="0" href="database_DB2">
+          <caption translate="true">Создание и инициализация базы данных под DB2</caption>
+        </topicref>
+        <topicref type="topic" id="422504350660493" build="ALL" modified="2015-10-13T16:25:14.988Z" icon="0" href="database_Firebird">
+          <caption translate="true">Создание и инициализация базы данных под Firebird</caption>
+        </topicref>
+        <topicref type="topic" id="422504539152299" build="ALL" modified="2015-10-13T16:27:02.982Z" icon="0" href="dbtool">
+          <caption translate="true">Использование консольной утилиты для экспорта, импорта и инициализации данных</caption>
+        </topicref>
+        <topicref type="topic" id="422506604125502" build="ALL" modified="2015-10-13T16:27:24.803Z" icon="0" href="backup_restore">
+          <caption translate="true">Резервное копирование и восстановление данных</caption>
+        </topicref>
+        <topicref type="topic" id="422505844633267" build="ALL" modified="2015-10-13T16:27:58.881Z" icon="0" href="database_export-import-migration">
+          <caption translate="true">Экспорт и импорт базы данных. Миграция</caption>
+        </topicref>
+      </topicref>
+      <topicref type="topic" id="422507071954500" build="ALL" modified="2015-10-13T16:29:37.017Z" icon="0" href="configuring_SSL">
+        <caption translate="true">Установка сертификата SSL</caption>
+      </topicref>
+      <topicref type="topic" id="422504844092671" build="ALL" modified="2015-10-13T16:31:32.519Z" icon="0" href="LDAP_windows">
+        <caption translate="true">Настройка авторизации пользователей через MS Active Directory</caption>
+      </topicref>
+      <topicref type="topic" id="422504174459352" build="ALL" modified="2015-10-13T16:30:12.312Z" icon="0" href="NTLM_auth">
+        <caption translate="true">Настройка авторизации через NTLM</caption>
+      </topicref>
+      <topicref type="topic" id="422507490841873" build="ALL" modified="2015-10-13T16:30:37.563Z" icon="0" href="X_509_cert">
+        <caption translate="true">Настройка авторизации по X.509</caption>
+      </topicref>
+      <topicref type="topic" id="42250230973382" build="ALL" modified="2015-10-13T16:31:18.238Z" icon="0" href="LDAP_linux">
+        <caption translate="true">Установка OpenLDAP и настройка авторизации пользователей TrackStudio</caption>
+      </topicref>
+      <topicref type="topic" id="422507780406958" build="ALL" modified="2015-10-13T16:31:56.686Z" icon="0" href="TrackStudio_URL">
+        <caption translate="true">Как сменить URL TrackStudio</caption>
+      </topicref>
+    </topicref>
+    <topicref type="topic" id="422504840444478" build="ALL" modified="2015-10-13T16:40:39.871Z" icon="0" href="administraton_guide">
+      <caption translate="true">Руководство администратора</caption>
+      <topicref type="topic" id="422835607803012" build="ALL" modified="2015-10-13T16:40:49.480Z" icon="0" href="categories">
+        <caption translate="true">Как определить и настроить категории задач</caption>
+        <topicref type="topic" id="42287920867942" build="ALL" modified="2015-10-13T16:41:06.299Z" icon="0" href="manage_categories">
+          <caption translate="true">Как настроить свойства задач с определенной категорией</caption>
+        </topicref>
+        <topicref type="topic" id="422861538076" build="ALL" modified="2015-10-13T16:41:25.735Z" icon="0" href="categories_ralations">
+          <caption translate="true">Как настроить связи между категориями</caption>
+        </topicref>
+        <topicref type="topic" id="422866491099061" build="ALL" modified="2015-10-13T16:42:31.027Z" icon="0" href="categories_permissions">
+          <caption translate="true">Как настроить права для пользователей на задачи с определенной категорией</caption>
+        </topicref>
+        <topicref type="topic" id="42286780275075" build="ALL" modified="2015-10-13T16:42:45.021Z" icon="0" href="categories_triggers">
+          <caption translate="true">Как привязать триггеры на создание и редактирование задач</caption>
+        </topicref>
+        <topicref type="topic" id="422868536941282" build="ALL" modified="2015-10-13T16:43:05.789Z" icon="0" href="categories_templates">
+          <caption translate="true">Как задать образец для оформления задачи</caption>
+        </topicref>
+        <topicref type="topic" id="422866766272174" build="ALL" modified="2015-10-13T16:43:21.853Z" icon="0" href="categories_deactivate">
+          <caption translate="true">Как временно отключить неиспользуемые категории</caption>
+        </topicref>
+        <topicref type="topic" id="422868483293777" build="ALL" modified="2015-10-13T16:43:42.780Z" icon="0" href="categories_copy">
+          <caption translate="true">Как копировать категорию</caption>
+        </topicref>
+        <topicref type="topic" id="422867054299943" build="ALL" modified="2015-10-13T16:47:18.625Z" icon="0" href="categories_delete">
+          <caption translate="true">Как удалить неиспользуемую категорию</caption>
+        </topicref>
+      </topicref>
+      <topicref type="topic" id="43281817664" build="ALL" modified="2015-10-13T16:47:32.740Z" icon="0" href="workflow">
+        <caption translate="true">Как определить и настроить процессы</caption>
+        <topicref type="topic" id="422876613474987" build="ALL" modified="2015-10-13T16:49:06.509Z" icon="0" href="workflow_states">
+          <caption translate="true">Как настроить набор состояний для процесса</caption>
+        </topicref>
+        <topicref type="topic" id="422877121667895" build="ALL" modified="2015-10-13T16:49:26.364Z" icon="0" href="workflow_priorities">
+          <caption translate="true">Как настроить набор приоритетов для процесса</caption>
+        </topicref>
+        <topicref type="topic" id="422879936834778" build="ALL" modified="2015-10-13T16:49:41.238Z" icon="0" href="workflow_operations">
+          <caption translate="true">Как настроить список операций с задачей</caption>
+          <topicref type="topic" id="422878891441937" build="ALL" modified="2015-10-13T16:50:14.948Z" icon="0" href="workflow_operation_transitions">
+            <caption translate="true">Как настроить переходы из одного состояния в другое</caption>
+          </topicref>
+          <topicref type="topic" id="42286851223927" build="ALL" modified="2015-10-13T16:50:36.848Z" icon="0" href="workflow_operation_permissions">
+            <caption translate="true">Как настроить разрешения для пользователей в операциях</caption>
+          </topicref>
+          <topicref type="topic" id="422879551541960" build="ALL" modified="2015-10-13T16:51:04.652Z" icon="0" href="workflow_operation_udf_permissions">
+            <caption translate="true">Как настроить разрешения для дополнительных полей в операциях</caption>
+          </topicref>
+          <topicref type="topic" id="422879928137090" build="ALL" modified="2015-10-13T16:51:25.527Z" icon="0" href="workflow_operation_triggers">
+            <caption translate="true">Как настроить триггеры для операций</caption>
+          </topicref>
+          <topicref type="topic" id="422878458284115" build="ALL" modified="2015-10-13T16:51:34.243Z" icon="0" href="workflow_operation_resolutions">
+            <caption translate="true">Как задать набор резолюций</caption>
+          </topicref>
+        </topicref>
+        <topicref type="topic" id="422877868037476" build="ALL" modified="2015-10-13T16:51:50.838Z" icon="0" href="workflow_udf">
+          <caption translate="true">Как настроить дополнительные поля для процесса</caption>
+        </topicref>
+      </topicref>
+      <topicref type="topic" id="422867969195775" build="ALL" modified="2015-10-13T18:00:30.486Z" icon="0" href="howto_use_webdav">
+        <caption translate="true">Как редактировать приложенные файлы через WebDav.</caption>
+      </topicref>
+      <topicref type="topic" id="422868680323834" build="ALL" modified="2015-10-13T16:52:45.374Z" icon="0" href="assignee_or_handler">
+        <caption translate="true">Кто такой ответственный, зачем он нужен и что с ним делать?</caption>
+      </topicref>
+      <topicref type="topic" id="422869759375035" build="ALL" modified="2015-10-13T16:54:06.390Z" icon="0" href="roles">
+        <caption translate="true">Как управлять ролями пользователей</caption>
+        <topicref type="topic" id="422877521183798" build="ALL" modified="2015-10-13T16:54:30.593Z" icon="0" href="roles_create">
+          <caption translate="true">Как создать новую роль</caption>
+        </topicref>
+        <topicref type="topic" id="422876509320039" build="ALL" modified="2015-10-13T18:00:38.795Z" icon="0" href="howto_define_roles_and_groups">
+          <caption translate="true">Как определить роли в системе и организовать пользователей в группы</caption>
+          <topicref type="topic" id="422877832154846" build="ALL" modified="2015-10-13T16:56:32.084Z" icon="0" href="extending_and_overriding_roles">
+            <caption translate="true">Расширение и переопределение ролей</caption>
+          </topicref>
+        </topicref>
+        <topicref type="topic" id="422879440918850" build="ALL" modified="2015-10-13T16:58:30.110Z" icon="0" href="roles_task_fields">
+          <caption translate="true">Как запретить просмотр или редактирование полей в задачах</caption>
+        </topicref>
+        <topicref type="topic" id="422880147015231" build="ALL" modified="2015-10-13T16:59:00.409Z" icon="0" href="roles_rules_user_filds">
+          <caption translate="true">Как запретить просмотр или редактирование полей пользователей</caption>
+        </topicref>
+        <topicref type="topic" id="422877074351496" build="ALL" modified="2015-10-13T17:05:11.279Z" icon="0" href="roles_actions">
+          <caption translate="true">Как разрешить или запретить пользователю выполнять определенные действия</caption>
+        </topicref>
+        <topicref type="topic" id="422878694268543" build="ALL" modified="2016-02-03T19:38:38.428Z" icon="0" href="roles_categories_actions">
+          <caption translate="true">Настройка прав на задачи с определенной категорией</caption>
+        </topicref>
+        <topicref type="topic" id="42288557998028" build="ALL" modified="2015-10-13T17:12:42.468Z" icon="0" href="roles_processes">
+          <caption translate="true">Как настроить права для пользователей на операции и дополнительные поля в процессах</caption>
+        </topicref>
+      </topicref>
+      <topicref type="topic" id="422869150295215" build="ALL" modified="2015-10-13T17:18:32.904Z" icon="0" href="howto_make_reports">
+        <caption translate="true">Как построить отчеты в TrackStudio</caption>
+        <topicref type="topic" id="422877333640965" build="ALL" modified="2015-10-13T17:18:56.793Z" icon="0" href="list_report">
+          <caption translate="true">Список</caption>
+        </topicref>
+        <topicref type="topic" id="422877431958785" build="ALL" modified="2015-10-13T17:26:12.775Z" icon="0" href="timesheet_report">
+          <caption translate="true">Табель</caption>
+        </topicref>
+        <topicref type="topic" id="422879401856848" build="ALL" modified="2015-10-13T17:35:09.534Z" icon="0" href="detailed_report">
+          <caption translate="true">Детальный</caption>
+        </topicref>
+        <topicref type="topic" id="422880255789263" build="ALL" modified="2015-10-13T17:36:07.439Z" icon="0" href="time_report">
+          <caption translate="true">Отчет о затраченном времени</caption>
+        </topicref>
+        <topicref type="topic" id="422880474278212" build="ALL" modified="2015-10-13T17:36:17.904Z" icon="0" href="tree_report">
+          <caption translate="true">Отчет о структуре задач</caption>
+        </topicref>
+        <topicref type="topic" id="422876503319339" build="ALL" modified="2015-10-13T17:36:49.592Z" icon="0" href="distribution_report">
+          <caption translate="true">Распределение</caption>
+        </topicref>
+        <topicref type="topic" id="422876523542657" build="ALL" modified="2015-10-13T17:37:23.226Z" icon="0" href="gantt_chart">
+          <caption translate="true">Диаграмма Ганта</caption>
+        </topicref>
+        <topicref type="topic" id="422877511100036" build="ALL" modified="2015-10-13T17:37:44.028Z" icon="0" href="trend_report">
+          <caption translate="true">Тренд</caption>
+        </topicref>
+      </topicref>
+      <topicref type="topic" id="422866321086939" build="ALL" modified="2015-10-13T17:38:19.077Z" icon="0" href="custom_fields">
+        <caption translate="true">Как добавить свои поля в задачи</caption>
+        <topicref type="topic" id="422878497685172" build="ALL" modified="2015-10-13T17:38:34.455Z" icon="0" href="custom_field_date">
+          <caption translate="true">Дополнительное поле типа Дата</caption>
+        </topicref>
+        <topicref type="topic" id="422876655570523" build="ALL" modified="2015-10-13T17:38:57.527Z" icon="0" href="custom_field_string">
+          <caption translate="true">Дополнительное поле типа Строка</caption>
+        </topicref>
+        <topicref type="topic" id="422880297525770" build="ALL" modified="2015-10-13T17:39:15.635Z" icon="0" href="custom_field_text">
+          <caption translate="true">Дополнительное поле типа Текст</caption>
+        </topicref>
+        <topicref type="topic" id="422877700145087" build="ALL" modified="2015-10-13T17:39:28.882Z" icon="0" href="custom_field_integer">
+          <caption translate="true">Дополнительное поле типа Целое</caption>
+        </topicref>
+      </topicref>
+      <topicref type="topic" id="422868349756328" build="ALL" modified="2015-10-13T17:40:09.408Z" icon="0" href="howto_manage_password_settings">
+        <caption translate="true">Как управлять настройками безопасности</caption>
+      </topicref>
+      <topicref type="topic" id="42287927331425" build="ALL" modified="2015-10-13T17:40:44.110Z" icon="0" href="jes">
+        <caption translate="true">Как настроить почтовый сервер JES</caption>
+      </topicref>
+      <topicref type="topic" id="422867485898786" build="ALL" modified="2015-10-13T17:40:55.299Z" icon="0" href="howto_notify_users">
+        <caption translate="true">Как оповещать пользователей об изменениях по e-mail</caption>
+      </topicref>
+      <topicref type="topic" id="422866227985573" build="ALL" modified="2015-10-13T17:42:16.227Z" icon="0" href="howto_import_email">
+        <caption translate="true">Как импортировать письма от пользователей в задачи</caption>
+      </topicref>
+      <topicref type="topic" id="422868409059310" build="ALL" modified="2015-10-13T17:42:51.179Z" icon="0" href="howto_get_public_access">
+        <caption translate="true">Как организовать доступ к TrackStudio без регистрации</caption>
+      </topicref>
+      <topicref type="topic" id="422868405639175" build="ALL" modified="2015-10-13T17:43:40.564Z" icon="0" href="howto_disable_users">
+        <caption translate="true">Как отключить ненужных пользователей</caption>
+      </topicref>
+      <topicref type="topic" id="42288581043409" build="ALL" modified="2015-10-13T17:44:28.406Z" icon="0" href="user_logon_restriction">
+        <caption translate="true">Как запретить вход в систему определенным группам пользователей</caption>
+      </topicref>
+      <topicref type="topic" id="422866094754057" build="ALL" modified="2015-10-13T17:44:34.924Z" icon="0" href="howto_import_csv">
+        <caption translate="true">Как импортировать в TrackStudio ваши данные</caption>
+      </topicref>
+      <topicref type="topic" id="422866629491409" build="ALL" modified="2015-10-13T17:44:59.475Z" icon="0" href="josso">
+        <caption translate="true">Как интегрировать TrackStudio c JOSSO</caption>
+      </topicref>
+      <topicref type="topic" id="422866919941862" build="ALL" modified="2015-10-13T17:45:17.954Z" icon="0" href="crowd">
+        <caption translate="true">Как интегрировать TrackStudio с Atlassian Crowd</caption>
+      </topicref>
+      <topicref type="topic" id="42284897264521" build="ALL" modified="2015-10-13T17:45:33.539Z" icon="0" href="xmpp">
+        <caption translate="true">Как настроить уведомления через Jabber/XMPP</caption>
+      </topicref>
+      <topicref type="topic" id="422867579886735" build="ALL" modified="2015-10-13T17:49:24.436Z" icon="0" href="howto_notify_unregistered_users">
+        <caption translate="true">Как оповещать об изменениях по e-mail незарегистрированных пользователей</caption>
+      </topicref>
+      <topicref type="topic" id="422867190841470" build="ALL" modified="2015-10-13T17:55:57.089Z" icon="0" href="howto_hide_blocks">
+        <caption translate="true">Как скрыть ненужные блоки со страницы отображения задачи</caption>
+      </topicref>
+      <topicref type="topic" id="422868570824850" build="ALL" modified="2015-10-13T17:56:23.324Z" icon="0" href="jconsole">
+        <caption translate="true">Мониторинг работы TrackStudio с помощью jconsole</caption>
+      </topicref>
+      <topicref type="topic" id="422869783742223" build="ALL" modified="2015-10-13T17:56:55.782Z" icon="0" href="google_calendar">
+        <caption translate="true">Как интегрировать TrackStudio c Google Calendar</caption>
+      </topicref>
+      <topicref type="topic" id="422869048556409" build="ALL" modified="2015-10-13T17:57:01.265Z" icon="0" href="localize">
+        <caption translate="true">Как локализовать интерфейс TrackStudio</caption>
+      </topicref>
+      <topicref type="topic" id="422866853950327" build="ALL" modified="2015-10-13T17:57:30.810Z" icon="0" href="scm">
+        <caption translate="true">Как настроить интеграцию с системами управления исходным кодом (SCM)</caption>
+        <topicref type="topic" id="422878128954219" build="ALL" modified="2015-10-13T17:57:42.326Z" icon="0" href="bazaar">
+          <caption translate="true">Как настроить интеграцию с Bazaar</caption>
+        </topicref>
+        <topicref type="topic" id="422880010895287" build="ALL" modified="2015-10-13T17:57:45.982Z" icon="0" href="git">
+          <caption translate="true">Как настроить интеграцию с Git</caption>
+        </topicref>
+        <topicref type="topic" id="422879348937683" build="ALL" modified="2015-10-13T17:58:01.685Z" icon="0" href="mercurial">
+          <caption translate="true">Как настроить интеграцию с Mercurial</caption>
+        </topicref>
+        <topicref type="topic" id="422879649528425" build="ALL" modified="2015-10-13T17:58:08.076Z" icon="0" href="perforce">
+          <caption translate="true">Как настроить интеграцию с Perforce</caption>
+        </topicref>
+        <topicref type="topic" id="422879999721120" build="ALL" modified="2015-10-13T17:58:14.482Z" icon="0" href="svn">
+          <caption translate="true">Как настроить интеграцию с SVN</caption>
+        </topicref>
+      </topicref>
+      <topicref type="topic" id="422867210916664" build="ALL" modified="2015-10-13T17:58:28.341Z" icon="0" href="audit_trail">
+        <caption translate="true">Как отследить историю изменения параметров задачи</caption>
+      </topicref>
+      <topicref type="topic" id="422866359372092" build="ALL" modified="2015-10-13T17:58:42.529Z" icon="0" href="time_tracking">
+        <caption translate="true">Как с помощью TrackStudio учитывать рабочее время</caption>
+      </topicref>
+      <topicref type="topic" id="422869160321642" build="ALL" modified="2015-10-13T17:59:12.544Z" icon="0" href="yourkit">
+        <caption translate="true">Как оценить быстродействие и использование памяти с помощью YourKit</caption>
+      </topicref>
+      <topicref type="topic" id="422867101845132" build="ALL" modified="2015-10-13T17:59:28.841Z" icon="0" href="howto_hide_frame">
+        <caption translate="true">Как скрыть фрейм с деревом задач</caption>
+      </topicref>
+    </topicref>
+    <topicref type="topic" id="42251713244239" build="ALL" modified="2015-10-13T18:05:31.190Z" icon="0" href="user_guide">
+      <caption translate="true">Руководство пользователя</caption>
+      <topicref type="topic" id="42291263578112" build="ALL" modified="2015-10-13T18:04:56.563Z" icon="0" href="requirements-management-overview">
+        <caption translate="true">Пример конфигурации &quot;Управление требованиями&quot;</caption>
+        <topicref type="topic" id="422895098118383" build="ALL" modified="2015-10-13T18:06:57.387Z" icon="0" href="requirements_managment_config_overview">
+          <caption translate="true">Обзор проекта</caption>
+        </topicref>
+        <topicref type="topic" id="422896454561051" build="ALL" modified="2015-10-13T18:07:31.473Z" icon="0" href="requirements_managment_definitions">
+          <caption translate="true">Основные понятия TrackStudio</caption>
+        </topicref>
+        <topicref type="topic" id="422895525754210" build="ALL" modified="2015-10-13T18:08:08.473Z" icon="0" href="admin_guide">
+          <caption translate="true">Руководство администратора</caption>
+          <topicref type="topic" id="422895470620910" build="ALL" modified="2015-10-13T18:08:28.739Z" icon="0" href="admin_guide_howto_change_status_list">
+            <caption translate="true">Как изменить список состояний у задачи</caption>
+          </topicref>
+          <topicref type="topic" id="422894043070236" build="ALL" modified="2015-10-13T18:09:03.708Z" icon="0" href="admin_guide_howto_create_roles">
+            <caption translate="true">Как разделить пользователей на группы</caption>
+          </topicref>
+          <topicref type="topic" id="422895802368556" build="ALL" modified="2015-10-13T18:14:33.274Z" icon="0" href="admin_guide_howto_allow_self_registration">
+            <caption translate="true">Как разрешить пользователям регистрироваться самостоятельно</caption>
+          </topicref>
+          <topicref type="topic" id="422895175228335" build="ALL" modified="2015-10-13T18:14:44.448Z" icon="0" href="admin_guide_howto_create_category">
+            <caption translate="true">Как создать новую категорию</caption>
+          </topicref>
+          <topicref type="topic" id="422893327594338" build="ALL" modified="2015-10-13T18:14:57.399Z" icon="0" href="admin_guide_howto_filter_tasks">
+            <caption translate="true">Как фильтровать задачи</caption>
+          </topicref>
+        </topicref>
+        <topicref type="topic" id="422895025986774" build="ALL" modified="2015-10-13T18:20:28.712Z" icon="0" href="user's_guide">
+          <caption translate="true">Руководство пользователя</caption>
+          <topicref type="topic" id="422894526837777" build="ALL" modified="2015-10-13T20:33:58.282Z" icon="0" href="howto_change_task">
+            <caption translate="true">Как изменить состояние задачи, ответственного, сроки выполнения и т.п.</caption>
+          </topicref>
+          <topicref type="topic" id="422896275018814" build="ALL" modified="2015-10-13T20:34:20.996Z" icon="0" href="how_to_filter_tasks">
+            <caption translate="true">Как отфильтровать список задач</caption>
+          </topicref>
+          <topicref type="topic" id="422897354578919" build="ALL" modified="2015-10-13T20:34:32.795Z" icon="0" href="howto_create_user">
+            <caption translate="true">Как создать нового пользователя</caption>
+          </topicref>
+          <topicref type="topic" id="422893329510134" build="ALL" modified="2015-10-13T20:34:46.012Z" icon="0" href="howto_create_project">
+            <caption translate="true">Как создать проект или версию</caption>
+          </topicref>
+          <topicref type="topic" id="422896643958155" build="ALL" modified="2015-10-13T20:35:20.621Z" icon="0" href="howto_create_bug">
+            <caption translate="true">Как создать список требований/ошибок/тестовой документации/доработок</caption>
+          </topicref>
+          <topicref type="topic" id="422894824014281" build="ALL" modified="2015-10-13T20:35:59.349Z" icon="0" href="howto_create_requirement">
+            <caption translate="true">Как создать требование</caption>
+          </topicref>
+          <topicref type="topic" id="422897143361437" build="ALL" modified="2015-10-13T20:44:46.670Z" icon="0" href="chose_test_case">
+            <caption translate="true">Как указать какой набор тестовых данных использовать для проверки требования</caption>
+          </topicref>
+          <topicref type="topic" id="422895908425272" build="ALL" modified="2015-10-13T20:57:23.709Z" icon="0" href="howto_specify_requirement">
+            <caption translate="true">Как указать, для проверки какого требования предназначен набор тестовых данных</caption>
+          </topicref>
+        </topicref>
+      </topicref>
+    </topicref>
+    <topicref type="topic" id="422507469403741" build="ALL" modified="2015-10-13T21:27:44.635Z" icon="0" href="developer_guide">
+      <caption translate="true">Руководство разработчика</caption>
+      <topicref type="topic" id="422893461450944" build="ALL" modified="2015-10-13T21:27:34.461Z" icon="0" href="scripts_howto">
+        <caption translate="true">Как писать скрипты и триггеры в TrackStudio</caption>
+        <topicref type="topic" id="422896219219040" build="ALL" modified="2015-10-13T21:28:21.192Z" icon="0" href="howto_build_maven_project">
+          <caption translate="true">Как собрать проект из maven шаблона.</caption>
+        </topicref>
+        <topicref type="topic" id="422893369188783" build="ALL" modified="2015-10-13T21:28:46.088Z" icon="0" href="scripts_debug_eclipse">
+          <caption translate="true">Как писать и отлаживать скрипты и триггеры под Eclipse</caption>
+        </topicref>
+        <topicref type="topic" id="422896627582749" build="ALL" modified="2015-10-13T21:28:59.376Z" icon="0" href="scripts_debug_idea">
+          <caption translate="true">Как писать и отлаживать скрипты и триггеры под IntelliJ IDEA</caption>
+        </topicref>
+        <topicref type="topic" id="422896664452769" build="ALL" modified="2015-10-13T21:29:30.031Z" icon="0" href="howto_get_udfvalue">
+          <caption translate="true">Как получить значения дополнительных полей</caption>
+        </topicref>
+        <topicref type="topic" id="422896684896402" build="ALL" modified="2015-10-13T21:30:09.966Z" icon="0" href="calculated_custom_field">
+          <caption translate="true">Как сделать значение дополнительного поля вычисляемым</caption>
+          <topicref type="topic" id="422895701069370" build="ALL" modified="2015-10-15T18:12:36.467Z" icon="0" href="date">
+            <caption translate="true">Дата (Calendar)</caption>
+            <topicref type="topic" id="422896144788118" build="ALL" modified="2015-10-15T18:41:25.826Z" icon="0" href="start_date">
+              <caption translate="true">Вычисляем дату и время начала работ по задаче</caption>
+            </topicref>
+          </topicref>
+          <topicref type="topic" id="42287670622232" build="ALL" modified="2015-10-15T18:12:45.607Z" icon="0" href="multilist">
+            <caption translate="true">Множественный список (Multilist)</caption>
+            <topicref type="topic" id="422896641086724" build="ALL" modified="2015-10-15T18:41:15.254Z" icon="0" href="emails_for_cc_udf">
+              <caption translate="true">E-mail адреса пользователей для оповещений через CC</caption>
+            </topicref>
+          </topicref>
+          <topicref type="topic" id="42290365642111" build="ALL" modified="2015-10-15T18:13:02.670Z" icon="0" href="userudf">
+            <caption translate="true">Список Пользователей</caption>
+            <topicref type="topic" id="422894162011251" build="ALL" modified="2015-10-15T18:40:58.582Z" icon="0" href="participants_list">
+              <caption translate="true">Список участников для задачи</caption>
+            </topicref>
+          </topicref>
+          <topicref type="topic" id="422895231810671" build="ALL" modified="2015-10-15T18:13:14.518Z" icon="0" href="taskudf">
+            <caption translate="true">Список задач (Task)</caption>
+            <topicref type="topic" id="422897412037606" build="ALL" modified="2015-10-15T18:40:40.411Z" icon="0" href="children_list">
+              <caption translate="true">Список новых подзадач</caption>
+            </topicref>
+            <topicref type="topic" id="422895606807265" build="ALL" modified="2015-10-15T18:40:34.395Z" icon="0" href="similar_tasks">
+              <caption translate="true">Список похожих задач</caption>
+            </topicref>
+          </topicref>
+          <topicref type="topic" id="422897074502689" build="ALL" modified="2015-10-15T18:13:21.790Z" icon="0" href="linkudf">
+            <caption translate="true">Ссылка (URL)</caption>
+            <topicref type="topic" id="422894067987624" build="ALL" modified="2015-10-15T18:40:28.207Z" icon="0" href="tasks_list_for_user">
+              <caption translate="true">Список задач пользователя в проекте.</caption>
+            </topicref>
+          </topicref>
+          <topicref type="topic" id="422894695258857" build="ALL" modified="2015-10-15T18:14:20.311Z" icon="0" href="memoudf">
+            <caption translate="true">Текст (Text)</caption>
+            <topicref type="topic" id="422932542977657" build="ALL" modified="2016-02-03T20:40:10.432Z" icon="0" href="time_spent_for_task">
+              <caption translate="true">Время, затраченное пользователями на задачу.</caption>
+            </topicref>
+          </topicref>
+          <topicref type="topic" id="422895014293476" build="ALL" modified="2015-10-15T18:13:36.014Z" icon="0" href="integerudf">
+            <caption translate="true">Целое (Integer)</caption>
+            <topicref type="topic" id="422894325494413" build="ALL" modified="2015-10-15T18:19:53.246Z" icon="0" href="days_since_update">
+              <caption translate="true">Число дней, прошедших с обновления задачи</caption>
+            </topicref>
+          </topicref>
+        </topicref>
+        <topicref type="topic" id="422895498042637" build="ALL" modified="2015-10-13T21:33:15.532Z" icon="0" href="howto_use_lookup">
+          <caption translate="true">Как использовать подстановочные (Lookup) скрипты</caption>
+          <topicref type="topic" id="422897032046593" build="ALL" modified="2015-10-15T18:06:48.197Z" icon="0" href="script_sprinlist">
+            <caption translate="true">Как сделать динамический список возможных значений дополнительного поля</caption>
+          </topicref>
+        </topicref>
+        <topicref type="topic" id="422895525020362" build="ALL" modified="2015-10-16T11:21:03.029Z" icon="0" href="subscriptions_schedule">
+          <caption translate="true">Альтернативная реализация механизма рассылки</caption>
+        </topicref>
+        <topicref type="topic" id="422894461267780" build="ALL" modified="2015-10-15T15:04:36.998Z" icon="0" href="task_escalation">
+          <caption translate="true">Как сделать автоматическую эскалацию задачи</caption>
+        </topicref>
+        <topicref type="topic" id="422897160619596" build="ALL" modified="2015-10-15T15:17:41.739Z" icon="0" href="process_note_operations">
+          <caption translate="true">Как выполнить действия над несколькими задачами</caption>
+        </topicref>
+        <topicref type="topic" id="422896852915171" build="ALL" modified="2015-10-15T15:29:09.021Z" icon="0" href="before_trigger_check">
+          <caption translate="true">Как проверить данные перед сохранением задачи (Before Task Edit Trigger)</caption>
+        </topicref>
+        <topicref type="topic" id="42288126501914" build="ALL" modified="2015-10-15T15:51:55.926Z" icon="0" href="howto_create_report">
+          <caption translate="true">Как создать свой отчет в TrackStudio.</caption>
+        </topicref>
+        <topicref type="topic" id="422897321372760" build="ALL" modified="2015-10-15T15:52:33.227Z" icon="0" href="script_coping_access_rules">
+          <caption translate="true">Копируем права доступа в другой проект одной кнопкой</caption>
+        </topicref>
+        <topicref type="topic" id="422893725971464" build="ALL" modified="2015-10-15T15:53:03.060Z" icon="0" href="howto_create_interface">
+          <caption translate="true">Как быстро и просто сделать свой интерфейс для TrackStudio</caption>
+          <topicref type="topic" id="422896401278832" build="ALL" modified="2015-10-15T18:07:53.750Z" icon="0" href="interface_links">
+            <caption translate="true">Как организовать переход по ссылкам внутри шаблона</caption>
+          </topicref>
+          <topicref type="topic" id="422893585309891" build="ALL" modified="2015-10-15T18:07:59.236Z" icon="0" href="interface_task">
+            <caption translate="true">Как вывести на страницу текущую задачу</caption>
+          </topicref>
+          <topicref type="topic" id="422895209221987" build="ALL" modified="2015-10-15T18:08:57.632Z" icon="0" href="interface_audit">
+            <caption translate="true">Как вывести историю операций с задачей</caption>
+          </topicref>
+          <topicref type="topic" id="422893890685963" build="ALL" modified="2015-10-15T18:09:05.601Z" icon="0" href="interface_create_task">
+            <caption translate="true">Как создать новую задачу</caption>
+          </topicref>
+          <topicref type="topic" id="422894680930873" build="ALL" modified="2015-10-15T18:09:14.132Z" icon="0" href="interface_operation">
+            <caption translate="true">Как добавить комментарий</caption>
+          </topicref>
+        </topicref>
+        <topicref type="topic" id="422894930024752" build="ALL" modified="2015-10-15T16:01:04.221Z" icon="0" href="howto_change_udf">
+          <caption translate="true">Как изменить значение дополнительного поля в задаче</caption>
+        </topicref>
+        <topicref type="topic" id="422896290341860" build="ALL" modified="2015-10-15T16:01:25.497Z" icon="0" href="rest_api">
+          <caption translate="true">Как использовать REST API</caption>
+        </topicref>
+        <topicref type="topic" id="422896009545781" build="ALL" modified="2015-10-15T16:01:32.278Z" icon="0" href="soap">
+          <caption translate="true">Как использовать интерфейс SOAP для TrackStudio</caption>
+        </topicref>
+        <topicref type="topic" id="422895684867582" build="ALL" modified="2015-10-15T16:11:16.639Z" icon="0" href="scheduler">
+          <caption translate="true">Как использовать настройки операций по расписанию</caption>
+          <topicref type="topic" id="42550463599985" build="ALL" modified="2016-06-29T21:20:32.442Z" icon="0" href="dynamic-scheduler">
+            <caption translate="true">Как сделать динамический интервал для операций по расписанию</caption>
+          </topicref>
+        </topicref>
+        <topicref type="topic" id="422894074522418" build="ALL" modified="2015-10-15T16:11:33.561Z" icon="0" href="charts">
+          <caption translate="true">Как построить графики в TrackStudio по вашим данным</caption>
+        </topicref>
+        <topicref type="topic" id="422895106350901" build="ALL" modified="2015-10-15T16:12:15.353Z" icon="0" href="bulk_user_change">
+          <caption translate="true">Как изменить проект по умолчанию для нескольких пользователей</caption>
+        </topicref>
+        <topicref type="topic" id="422897272260791" build="ALL" modified="2015-10-15T16:13:38.348Z" icon="0" href="howto_change_email_templates">
+          <caption translate="true">Как сделать свои шаблоны для почтовых уведомлений</caption>
+        </topicref>
+        <topicref type="topic" id="422896980484160" build="ALL" modified="2015-10-15T16:13:56.408Z" icon="0" href="notification_trigger">
+          <caption translate="true">Как уведомить нескольких пользователей о задаче</caption>
+        </topicref>
+        <topicref type="topic" id="42290990098770" build="ALL" modified="2015-10-15T16:14:16.570Z" icon="0" href="howto_make_own_dashboard">
+          <caption translate="true">Как сделать свой Dashboard</caption>
+          <topicref type="topic" id="422895834139969" build="ALL" modified="2015-10-15T16:15:24.382Z" icon="0" href="dashboard_charts">
+            <caption translate="true">Как построить графики на Dashboard</caption>
+          </topicref>
+        </topicref>
+        <topicref type="topic" id="422897067556420" build="ALL" modified="2015-10-15T16:14:27.070Z" icon="0" href="compile">
+          <caption translate="true">Как собрать TrackStudio из исходного кода</caption>
+        </topicref>
+        <topicref type="topic" id="4229289920246" build="ALL" modified="2015-10-15T16:15:04.945Z" icon="0" href="scripts_deadline_by_priority">
+          <caption translate="true">Как установить Deadline создаваемой задачи в зависимости от приоритета</caption>
+        </topicref>
+        <topicref type="topic" id="423069126397431" build="ALL" modified="2015-10-29T19:24:12.613Z" icon="0" href="import_from_unregistered">
+          <caption translate="true">Как импортировать задачи из email от незарегистрированых пользователей</caption>
+        </topicref>
+      </topicref>
+    </topicref>
+    <topicref type="topic" id="423175344750339" build="ALL" modified="2015-11-09T14:30:10.552Z" icon="0" href="configurations">
+      <caption translate="true">Примеры конфигураций для TrackStudio 4.0</caption>
+      <topicref type="topic" id="423177341404147" build="ALL" modified="2015-11-09T14:32:18.923Z" icon="0" href="configuration_scrum">
+        <caption translate="true">БД TrackStudio для управления проектами по SCRUM</caption>
+      </topicref>
+      <topicref type="topic" id="423177138346053" build="ALL" modified="2016-02-15T11:07:00.847Z" icon="0" href="configuration_itil">
+        <caption translate="true">Конфигурация TrackStudio для IT Service Management / Helpdesk.</caption>
+      </topicref>
+    </topicref>
+  </topicref>
+</map>

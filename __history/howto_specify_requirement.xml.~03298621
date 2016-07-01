@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../helpproject.xsl" ?>
+<topic template="Default" lasteditedby="xp" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd">
+  <title translate="true">Как указать, набор тестовых данных для проверки</title>
+  <body>
+    <header>
+      <para styleclass="Heading1"><text styleclass="Heading1" translate="true">Как указать, для проверки какого требования предназначен набор тестовых данных</text></para>
+    </header>
+    <para styleclass="Normal" style="margin-top:16px; line-height:1.00; background-color:#ffffff; tabstops:none;"><text styleclass="Normal" style="font-family:Verdana; vertical-align:baseline; color:#666666;" translate="true">При создании набора тестовых данных укажите требование в соответствующем поле.</text></para>
+    <para styleclass="Normal" style="line-height:1.00; background-color:#ffffff; tabstops:none;"><image src="clip0043.png" scale="-100.00%" width="949" height="712" styleclass="Image Caption"></image></para>
+    <para styleclass="Normal" style="line-height:1.00; background-color:#ffffff; tabstops:none;"><text styleclass="Normal" style="font-family:Verdana; vertical-align:baseline; color:#666666;" translate="true">Если же вам необходимо изменить этот параметр, перейдите к просмотру набора тестовых данных, затем нажмите Редактировать и укажите в соответствующем поле, какому требованию соответствует этот набор, после чего сохраните изменения.</text></para>
+  </body>
+</topic>

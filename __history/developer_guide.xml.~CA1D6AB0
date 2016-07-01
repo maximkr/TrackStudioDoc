@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../helpproject.xsl" ?>
+<topic template="Default" lasteditedby="xp" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd">
+  <title translate="true">Руководство разработчика</title>
+  <body>
+    <header>
+      <para styleclass="Heading1"><text styleclass="Heading1" translate="true">Руководство разработчика</text></para>
+    </header>
+    <para styleclass="Normal"><link displaytype="text" defaultstyle="true" type="topiclink" href="scripts_howto" styleclass="Normal" translate="true">Как писать скрипты и триггеры в TrackStudio</link></para>
+    <para styleclass="Normal"><link displaytype="text" defaultstyle="true" type="topiclink" href="howto_build_maven_project" styleclass="Normal" translate="true">Как собрать проект из maven шаблона.</link></para>
+    <para styleclass="Normal"><link displaytype="text" defaultstyle="true" type="topiclink" href="scripts_debug_eclipse" styleclass="Normal" translate="true">Как писать и отлаживать скрипты и триггеры под Eclipse</link></para>
+    <para styleclass="Normal"><link displaytype="text" defaultstyle="true" type="topiclink" href="scripts_debug_idea" styleclass="Normal" translate="true">Как писать и отлаживать скрипты и триггеры под IntelliJ IDEA</link></para>
+    <para styleclass="Normal"><link displaytype="text" defaultstyle="true" type="topiclink" href="howto_get_udfvalue" styleclass="Normal" translate="true">Как получить значения дополнительных полей</link></para>
+    <para styleclass="Normal"><link displaytype="text" defaultstyle="true" type="topiclink" href="calculated_custom_field" styleclass="Normal" translate="true">Как сделать значение дополнительного поля вычисляемым</link></para>
+    <para styleclass="Normal"><link displaytype="text" defaultstyle="true" type="topiclink" href="-Calendar" styleclass="Normal" translate="true">Дата (Calendar)</link></para>
+    <para styleclass="Normal"><link displaytype="text" defaultstyle="true" type="topiclink" href="-------8" styleclass="Normal" translate="true">Вычисляем дату и время начала работ по задаче</link></para>
+    <para styleclass="Normal"><link displaytype="text" defaultstyle="true" type="topiclink" href="--Multilist" styleclass="Normal" translate="true">Множественный список (Multilist)</link></para>
+    <para styleclass="Normal"><link displaytype="text" defaultstyle="true" type="topiclink" href="E-mail------CC" styleclass="Normal" translate="true">E-mail адреса пользователей для оповещений через CC</link></para>
+    <para styleclass="Normal"><link displaytype="text" defaultstyle="true" type="topiclink" href="-8" styleclass="Normal" translate="true">Список Пользователей</link></para>
+    <para styleclass="Normal"><link displaytype="text" defaultstyle="true" type="topiclink" href="---18" styleclass="Normal" translate="true">Список участников для задачи</link></para>
+    <para styleclass="Normal"><link displaytype="text" defaultstyle="true" type="topiclink" href="--Task" styleclass="Normal" translate="true">Список задач (Task)</link></para>
+    <para styleclass="Normal"><link displaytype="text" defaultstyle="true" type="topiclink" href="--5" styleclass="Normal" translate="true">Список новых подзадач</link></para>
+    <para styleclass="Normal"><link displaytype="text" defaultstyle="true" type="topiclink" href="--6" styleclass="Normal" translate="true">Список похожих задач</link></para>
+    <para styleclass="Normal"><link displaytype="text" defaultstyle="true" type="topiclink" href="-URL" styleclass="Normal" translate="true">Ссылка (URL)</link></para>
+    <para styleclass="Normal"><link displaytype="text" defaultstyle="true" type="topiclink" href="----_" styleclass="Normal" translate="true">Список задач пользователя в проекте.</link></para>
+    <para styleclass="Normal"><link displaytype="text" defaultstyle="true" type="topiclink" href="-Text" styleclass="Normal" translate="true">Текст (Text)</link></para>
+    <para styleclass="Normal"><link displaytype="text" defaultstyle="true" type="topiclink" href="_----_" styleclass="Normal" translate="true">Время, затраченное пользователями на задачу.</link></para>
+    <para styleclass="Normal"><link displaytype="text" defaultstyle="true" type="topiclink" href="-Integer" styleclass="Normal" translate="true">Целое (Integer)</link></para>
+    <para styleclass="Normal"><link displaytype="text" defaultstyle="true" type="topiclink" href="-_----" styleclass="Normal" translate="true">Число дней, прошедших с обновления задачи</link></para>
+    <para styleclass="Normal"><link displaytype="text" defaultstyle="true" type="topiclink" href="howto_use_lookup" styleclass="Normal" translate="true">Как использовать подстановочные (Lookup) скрипты</link></para>
+    <para styleclass="Normal"><link displaytype="text" defaultstyle="true" type="topiclink" href="-------9" styleclass="Normal" translate="true">Как сделать динамический список возможных значений дополнительного поля</link></para>
+    <para styleclass="Normal"><link displaytype="text" defaultstyle="true" type="topiclink" href="subscribtions_schedule" styleclass="Normal" translate="true">Альтернативная реализация механизма рассылки</link></para>
+    <para styleclass="Normal"><link displaytype="text" defaultstyle="true" type="topiclink" href="howto_save_audit" styleclass="Normal" translate="true">Как сохранить историю изменения параметров задачи</link></para>
+    <para styleclass="Normal"><link displaytype="text" defaultstyle="true" type="topiclink" href="task_escalation" styleclass="Normal" translate="true">Как сделать автоматическую эскалацию задачи</link></para>
+    <para styleclass="Normal"><link displaytype="text" defaultstyle="true" type="topiclink" href="process_note_operations" styleclass="Normal" translate="true">Как выполнить действия над несколькими задачами</link></para>
+    <para styleclass="Normal"><link displaytype="text" defaultstyle="true" type="topiclink" href="before_trigger_check" styleclass="Normal" translate="true">Как проверить данные перед сохранением задачи (Before Task Edit Trigger)</link></para>
+    <para styleclass="Normal"><link displaytype="text" defaultstyle="true" type="topiclink" href="howto_create_report" styleclass="Normal" translate="true">Как создать свой отчет в TrackStudio.</link></para>
+    <para styleclass="Normal"><link displaytype="text" defaultstyle="true" type="topiclink" href="script_coping_access_rules" styleclass="Normal" translate="true">Копируем права доступа в другой проект одной кнопкой</link></para>
+    <para styleclass="Normal"><link displaytype="text" defaultstyle="true" type="topiclink" href="howto_create_interface" styleclass="Normal" translate="true">Как быстро и просто сделать свой интерфейс для TrackStudio</link></para>
+    <para styleclass="Normal"><link displaytype="text" defaultstyle="true" type="topiclink" href="------5" styleclass="Normal" translate="true">Как организовать переход по ссылкам внутри шаблона</link></para>
+    <para styleclass="Normal"><link displaytype="text" defaultstyle="true" type="topiclink" href="-----14" styleclass="Normal" translate="true">Как вывести на страницу текущую задачу</link></para>
+    <para styleclass="Normal"><link displaytype="text" defaultstyle="true" type="topiclink" href="-----15" styleclass="Normal" translate="true">Как вывести историю операций с задачей</link></para>
+    <para styleclass="Normal"><link displaytype="text" defaultstyle="true" type="topiclink" href="---20" styleclass="Normal" translate="true">Как создать новую задачу</link></para>
+    <para styleclass="Normal"><link displaytype="text" defaultstyle="true" type="topiclink" href="--7" styleclass="Normal" translate="true">Как добавить комментарий</link></para>
+    <para styleclass="Normal"><link displaytype="text" defaultstyle="true" type="topiclink" href="howto_change_udf" styleclass="Normal" translate="true">Как изменить значение дополнительного поля в задаче</link></para>
+    <para styleclass="Normal"><link displaytype="text" defaultstyle="true" type="topiclink" href="rest_api" styleclass="Normal" translate="true">Как использовать REST API</link></para>
+    <para styleclass="Normal"><link displaytype="text" defaultstyle="true" type="topiclink" href="soap" styleclass="Normal" translate="true">Как использовать интерфейс SOAP для TrackStudio</link></para>
+    <para styleclass="Normal"><link displaytype="text" defaultstyle="true" type="topiclink" href="scheduler" styleclass="Normal" translate="true">Как использовать настройки операций по расписанию</link></para>
+    <para styleclass="Normal"><link displaytype="text" defaultstyle="true" type="topiclink" href="charts" styleclass="Normal" translate="true">Как построить графики в TrackStudio по вашим данным</link></para>
+    <para styleclass="Normal"><link displaytype="text" defaultstyle="true" type="topiclink" href="bulk_user_change" styleclass="Normal" translate="true">Как изменить проект по умолчанию для нескольких пользователей</link></para>
+    <para styleclass="Normal"><link displaytype="text" defaultstyle="true" type="topiclink" href="howto_change_email_templates" styleclass="Normal" translate="true">Как сделать свои шаблоны для почтовых уведомлений</link></para>
+    <para styleclass="Normal"><link displaytype="text" defaultstyle="true" type="topiclink" href="notification_trigger" styleclass="Normal" translate="true">Как уведомить нескольких пользователей о задаче</link></para>
+    <para styleclass="Normal"><link displaytype="text" defaultstyle="true" type="topiclink" href="howto_make_own_dashboard" styleclass="Normal" translate="true">Как сделать свой Dashboard</link></para>
+    <para styleclass="Normal"><link displaytype="text" defaultstyle="true" type="topiclink" href="dashboard_charts" styleclass="Normal" translate="true">Как построить графики на Dashboard</link></para>
+    <para styleclass="Normal"><link displaytype="text" defaultstyle="true" type="topiclink" href="compile" styleclass="Normal" translate="true">Как собрать TrackStudio из исходного кода</link></para>
+    <para styleclass="Normal"><link displaytype="text" defaultstyle="true" type="topiclink" href="scripts_deadline_by_priority" styleclass="Normal" translate="true">Как установить Deadline создаваемой задачи в зависимости от приоритета</link></para>
+  </body>
+</topic>

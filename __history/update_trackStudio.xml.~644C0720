@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../helpproject.xsl" ?>
+<topic template="Default" lasteditedby="xp" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd">
+  <title translate="true">Обновление TrackStudio</title>
+  <body>
+    <header>
+      <para styleclass="Heading1"><text styleclass="Heading1" translate="true">Обновление TrackStudio</text></para>
+    </header>
+    <list id="1" type="ul" listtype="bullet" formatstring="&#183;" format-charset="SYMBOL_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="Normal" style="font-family:Symbol; font-size:12pt; color:#000000;">
+      <li styleclass="Normal"><link displaytype="text" defaultstyle="true" type="topiclink" href="update_5_0_x" styleclass="Normal" style="font-size:12pt;" translate="true">Обновление минорных версий (5.0.x)</link></li>
+      <li styleclass="Normal"><link displaytype="text" defaultstyle="true" type="topiclink" href="update_to_5_0_x" styleclass="Normal" style="font-size:12pt;" translate="true">Обновление c версии 4.0.x до 5.0.x</link></li>
+      <li styleclass="Normal"><link displaytype="text" defaultstyle="true" type="topiclink" href="update_minor_4_0_x" styleclass="Normal" style="font-size:12pt;" translate="true">Обновление минорных версий (4.0.x)</link></li>
+      <li styleclass="Normal"><link displaytype="text" defaultstyle="true" type="topiclink" href="update_to_4_0_x" styleclass="Normal" style="font-size:12pt;" translate="true">Обновление c версии 3.5.x до 4.0.x</link></li>
+    </list>
+    <para styleclass="Normal" style="page-break-before:always;"></para>
+  </body>
+</topic>

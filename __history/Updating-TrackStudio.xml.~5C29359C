@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../helpproject.xsl" ?>
+<topic template="Default" lasteditedby="xp" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd">
+  <title translate="true">Updating TrackStudio</title>
+  <body>
+    <header>
+      <para styleclass="Heading1"><text styleclass="Heading1" translate="true">Updating TrackStudio</text></para>
+    </header>
+    <para styleclass="Normal"><link displaytype="text" defaultstyle="true" type="topiclink" href="Upgrade-from-version-4_0_x-to-" styleclass="Normal" translate="true">Upgrade from version 4.0.x to 5.0.x</link></para>
+    <para styleclass="Normal"><link displaytype="text" defaultstyle="true" type="topiclink" href="Upgrading-the-minor-versions-(" styleclass="Normal" translate="true">Upgrading the minor versions (4.0.x)</link></para>
+    <para styleclass="Normal"><link displaytype="text" defaultstyle="true" type="topiclink" href="Upgrade-from-version-3_5" styleclass="Normal" translate="true">Upgrade from version 3.5</link></para>
+  </body>
+</topic>

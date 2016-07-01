@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../helpproject.xsl" ?>
+<topic template="Default" lasteditedby="xp" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd">
+  <title translate="true">Как сделать динамический список значений дополнительного поля</title>
+  <body>
+    <header>
+      <para styleclass="Heading1"><text styleclass="Heading1" translate="true">Как сделать динамический список возможных значений дополнительного поля</text></para>
+    </header>
+    <para styleclass="Normal" style="text-align:left; text-indent:37px; margin-top:0px; margin-right:0px; margin-bottom:0px; margin-left:0px; line-height:1.00; background-color:#ffffff; white-space:nowrap; page-break-inside:avoid; page-break-after:auto; tabstops:none;"><text styleclass="Normal" style="font-family:Verdana; font-size:12pt; vertical-align:baseline; color:#666666;" translate="true">Для того, чтобы сделать возможным выбор значений дополнительного поля из выпадающего списка, вам потребуется создать само поле типа &quot;Строка&quot; и соединить его со скриптом, соответствующим интерфейсу</text><text styleclass="apple-converted-space" style="font-family:Verdana; font-size:12pt; font-weight:normal; font-style:normal; text-decoration:none; text-transform:none; vertical-align:baseline; color:#666666; background-color:transparent; letter-spacing:normal; letter-scaling:100%;" translate="true">&#32;</text><text styleclass="Normal" style="font-family:Verdana; font-size:12pt; font-weight:bold; vertical-align:baseline; color:#666666;" translate="true">com.trackstudio.external.TaskUDFLookupScript</text><text styleclass="Normal" style="font-family:Verdana; font-size:12pt; vertical-align:baseline; color:#666666;" translate="true">.</text></para>
+    <para styleclass="Normal" style="text-align:left; text-indent:37px; margin-top:0px; margin-right:0px; margin-bottom:0px; margin-left:0px; line-height:1.00; background-color:#ffffff; white-space:nowrap; page-break-inside:avoid; page-break-after:auto; tabstops:none;"><text styleclass="Normal" style="font-family:Verdana; font-size:12pt; vertical-align:baseline; color:#666666;" translate="true">Ниже приведен пример скрипта, который выводит список спринтов, в которые можно поместить историю (Подробнее о</text><text styleclass="apple-converted-space" style="font-family:Verdana; font-size:12pt; font-weight:normal; font-style:normal; text-decoration:none; text-transform:none; vertical-align:baseline; color:#666666; background-color:transparent; letter-spacing:normal; letter-scaling:100%;" translate="true">&#32;</text><link displaytype="text" defaultstyle="true" type="topiclink" href="configuration_scrum" styleclass="Normal" style="font-family:Verdana; font-size:12pt; text-decoration:underline; vertical-align:baseline; color:#666666;" translate="true">SCRUM в TrackStudio</link><text styleclass="Normal" style="font-family:Verdana; font-size:12pt; vertical-align:baseline; color:#666666;" translate="true">)</text></para>
+    <para styleclass="Normal" style="text-align:left; text-indent:37px; margin-top:0px; margin-right:0px; margin-bottom:0px; margin-left:0px; line-height:1.00; background-color:#ffffff; white-space:nowrap; page-break-inside:avoid; page-break-after:auto; tabstops:none;"></para>
+    <para styleclass="Code"><text styleclass="Code" translate="true">package scripts.task_custom_field_lookup;</text></para>
+    <para styleclass="Code"></para>
+    <para styleclass="Code"><text styleclass="Code" translate="true">import com.trackstudio.external.TaskUDFLookupScript;</text></para>
+    <para styleclass="Code"><text styleclass="Code" translate="true">import com.trackstudio.secured.SecuredTaskBean;</text></para>
+    <para styleclass="Code"><text styleclass="Code" translate="true">import com.trackstudio.exception.GranException;</text></para>
+    <para styleclass="Code"><text styleclass="Code" translate="true">import com.trackstudio.app.adapter.AdapterManager;</text></para>
+    <para styleclass="Code"><text styleclass="Code" translate="true">import java.util.List;</text></para>
+    <para styleclass="Code"><text styleclass="Code" translate="true">import java.util.ArrayList;</text></para>
+    <para styleclass="Code"><text styleclass="Code" translate="true">import scripts.CommonScrum;</text></para>
+    <para styleclass="Code"></para>
+    <para styleclass="Code"><text styleclass="Code" translate="true">/**</text></para>
+    <para styleclass="Code"><text styleclass="Code" translate="true"> * Выводит список спринтов для выбора</text></para>
+    <para styleclass="Code"><text styleclass="Code" translate="true"> */</text></para>
+    <para styleclass="Code"><text styleclass="Code" translate="true">public class SprintList extends CommonScrum implements TaskUDFLookupScript{</text></para>
+    <para styleclass="Code"></para>
+    <para styleclass="Code"><text styleclass="Code" translate="true"> &#160; &#160;public Object calculate(SecuredTaskBean task) throws GranException {</text></para>
+    <para styleclass="Code"><text styleclass="Code" translate="true"> &#160; &#160; &#160; &#160;List&lt;String&gt; list = new ArrayList&lt;String&gt;();</text></para>
+    <para styleclass="Code"><text styleclass="Code" translate="true"> &#160; &#160; &#160; &#160;list.add(&quot;&quot;);</text></para>
+    <para styleclass="Code"><text styleclass="Code" translate="true"> &#160; &#160; &#160; &#160;String category &#160;= SCRUM_SRINT_CATEGORY;</text></para>
+    <para styleclass="Code"><text styleclass="Code" translate="true"> &#160; &#160; &#160; &#160;List&lt;SecuredTaskBean&gt; sprints = AdapterManager.getInstance()</text></para>
+    <para styleclass="Code" style="text-align:left; text-indent:37px; margin-top:0px; margin-right:0px; margin-bottom:0px; margin-left:0px; line-height:1.00; white-space:normal; page-break-inside:auto; page-break-after:auto; tabstops:none;"><text styleclass="Code" translate="true">.getSecuredTaskAdapterManager().getTaskListByQuery(</text></para>
+    <para styleclass="Code"><text styleclass="Code" translate="true"> &#160; &#160; &#160; &#160; &#160; &#160; &#160;task.getSecure(),</text></para>
+    <para styleclass="Code"><text styleclass="Code" translate="true"> &#160; &#160; &#160; &#160; &#160; &#160; &#160;&quot;SELECT t.id FROM com.trackstudio.model.Task as t WHERE t.category.id = \&apos;&quot;+category+&quot;\&apos;&quot;);</text></para>
+    <para styleclass="Code"><text styleclass="Code" translate="true"> &#160; &#160; &#160; &#160;</text></para>
+    <para styleclass="Code"><text styleclass="Code" translate="true"> &#160; &#160; &#160; &#160;for (SecuredTaskBean t: sprints){</text></para>
+    <para styleclass="Code"><text styleclass="Code" translate="true"> &#160; &#160; &#160; &#160; &#160; &#160;if (t.canView() &amp;&amp; !t.getStatus().isFinish()){</text></para>
+    <para styleclass="Code"><text styleclass="Code" translate="true"> &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160;list.add(t.getName()+&quot; [#&quot;+t.getNumber()+&quot;]&quot;);</text></para>
+    <para styleclass="Code"><text styleclass="Code" translate="true"> &#160; &#160; &#160; &#160; &#160; &#160;}</text></para>
+    <para styleclass="Code"><text styleclass="Code" translate="true"> &#160; &#160; &#160; &#160;}</text></para>
+    <para styleclass="Code"><text styleclass="Code" translate="true"> &#160; &#160; &#160; &#160;return list;</text></para>
+    <para styleclass="Code"><text styleclass="Code" translate="true"> &#160; &#160;}</text></para>
+    <para styleclass="Code"><text styleclass="Code" translate="true">}</text></para>
+    <para styleclass="Code Example" style="text-align:left; text-indent:37px; margin-top:0px; margin-right:0px; margin-bottom:0px; margin-left:0px; line-height:1.00; white-space:nowrap; page-break-before:always; page-break-inside:avoid; page-break-after:auto; tabstops:none;"></para>
+  </body>
+</topic>

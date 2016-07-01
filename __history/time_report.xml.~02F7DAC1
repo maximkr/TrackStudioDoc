@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../helpproject.xsl" ?>
+<topic template="Default" lasteditedby="xp" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd">
+  <title translate="true">Отчет о затраченном времени</title>
+  <body>
+    <header>
+      <para styleclass="Heading1"><text styleclass="Heading1" translate="true">Отчет о затраченном времени</text></para>
+    </header>
+    <para styleclass="Normal" style="margin-top:16px; line-height:1.0; background-color:#ffffff; tabstops:none;"><text styleclass="Normal" style="font-family:Verdana; vertical-align:baseline; color:#666666;" translate="true">В отчете о затраченном времени вы можете увидеть активность пользователей по задачам, выраженную в часах. Этот отчет будет вам полезен, если вы используете почасовую систему оплаты труда.</text></para>
+    <para styleclass="Normal" style="line-height:1.0; background-color:#ffffff; tabstops:none;"><text styleclass="Normal" style="font-family:Verdana; vertical-align:baseline; color:#666666;" translate="true">Чтобы построить отчет по активности за какой-то определенный период, используйте фильтрацию по дате выполнения операций.</text></para>
+    <para styleclass="Normal" style="line-height:1.0; background-color:#ffffff; tabstops:none;"><text styleclass="Normal" style="font-family:Verdana; vertical-align:baseline; color:#666666;" translate="true">Если вы хотите лишь посмотреть затраты по задачам, без детализации по пользователям, отметьте опцию</text><text styleclass="apple-converted-space" style="font-family:Verdana; font-size:10pt; font-weight:normal; font-style:normal; text-decoration:none; text-transform:none; vertical-align:baseline; color:#666666; background-color:transparent; letter-spacing:normal; letter-scaling:100%;" translate="true">&#32;</text><text styleclass="Normal" style="font-family:Verdana; font-weight:bold; vertical-align:baseline; color:#666666;" translate="true">скрыть ответственного</text><text styleclass="apple-converted-space" style="font-family:Verdana; font-size:10pt; font-weight:normal; font-style:normal; text-decoration:none; text-transform:none; vertical-align:baseline; color:#666666; background-color:transparent; letter-spacing:normal; letter-scaling:100%;" translate="true">&#32;</text><text styleclass="Normal" style="font-family:Verdana; vertical-align:baseline; color:#666666;" translate="true">в настройках отчета.</text></para>
+    <para styleclass="Normal" style="line-height:1.0; background-color:#ffffff; tabstops:none;"><text styleclass="Normal" style="font-family:Verdana; vertical-align:baseline; color:#666666;" translate="true">Также для этого типа отчетов можно построить круговую диаграмму, если отметить соответствующую опцию.</text></para>
+    <para styleclass="Normal" style="margin-top:16px; margin-bottom:16px; line-height:1.0; background-color:#ffffff; tabstops:none;"><image src="report_time.png" scale="100.00%" padding="1 0 1 0" styleclass="Image Caption"></image></para>
+  </body>
+</topic>

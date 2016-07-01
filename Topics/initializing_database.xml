@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../helpproject.xsl" ?>
+<topic template="Default" lasteditedby="xp" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd">
+  <title translate="true">Создание и настройка базы данных</title>
+  <body>
+    <header>
+      <para styleclass="Heading1"><text styleclass="Heading1" translate="true">Создание и настройка базы данных</text></para>
+    </header>
+    <para styleclass="Normal" style="text-indent:0px; margin-right:0px; margin-left:0px; tabstops:none;"><link displaytype="text" defaultstyle="true" type="topiclink" href="database_postgres" styleclass="Normal" style="font-size:12pt;" translate="true">Создание и инициализация базы данных под PostgreSQL</link></para>
+    <para styleclass="Normal" style="text-indent:0px; margin-right:0px; margin-left:0px; tabstops:none;"><link displaytype="text" defaultstyle="true" type="topiclink" href="database_HSQL" styleclass="Normal" style="font-size:12pt;" translate="true">Создание и инициализация базы данных под HSQL</link></para>
+    <para styleclass="Normal" style="text-indent:0px; margin-right:0px; margin-left:0px; tabstops:none;"><link displaytype="text" defaultstyle="true" type="topiclink" href="database_ORACLE" styleclass="Normal" style="font-size:12pt;" translate="true">Создание и инициализация базы данных под ORACLE</link></para>
+    <para styleclass="Normal" style="text-indent:0px; margin-right:0px; margin-left:0px; tabstops:none;"><link displaytype="text" defaultstyle="true" type="topiclink" href="database_MS-SQL-Server" styleclass="Normal" style="font-size:12pt;" translate="true">Создание и инициализация базы данных под MS SQL Server</link></para>
+    <para styleclass="Normal" style="text-indent:0px; margin-right:0px; margin-left:0px; tabstops:none;"><link displaytype="text" defaultstyle="true" type="topiclink" href="database_MySQL" styleclass="Normal" style="font-size:12pt;" translate="true">Создание и инициализация базы данных под MySQL</link></para>
+    <para styleclass="Normal" style="text-indent:0px; margin-right:0px; margin-left:0px; tabstops:none;"><link displaytype="text" defaultstyle="true" type="topiclink" href="database_DB2" styleclass="Normal" style="font-size:12pt;" translate="true">Создание и инициализация базы данных под DB2</link></para>
+    <para styleclass="Normal" style="text-indent:0px; margin-right:0px; margin-left:0px; tabstops:none;"><link displaytype="text" defaultstyle="true" type="topiclink" href="database_Firebird" styleclass="Normal" style="font-size:12pt;" translate="true">Создание и инициализация базы данных под Firebird</link></para>
+    <para styleclass="Normal" style="text-indent:0px; margin-right:0px; margin-left:0px; tabstops:none;"><link displaytype="text" defaultstyle="true" type="topiclink" href="dbtool" styleclass="Normal" style="font-size:12pt;" translate="true">Использование консольной утилиты для экспорта, импорта и инициализации данных</link></para>
+    <para styleclass="Normal" style="text-indent:0px; margin-right:0px; margin-left:0px; tabstops:none;"><link displaytype="text" defaultstyle="true" type="topiclink" href="backup_restore" styleclass="Normal" style="font-size:12pt;" translate="true">Резервное копирование и восстановление данных</link></para>
+    <para styleclass="Normal" style="text-indent:0px; margin-right:0px; margin-left:0px; tabstops:none;"><link displaytype="text" defaultstyle="true" type="topiclink" href="database_export-import-migration" styleclass="Normal" style="font-size:12pt;" translate="true">Экспорт и импорт базы данных. Миграция</link></para>
+    <para styleclass="Normal" style="text-indent:75px; margin-right:0px; margin-left:0px; page-break-before:always; tabstops:none;"></para>
+  </body>
+</topic>

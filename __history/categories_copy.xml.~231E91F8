@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../helpproject.xsl" ?>
+<topic template="Default" lasteditedby="xp" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd">
+  <title translate="true">Как копировать категорию</title>
+  <body>
+    <header>
+      <para styleclass="Heading1"><text styleclass="Heading1" translate="true">Как копировать категорию</text></para>
+    </header>
+    <para styleclass="Normal" style="margin-top:16px; line-height:1.00; background-color:#ffffff; tabstops:none;"><text styleclass="Normal" style="font-family:Verdana; vertical-align:baseline; color:#666666;" translate="true">Вы можете &quot;клонировать&quot; одну или несколько выбранных категорий. При клонировании создаются новые категории, полностью идентичные клонируемым: для них сохраняются такие же настройки отображения, связи между категориями, настройки прав доступа, настройки триггеров и шаблоны.</text></para>
+    <para styleclass="Normal" style="line-height:1.00; background-color:#ffffff; tabstops:none;"><text styleclass="Normal" style="font-family:Verdana; vertical-align:baseline; color:#666666;" translate="true">Для того, чтобы клонировать категорию, перейдите через меню к списку категорий, отметьте нужную категорию и нажмите кнопку &quot;</text><text styleclass="Normal" style="font-family:Verdana; font-weight:bold; vertical-align:baseline; color:#666666;" translate="true">Клонировать</text><text styleclass="Normal" style="font-family:Verdana; vertical-align:baseline; color:#666666;" translate="true">&quot;.</text></para>
+    <para styleclass="Normal" style="margin-top:16px; line-height:1.00; background-color:#ffffff; tabstops:none;"><image src="categories_list.png" scale="100.00%" padding="1 0 1 0" styleclass="Image Caption"></image></para>
+    <para styleclass="Normal" style="margin-top:16px; line-height:1.00; background-color:#ffffff; page-break-before:always; tabstops:none;"></para>
+  </body>
+</topic>

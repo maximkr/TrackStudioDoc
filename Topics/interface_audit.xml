@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../helpproject.xsl" ?>
+<topic template="Default" lasteditedby="xp" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd">
+  <title translate="true">Как вывести историю операций с задачей</title>
+  <body>
+    <header>
+      <para styleclass="Heading1"><text styleclass="Heading1" translate="true">Как вывести историю операций с задачей</text></para>
+    </header>
+    <para styleclass="Normal" style="text-align:left; text-indent:37px; margin-top:0px; margin-right:0px; margin-bottom:0px; margin-left:0px; line-height:1.00; background-color:#ffffff; white-space:normal; page-break-inside:auto; page-break-after:auto; tabstops:none;"><text styleclass="Normal" style="font-family:Verdana; font-size:12pt; vertical-align:baseline; color:#000000;" translate="true">Список сообщений можно получить так:</text></para>
+    <para styleclass="Normal" style="text-align:left; text-indent:37px; margin-top:0px; margin-right:0px; margin-bottom:0px; margin-left:0px; line-height:1.00; background-color:#ffffff; white-space:normal; page-break-inside:auto; page-break-after:auto; tabstops:none;"></para>
+    <para styleclass="Code" style="line-height:1.00;"><text styleclass="Code" translate="true">&lt;#assign msgs = task.messages/&gt;</text></para>
+    <para styleclass="Code" style="line-height:1.00;"><text styleclass="Code" translate="true">&lt;#if msgs?exists &amp;&amp; (msgs?size&gt;0)&gt;</text></para>
+    <para styleclass="Code" style="line-height:1.00;"><text styleclass="Code" translate="true">&lt;#list msgs?reverse as message&gt;</text></para>
+    <para styleclass="Code" style="line-height:1.00;"><text styleclass="Code" translate="true">...</text></para>
+    <para styleclass="Code" style="line-height:1.00;"><text styleclass="Code" translate="true">&lt;/#list&gt;</text></para>
+    <para styleclass="Code" style="line-height:1.00;"><text styleclass="Code" translate="true">&lt;/#if&gt;</text></para>
+    <para styleclass="Normal" style="text-align:left; text-indent:37px; margin-top:0px; margin-right:0px; margin-bottom:0px; margin-left:0px; line-height:1.00; background-color:#ffffff; white-space:normal; page-break-inside:auto; page-break-after:auto; tabstops:none;"></para>
+    <para styleclass="Normal" style="text-align:left; text-indent:37px; margin-top:0px; margin-right:0px; margin-bottom:0px; margin-left:0px; line-height:1.00; background-color:#ffffff; white-space:normal; page-break-inside:auto; page-break-after:auto; tabstops:none;"><text styleclass="Normal" style="font-family:Verdana; font-size:12pt; vertical-align:baseline; color:#000000;" translate="true">С помощью ?reverse список выводится в обратном порядке. Если нужно вывести список сообщений, отфильтрованный фильтром &quot;Мои задачи&quot;:</text></para>
+    <para styleclass="Normal" style="text-align:left; text-indent:37px; margin-top:0px; margin-right:0px; margin-bottom:0px; margin-left:0px; line-height:1.00; background-color:#ffffff; white-space:normal; page-break-inside:auto; page-break-after:auto; tabstops:none;"></para>
+    <para styleclass="Code" style="line-height:1.00;"><text styleclass="Code" translate="true">&lt;@std.messages localTask=task filter=&quot;Мои задачи&quot;; messages&gt;</text></para>
+    <para styleclass="Code" style="line-height:1.00;"><text styleclass="Code" translate="true">...</text></para>
+    <para styleclass="Code" style="line-height:1.00;"><text styleclass="Code" translate="true">&lt;#list messages as message&gt;</text></para>
+    <para styleclass="Code" style="line-height:1.00;"><text styleclass="Code" translate="true">...</text></para>
+    <para styleclass="Code" style="line-height:1.00;"><text styleclass="Code" translate="true">&lt;/#list&gt;</text></para>
+    <para styleclass="Code" style="line-height:1.00;"><text styleclass="Code" translate="true">...</text></para>
+    <para styleclass="Code" style="line-height:1.00;"><text styleclass="Code" translate="true">&lt;/@std.messages&gt;</text></para>
+    <para styleclass="Normal" style="text-align:left; text-indent:37px; margin-top:0px; margin-right:0px; margin-bottom:0px; margin-left:0px; line-height:1.00; background-color:#ffffff; white-space:normal; page-break-inside:auto; page-break-after:auto; tabstops:none;"></para>
+    <para styleclass="Normal" style="text-align:left; text-indent:37px; margin-top:0px; margin-right:0px; margin-bottom:0px; margin-left:0px; line-height:1.00; background-color:#ffffff; white-space:normal; page-break-inside:auto; page-break-after:auto; tabstops:none;"><text styleclass="Normal" style="font-family:Verdana; font-size:12pt; vertical-align:baseline; color:#000000;" translate="true">Здесь в messages возвращается коллекция сообщений</text></para>
+    <para styleclass="Normal" style="text-align:left; text-indent:37px; margin-top:0px; margin-right:0px; margin-bottom:0px; margin-left:0px; line-height:1.00; background-color:#ffffff; white-space:normal; page-break-inside:auto; page-break-after:auto; tabstops:none;"><text styleclass="Normal" style="font-family:Verdana; font-size:12pt; vertical-align:baseline; color:#000000;" translate="true">Значения полей:</text></para>
+    <para styleclass="Normal" style="text-align:left; text-indent:37px; margin-top:0px; margin-right:0px; margin-bottom:0px; margin-left:0px; line-height:1.00; background-color:#ffffff; white-space:normal; page-break-inside:auto; page-break-after:auto; tabstops:none;"></para>
+    <para styleclass="Code" style="line-height:1.00;"><text styleclass="Code" translate="true">${message.id} - идентификатор операции</text></para>
+    <para styleclass="Code" style="line-height:1.00;"><text styleclass="Code" translate="true">&lt;@std.time date=message.time/&gt; - дата и время выполнения операции</text></para>
+    <para styleclass="Code" style="line-height:1.00;"><text styleclass="Code" translate="true">${message.submitter.name?html} - имя автора</text></para>
+    <para styleclass="Code" style="line-height:1.00;"><text styleclass="Code" translate="true">${message.description?html} - описание операции (комментарий)</text></para>
+    <para styleclass="Code" style="line-height:1.00;"><text styleclass="Code" translate="true">${message.mstatus.name} - тип операции</text></para>
+    <para styleclass="Code" style="line-height:1.00;"><text styleclass="Code" translate="true">${message.resolution.name} - резолюция</text></para>
+    <para styleclass="Code" style="line-height:1.00;"><text styleclass="Code" translate="true">${message.budgetAsString} - бюджет</text></para>
+    <para styleclass="Code" style="line-height:1.00;"><text styleclass="Code" translate="true">${message.actualBudgetAsString} - потраченное время</text></para>
+    <para styleclass="Normal" style="text-align:left; text-indent:37px; margin-top:0px; margin-right:0px; margin-bottom:0px; margin-left:0px; line-height:1.00; background-color:#ffffff; white-space:normal; page-break-inside:auto; page-break-after:auto; tabstops:none;"></para>
+    <para styleclass="Normal" style="text-align:left; text-indent:37px; margin-top:0px; margin-right:0px; margin-bottom:0px; margin-left:0px; line-height:1.00; background-color:#ffffff; white-space:normal; page-break-inside:auto; page-break-after:auto; tabstops:none;"><text styleclass="Normal" style="font-family:Verdana; font-size:12pt; vertical-align:baseline; color:#000000;" translate="true">Ответственный выводится немного сложнее - тут уже нужны проверки значений на null:</text></para>
+    <para styleclass="Normal" style="text-align:left; text-indent:37px; margin-top:0px; margin-right:0px; margin-bottom:0px; margin-left:0px; line-height:1.00; background-color:#ffffff; white-space:normal; page-break-inside:auto; page-break-after:auto; tabstops:none;"></para>
+    <para styleclass="Code" style="line-height:1.00;"><text styleclass="Code" translate="true">&lt;#if message.handlerUserId?exists || msg.handlerGroupId?exists&gt;</text></para>
+    <para styleclass="Code" style="line-height:1.00;"><text styleclass="Code" translate="true">&lt;#if message.handlerUserId?exists&gt;</text></para>
+    <para styleclass="Code" style="line-height:1.00;"><text styleclass="Code" translate="true">Ответственный: ${message.handlerUser.name}</text></para>
+    <para styleclass="Code" style="line-height:1.00;"><text styleclass="Code" translate="true">&lt;/#if&gt;</text></para>
+    <para styleclass="Code" style="line-height:1.00;"><text styleclass="Code" translate="true">&lt;#if message.handlerGroupId?exists&gt;</text></para>
+    <para styleclass="Code" style="line-height:1.00;"><text styleclass="Code" translate="true">Ответственные: ${message.handlerGroup.name}</text></para>
+    <para styleclass="Code" style="line-height:1.00;"><text styleclass="Code" translate="true">&lt;/#if&gt;</text></para>
+    <para styleclass="Code" style="line-height:1.00;"><text styleclass="Code" translate="true">&lt;/#if&gt;</text></para>
+    <para style="text-indent:37px; page-break-before:always;"></para>
+  </body>
+</topic>

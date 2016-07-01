@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../helpproject.xsl" ?>
+<topic template="Default" lasteditedby="xp" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd">
+  <title translate="true">Как создать список требований/ошибок/тест. документации/доработок</title>
+  <body>
+    <header>
+      <para styleclass="Heading1"><text styleclass="Heading1" translate="true">Как создать список требований/ошибок/тестовой документации/доработок</text></para>
+    </header>
+    <para styleclass="Normal" style="margin-top:16px; line-height:1.00; background-color:#ffffff; tabstops:none;"><text styleclass="Normal" style="font-family:Verdana; vertical-align:baseline; color:#666666;" translate="true">Списки служат контейнерами (папками) для однородных сущностей в рамках проекта. Создаются списки точно так же, как и любая задача в TrackStudio - через кнопки на панели или выпадающие меню.</text></para>
+    <para styleclass="Normal" style="line-height:1.00; background-color:#ffffff; tabstops:none;"><image src="clip0039.png" scale="-100.00%" width="949" height="712" styleclass="Image Caption"></image></para>
+    <para styleclass="Normal" style="line-height:1.00; background-color:#ffffff; page-break-before:always; tabstops:none;"></para>
+  </body>
+</topic>

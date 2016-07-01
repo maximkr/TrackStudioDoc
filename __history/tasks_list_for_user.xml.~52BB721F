@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../helpproject.xsl" ?>
+<topic template="Default" lasteditedby="xp" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd">
+  <title translate="true">Список задач пользователя в проекте.</title>
+  <body>
+    <header>
+      <para styleclass="Heading1"><text styleclass="Heading1" translate="true">Список задач пользователя в проекте.</text></para>
+    </header>
+    <para styleclass="Normal" style="text-align:left; text-indent:37px; margin-top:0px; margin-right:0px; margin-bottom:0px; margin-left:0px; line-height:1.00; background-color:#ffffff; white-space:normal; page-break-inside:avoid; page-break-after:auto; tabstops:none;"><text styleclass="Normal" style="font-family:Verdana; font-size:12pt; vertical-align:baseline; color:#000000;" translate="true">Скрипт возвращает ссылку, отфильтрованных по фильтру &quot;Мои задачи&quot;, задач текущего пользователя.</text></para>
+    <para styleclass="Normal" style="text-align:left; text-indent:37px; margin-top:0px; margin-right:0px; margin-bottom:0px; margin-left:0px; line-height:1.00; background-color:#ffffff; white-space:normal; page-break-inside:avoid; page-break-after:auto; tabstops:none;"></para>
+    <para styleclass="Code"><text styleclass="Code" translate="true">package scripts.task_custom_field_value;</text></para>
+    <para styleclass="Code"><br/><text styleclass="Code" translate="true">import com.trackstudio.containers.Link;</text><br/><text styleclass="Code" translate="true">import com.trackstudio.exception.GranException;</text><br/><text styleclass="Code" translate="true">import com.trackstudio.external.TaskUDFValueScript;</text><br/><text styleclass="Code" translate="true">import com.trackstudio.secured.SecuredTaskBean;</text><br/><text styleclass="Code" translate="true">import org.eclipse.birt.report.model.metadata.SemanticTriggerDefn;</text></para>
+    <para styleclass="Code"><br/><text styleclass="Code" translate="true">public class URLudf implements TaskUDFValueScript{</text></para>
+    <para styleclass="Code"></para>
+    <para styleclass="Code"><text styleclass="Code" translate="true"> &#160; &#160;public Object calculate(SecuredTaskBean task) throws GranException {</text></para>
+    <para styleclass="Code"><text styleclass="Code" translate="true"> &#160; &#160; // адрес хоста</text></para>
+    <para styleclass="Code"><text styleclass="Code" translate="true"> &#160; &#160; final String host = &quot;localhost:8888&quot;; </text></para>
+    <para styleclass="Code"><text styleclass="Code" translate="true"> &#160; &#160; // Id фильтра мои задачи</text><br/><text styleclass="Code" translate="true"> &#160; &#160; final String filterid = &quot;4028808a1934fdc7011935080447004e&quot;; &#160;</text></para>
+    <para styleclass="Code"><br/><text styleclass="Code" translate="true"> &#160; &#160; &#160; &#160;return new Link(String.format(</text></para>
+    <para styleclass="Code" style="text-align:left; text-indent:37px; margin-top:0px; margin-right:0px; margin-bottom:0px; margin-left:0px; line-height:1.00; white-space:normal; page-break-inside:auto; page-break-after:auto; tabstops:none;"><text styleclass="Code" translate="true">&quot;http://%s/TrackStudio/task/%s/filter/%s&quot;,host,task.getNumber(),filterid),</text><br/><text styleclass="Code" translate="true"> &#160; &#160; &#160; &#160; &quot;Список моих задач в этом проекте&quot;);</text><br/><text styleclass="Code" translate="true"> &#160; &#160;}</text><br/><text styleclass="Code" translate="true">}</text></para>
+    <para styleclass="Code Example" style="text-align:left; text-indent:37px; margin-top:0px; margin-right:0px; margin-bottom:0px; margin-left:0px; line-height:1.00; white-space:normal; page-break-before:always; page-break-inside:avoid; page-break-after:auto; tabstops:none;"></para>
+  </body>
+</topic>

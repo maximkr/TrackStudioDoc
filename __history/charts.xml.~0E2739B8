@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../helpproject.xsl" ?>
+<topic template="Default" lasteditedby="xp" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd">
+  <title translate="true">Как построить графики в TrackStudio по вашим данным</title>
+  <body>
+    <header>
+      <para styleclass="Heading1"><text styleclass="Heading1" translate="true">Как построить графики в TrackStudio по вашим данным</text></para>
+    </header>
+    <para styleclass="Normal"><text styleclass="Normal" style="font-weight:normal;" translate="true">En</text><text styleclass="Normal" style="font-weight:normal; font-style:normal;" translate="true">t</text><text styleclass="Normal" style="font-weight:normal;" translate="true">er topic text here.</text></para>
+  </body>
+</topic>

@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../helpproject.xsl" ?>
+<topic template="Default" lasteditedby="xp" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd">
+  <title translate="true">Как создать требование</title>
+  <body>
+    <header>
+      <para styleclass="Heading1"><text styleclass="Heading1" translate="true">Как создать требование</text></para>
+    </header>
+    <para styleclass="Normal" style="margin-top:16px; line-height:1.00; background-color:#ffffff; tabstops:none;"><text styleclass="Normal" style="font-family:Verdana; vertical-align:baseline; color:#666666;" translate="true">Перейдите к нужному вам списку требований. Нажмите кнопку</text><text styleclass="apple-converted-space" style="font-family:Verdana; font-size:10pt; font-weight:normal; font-style:normal; text-decoration:none; text-transform:none; vertical-align:baseline; color:#666666; background-color:transparent; letter-spacing:normal; letter-scaling:100%;" translate="true">&#32;</text><text styleclass="Normal" style="font-family:Verdana; font-weight:bold; vertical-align:baseline; color:#666666;" translate="true">Создать требование</text><text styleclass="apple-converted-space" style="font-family:Verdana; font-size:10pt; font-weight:normal; font-style:normal; text-decoration:none; text-transform:none; vertical-align:baseline; color:#666666; background-color:transparent; letter-spacing:normal; letter-scaling:100%;" translate="true">&#32;</text><text styleclass="Normal" style="font-family:Verdana; vertical-align:baseline; color:#666666;" translate="true">в верхней панели.</text></para>
+    <para styleclass="Normal" style="line-height:1.00; background-color:#ffffff; tabstops:none;"><text styleclass="Normal" style="font-family:Verdana; vertical-align:baseline; color:#666666;" translate="true">Укажите приоритет требования, его версию и техническое описание.</text></para>
+    <para styleclass="Normal" style="line-height:1.00; background-color:#ffffff; tabstops:none;"><image src="create-requirement-req-ru.PNG" scale="100.00%" style="font-family:Arial; font-size:10pt; color:#000000;"></image></para>
+    <para styleclass="Normal" style="line-height:1.00; background-color:#ffffff; tabstops:none;"><text styleclass="Normal" style="font-family:Verdana; vertical-align:baseline; color:#666666;" translate="true">Затем выберите нужные наборы тестов</text></para>
+    <para styleclass="Normal" style="line-height:1.00; background-color:#ffffff; tabstops:none;"><image src="choose-test-data-req-ru.PNG" scale="100.00%" style="font-family:Arial; font-size:10pt; color:#000000;"></image></para>
+  </body>
+</topic>

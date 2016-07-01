@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../helpproject.xsl" ?>
+<topic template="Default" lasteditedby="xp" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd">
+  <title translate="true">Как вывести на страницу текущую задачу</title>
+  <body>
+    <header>
+      <para styleclass="Heading1"><text styleclass="Heading1" translate="true">Как вывести на страницу текущую задачу</text></para>
+    </header>
+    <para styleclass="Normal" style="text-align:left; text-indent:37px; margin-top:0px; margin-right:0px; margin-bottom:0px; margin-left:0px; line-height:1.00; background-color:#ffffff; white-space:normal; page-break-inside:auto; page-break-after:auto; tabstops:none;"><text styleclass="Normal" style="font-family:Verdana; font-size:12pt; vertical-align:baseline; color:#000000;" translate="true">Текущая задача хранится в переменной</text><text styleclass="apple-converted-space" style="font-family:Verdana; font-size:12pt; font-weight:normal; font-style:normal; text-decoration:none; text-transform:none; vertical-align:baseline; color:#000000; background-color:transparent; letter-spacing:normal; letter-scaling:100%;" translate="true">&#32;</text><text styleclass="Normal" style="font-family:Verdana; font-size:12pt; font-weight:bold; vertical-align:baseline; color:#000000;" translate="true">task</text><text styleclass="Normal" style="font-family:Verdana; font-size:12pt; vertical-align:baseline; color:#000000;" translate="true">. Вы можете выводить в шаблоне значения полей задачи, например таких:</text></para>
+    <para styleclass="Normal" style="text-align:left; text-indent:37px; margin-top:0px; margin-right:0px; margin-bottom:0px; margin-left:0px; line-height:1.00; background-color:#ffffff; white-space:normal; page-break-inside:auto; page-break-after:auto; tabstops:none;"></para>
+    <para styleclass="Code"><text styleclass="Code" translate="true">${task.number} — номер задачи</text></para>
+    <para styleclass="Code"><text styleclass="Code" translate="true">${task.name} — название задачи</text></para>
+    <para styleclass="Code"><text styleclass="Code" translate="true">${task.category.name} — категория задачи</text></para>
+    <para styleclass="Code"><text styleclass="Code" translate="true">${task.status.name} — текущее состояние задачи</text></para>
+    <para styleclass="Code"><text styleclass="Code" translate="true">${task.resolution.name} — резолюция задачи</text></para>
+    <para styleclass="Code"><text styleclass="Code" translate="true">${task.priority.name} — приоритет задачи</text></para>
+    <para styleclass="Code"><text styleclass="Code" translate="true">${task.submitter.name} — имя автора задачи</text></para>
+    <para styleclass="Code"><text styleclass="Code" translate="true">${task.budgetAsString} — бюджет задачи</text></para>
+    <para styleclass="Code"><text styleclass="Code" translate="true">${task.actualBudgetAsString} — потраченное время</text></para>
+    <para styleclass="Code"><text styleclass="Code" translate="true">${DateFormatter.parse(task.submitdate)} — время создания задачи</text></para>
+    <para styleclass="Code"><text styleclass="Code" translate="true">${DateFormatter.parse(task.updatedate)} — время обновления задачи</text></para>
+    <para styleclass="Code"><text styleclass="Code" translate="true">${DateFormatter.parse(task.closedate)} — время закрытия задачи (у задачи не в финальном состоянии этого значения нет)</text></para>
+    <para styleclass="Code"><text styleclass="Code" translate="true">${DateFormatter.parse(task.deadline)} — срок, к которому задачу нужно выполнить (дедлайн)</text></para>
+    <para styleclass="Normal" style="text-align:left; text-indent:37px; margin-top:0px; margin-right:0px; margin-bottom:0px; margin-left:0px; line-height:1.00; background-color:#ffffff; white-space:normal; page-break-inside:auto; page-break-after:auto; tabstops:none;"></para>
+    <para styleclass="Normal" style="text-align:left; text-indent:37px; margin-top:0px; margin-right:0px; margin-bottom:0px; margin-left:0px; line-height:1.00; background-color:#ffffff; white-space:normal; page-break-inside:auto; page-break-after:auto; tabstops:none;"><text styleclass="Normal" style="font-family:Verdana; font-size:12pt; vertical-align:baseline; color:#000000;" translate="true">Список подзадач текущей задачи, отфильтрованный фильтром &quot;Мои задачи&quot; можно получить так:</text></para>
+    <para styleclass="Normal" style="text-align:left; text-indent:37px; margin-top:0px; margin-right:0px; margin-bottom:0px; margin-left:0px; line-height:1.00; background-color:#ffffff; white-space:normal; page-break-inside:auto; page-break-after:auto; tabstops:none;"></para>
+    <para styleclass="Code"><text styleclass="Code" translate="true">&lt;@std.subtasks localTask=task filter=&quot;Мои задачи&quot;; taskCollection&gt;</text></para>
+    <para styleclass="Code"><text styleclass="Code" translate="true">...</text></para>
+    <para styleclass="Code"><text styleclass="Code" translate="true">&lt;#list taskCollection as t&gt;</text></para>
+    <para styleclass="Code"><text styleclass="Code" translate="true">...</text></para>
+    <para styleclass="Code"><text styleclass="Code" translate="true">&lt;/#list&gt;</text></para>
+    <para styleclass="Code"><text styleclass="Code" translate="true">...</text></para>
+    <para styleclass="Code"><text styleclass="Code" translate="true">&lt;/@std.subtasks&gt;</text></para>
+    <para styleclass="Normal" style="text-align:left; text-indent:37px; margin-top:0px; margin-right:0px; margin-bottom:0px; margin-left:0px; line-height:1.00; background-color:#ffffff; white-space:normal; page-break-inside:auto; page-break-after:auto; tabstops:none;"></para>
+    <para styleclass="Normal" style="text-align:left; text-indent:37px; margin-top:0px; margin-right:0px; margin-bottom:0px; margin-left:0px; line-height:1.00; background-color:#ffffff; white-space:normal; page-break-inside:auto; page-break-after:auto; tabstops:none;"><text styleclass="Normal" style="font-family:Verdana; font-size:12pt; vertical-align:baseline; color:#000000;" translate="true">Внутри итератора &lt;#list/&gt; следует использовать те же переменные, что и при выводе значений полей одной задачи.</text></para>
+    <para styleclass="Normal" style="text-align:left; text-indent:37px; margin-top:0px; margin-right:0px; margin-bottom:0px; margin-left:0px; line-height:1.00; background-color:#ffffff; white-space:normal; page-break-inside:auto; page-break-after:auto; tabstops:none;"></para>
+    <para styleclass="Normal" style="text-align:left; text-indent:37px; margin-top:0px; margin-right:0px; margin-bottom:0px; margin-left:0px; line-height:1.00; background-color:#ffffff; white-space:normal; page-break-inside:auto; page-break-after:auto; tabstops:none;"><text styleclass="Normal" style="font-family:Verdana; font-size:12pt; vertical-align:baseline; color:#000000;" translate="true">Сам список названий фильтров доступен в переменной</text><text styleclass="apple-converted-space" style="font-family:Verdana; font-size:12pt; font-weight:normal; font-style:normal; text-decoration:none; text-transform:none; vertical-align:baseline; color:#000000; background-color:transparent; letter-spacing:normal; letter-scaling:100%;" translate="true">&#32;</text><text styleclass="Normal" style="font-family:Verdana; font-size:12pt; font-weight:bold; vertical-align:baseline; color:#000000;" translate="true">filters</text></para>
+    <para styleclass="Normal" style="text-align:left; text-indent:37px; margin-top:0px; margin-right:0px; margin-bottom:0px; margin-left:0px; line-height:1.00; background-color:#ffffff; white-space:normal; page-break-inside:auto; page-break-after:auto; tabstops:none;"></para>
+    <para styleclass="Code"><text styleclass="Code" translate="true">&lt;#list filters as filter&gt;</text></para>
+    <para styleclass="Code"><text styleclass="Code" translate="true">${filter}</text></para>
+    <para styleclass="Code"><text styleclass="Code" translate="true">&lt;/#list&gt;</text></para>
+    <para style="text-indent:37px; page-break-before:always;"></para>
+  </body>
+</topic>

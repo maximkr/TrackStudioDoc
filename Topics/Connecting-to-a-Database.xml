@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../helpproject.xsl" ?>
+<topic template="Default" lasteditedby="xp" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd">
+  <title translate="true">Connecting to a Database</title>
+  <body>
+    <header>
+      <para styleclass="Heading1"><text styleclass="Heading1" translate="true">Connecting to a Database</text></para>
+    </header>
+    <para styleclass="Normal"><link displaytype="text" defaultstyle="true" type="topiclink" href="Connecting-to-HSQL" styleclass="Normal" style="font-size:12pt;" translate="true">Connecting to HSQL</link></para>
+    <para styleclass="Normal"><link displaytype="text" defaultstyle="true" type="topiclink" href="Connecting-to-PostgreSQL" styleclass="Normal" style="font-size:12pt;" translate="true">Connecting to PostgreSQL</link></para>
+    <para styleclass="Normal"><link displaytype="text" defaultstyle="true" type="topiclink" href="Connecting-to-MS-SQL-Server" styleclass="Normal" style="font-size:12pt;" translate="true">Connecting to MS SQL Server</link></para>
+    <para styleclass="Normal"><link displaytype="text" defaultstyle="true" type="topiclink" href="Connecting-to-Oracle" styleclass="Normal" style="font-size:12pt;" translate="true">Connecting to Oracle</link></para>
+    <para styleclass="Normal"><link displaytype="text" defaultstyle="true" type="topiclink" href="Connecting-to-DB2" styleclass="Normal" style="font-size:12pt;" translate="true">Connecting to DB2</link></para>
+    <para styleclass="Normal"><link displaytype="text" defaultstyle="true" type="topiclink" href="Connecting-to-Firebird" styleclass="Normal" style="font-size:12pt;" translate="true">Connecting to Firebird</link></para>
+    <para styleclass="Normal"><link displaytype="text" defaultstyle="true" type="topiclink" href="Using-a-console-app-dbtool-for" styleclass="Normal" style="font-size:12pt;" translate="true">Using a console app dbtool for exporting and importing a database</link></para>
+  </body>
+</topic>

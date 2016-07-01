@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../helpproject.xsl" ?>
+<topic template="Default" lasteditedby="xp" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd">
+  <title translate="true">Руководство по установке</title>
+  <body>
+    <header>
+      <para styleclass="Heading1"><text styleclass="Heading1" translate="true">Руководство по установке</text></para>
+    </header>
+    <para><link displaytype="text" defaultstyle="true" type="topiclink" href="update_trackStudio" styleclass="Normal" style="font-size:14pt;" translate="true">Обновление TrackStudio</link></para>
+    <para styleclass="Normal"><link displaytype="text" defaultstyle="true" type="topiclink" href="update_5_0_x" styleclass="Normal" style="font-size:14pt;" translate="true">Обновление минорных версий (5.0.x)</link></para>
+    <para styleclass="Normal"><link displaytype="text" defaultstyle="true" type="topiclink" href="update_to_5_0_x" styleclass="Normal" style="font-size:14pt;" translate="true">Обновление c версии 4.0.x до 5.0.x</link></para>
+    <para styleclass="Normal"><link displaytype="text" defaultstyle="true" type="topiclink" href="update_minor_4_0_x" styleclass="Normal" style="font-size:14pt;" translate="true">Обновление минорных версий (4.0.x)</link></para>
+    <para styleclass="Normal"><link displaytype="text" defaultstyle="true" type="topiclink" href="update_to_4_0_x" styleclass="Normal" style="font-size:14pt;" translate="true">Обновление c версии 3.5.x до 4.0.x</link></para>
+    <para styleclass="Normal"><link displaytype="text" defaultstyle="true" type="topiclink" href="windows_setup" styleclass="Normal" style="font-size:14pt;" translate="true">Установка под Windows</link></para>
+    <para styleclass="Normal"><link displaytype="text" defaultstyle="true" type="topiclink" href="windows_setup_sa" styleclass="Normal" style="font-size:14pt;" translate="true">Установка TrackStudio Standalone под Windows</link></para>
+    <para styleclass="Normal"><link displaytype="text" defaultstyle="true" type="topiclink" href="windows_setup_war" styleclass="Normal" style="font-size:14pt;" translate="true">Установка WAR-версии TrackStudio под Windows</link></para>
+    <para styleclass="Normal"><link displaytype="text" defaultstyle="true" type="topiclink" href="starting_windows_service" styleclass="Normal" style="font-size:14pt;" translate="true">Запуск TrackStudio как сервиса Windows</link></para>
+    <para styleclass="Normal"><link displaytype="text" defaultstyle="true" type="topiclink" href="linux_setup" styleclass="Normal" style="font-size:14pt;" translate="true">Установка под Linux</link></para>
+    <para styleclass="Normal"><link displaytype="text" defaultstyle="true" type="topiclink" href="linux_X-Window" styleclass="Normal" style="font-size:14pt;" translate="true">Настройка X Window</link></para>
+    <para styleclass="Normal"><link displaytype="text" defaultstyle="true" type="topiclink" href="linux_setup_sa" styleclass="Normal" style="font-size:14pt;" translate="true">Установка TrackStudio Standalone</link></para>
+    <para styleclass="Normal"><link displaytype="text" defaultstyle="true" type="topiclink" href="linux_setup_console" styleclass="Normal" style="font-size:14pt;" translate="true">Установка TrackStudio Standalone из консоли</link></para>
+    <para styleclass="Normal"><link displaytype="text" defaultstyle="true" type="topiclink" href="linux_setup_war" styleclass="Normal" style="font-size:14pt;" translate="true">Установка TrackStudio WAR</link></para>
+    <para styleclass="Normal"><link displaytype="text" defaultstyle="true" type="topiclink" href="initializing_database" styleclass="Normal" style="font-size:14pt;" translate="true">Создание и настройка базы данных</link></para>
+    <para styleclass="Normal"><link displaytype="text" defaultstyle="true" type="topiclink" href="database_postgres" styleclass="Normal" style="font-size:14pt;" translate="true">Создание и инициализация базы данных под PostgreSQL</link></para>
+    <para styleclass="Normal"><link displaytype="text" defaultstyle="true" type="topiclink" href="database_HSQL" styleclass="Normal" style="font-size:14pt;" translate="true">Создание и инициализация базы данных под HSQL</link></para>
+    <para styleclass="Normal"><link displaytype="text" defaultstyle="true" type="topiclink" href="database_ORACLE" styleclass="Normal" style="font-size:14pt;" translate="true">Создание и инициализация базы данных под ORACLE</link></para>
+    <para styleclass="Normal"><link displaytype="text" defaultstyle="true" type="topiclink" href="database_MS-SQL-Server" styleclass="Normal" style="font-size:14pt;" translate="true">Создание и инициализация базы данных под MS SQL Server</link></para>
+    <para styleclass="Normal"><link displaytype="text" defaultstyle="true" type="topiclink" href="database_MySQL" styleclass="Normal" style="font-size:14pt;" translate="true">Создание и инициализация базы данных под MySQL</link></para>
+    <para styleclass="Normal"><link displaytype="text" defaultstyle="true" type="topiclink" href="database_DB2" styleclass="Normal" style="font-size:14pt;" translate="true">Создание и инициализация базы данных под DB2</link></para>
+    <para styleclass="Normal"><link displaytype="text" defaultstyle="true" type="topiclink" href="database_Firebird" styleclass="Normal" style="font-size:14pt;" translate="true">Создание и инициализация базы данных под Firebird</link></para>
+    <para styleclass="Normal"><link displaytype="text" defaultstyle="true" type="topiclink" href="dbtool" styleclass="Normal" style="font-size:14pt;" translate="true">Использование консольной утилиты для экспорта, импорта и инициализации данных</link></para>
+    <para styleclass="Normal"><link displaytype="text" defaultstyle="true" type="topiclink" href="backup_restore" styleclass="Normal" style="font-size:14pt;" translate="true">Резервное копирование и восстановление данных</link></para>
+    <para styleclass="Normal"><link displaytype="text" defaultstyle="true" type="topiclink" href="database_export-import-migration" styleclass="Normal" style="font-size:14pt;" translate="true">Экспорт и импорт базы данных. Миграция</link></para>
+  </body>
+</topic>

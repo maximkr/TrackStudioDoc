@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../helpproject.xsl" ?>
+<topic template="Default" lasteditedby="xp" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd">
+  <title translate="true">Как указать какой набор тестовых данных использовать для проверки</title>
+  <body>
+    <header>
+      <para styleclass="Heading1"><text styleclass="Heading1" translate="true">Как указать какой набор тестовых данных использовать для проверки требования</text></para>
+    </header>
+    <para styleclass="Normal" style="margin-top:16px; line-height:1.0; background-color:#ffffff; tabstops:none;"><text styleclass="Normal" style="font-family:Verdana; vertical-align:baseline; color:#666666;" translate="true">При создании требования укажите набор тестовых данных в соответствующем поле.</text></para>
+    <para styleclass="Normal" style="line-height:1.0; background-color:#ffffff; tabstops:none;"><link displaytype="image" src="edit-requirements-req-ru.png" type="weblink" href="http://www.trackstudio.ru/sites/default/files/gallery_assist/32/gallery_assist157/edit-requirements-req-ru.png"></link></para>
+    <para styleclass="Normal" style="line-height:1.0; background-color:#ffffff; tabstops:none;"><text styleclass="Normal" style="font-family:Verdana; vertical-align:baseline; color:#666666;" translate="true">Если же вам необходимо изменить этот параметр, перейдите к просмотру требования, затем нажмите</text><text styleclass="apple-converted-space" style="font-family:Verdana; font-size:10pt; font-weight:normal; font-style:normal; text-decoration:none; text-transform:none; vertical-align:baseline; color:#666666; background-color:transparent; letter-spacing:normal; letter-scaling:100%;" translate="true">&#32;</text><text styleclass="Normal" style="font-family:Verdana; font-weight:bold; vertical-align:baseline; color:#666666;" translate="true">Редактировать</text><text styleclass="apple-converted-space" style="font-family:Verdana; font-size:10pt; font-weight:normal; font-style:normal; text-decoration:none; text-transform:none; vertical-align:baseline; color:#666666; background-color:transparent; letter-spacing:normal; letter-scaling:100%;" translate="true">&#32;</text><text styleclass="Normal" style="font-family:Verdana; vertical-align:baseline; color:#666666;" translate="true">и укажите в соответствующем поле, какой набор тестовых данных использовать для проверки требования, после чего сохраните изменения.</text></para>
+  </body>
+</topic>

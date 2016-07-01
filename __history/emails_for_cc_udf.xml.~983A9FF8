@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../helpproject.xsl" ?>
+<topic template="Default" lasteditedby="xp" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd">
+  <title translate="true">E-mail адреса пользователей для оповещений через CC</title>
+  <body>
+    <header>
+      <para styleclass="Heading1"><text styleclass="Heading1" translate="true">E-mail адреса пользователей для оповещений через CC</text></para>
+    </header>
+    <para styleclass="Normal" style="text-align:left; text-indent:37px; margin-top:0px; margin-right:0px; margin-bottom:0px; margin-left:0px; line-height:1.00; background-color:#ffffff; white-space:normal; page-break-inside:avoid; page-break-after:auto; tabstops:none;"><text styleclass="Normal" style="font-family:Verdana; font-size:12pt; vertical-align:baseline; color:#000000;" translate="true">Данный скрипт вычисляет e-mail адреса участников задачи для поля CC,</text><text styleclass="apple-converted-space" style="font-family:Verdana; font-size:12pt; font-weight:normal; font-style:normal; text-decoration:none; text-transform:none; vertical-align:baseline; color:#000000; background-color:transparent; letter-spacing:normal; letter-scaling:100%;" translate="true">&#32;</text><link displaytype="text" defaultstyle="true" type="topiclink" href="howto_notify_unregistered_users" styleclass="Normal" style="font-family:Verdana; font-size:12pt; text-decoration:underline; vertical-align:baseline; color:#000000;" translate="true">которое используется для оповещения пользователей.</link></para>
+    <para styleclass="Normal" style="text-align:left; text-indent:37px; margin-top:0px; margin-right:0px; margin-bottom:0px; margin-left:0px; line-height:1.00; background-color:#ffffff; white-space:nowrap; page-break-inside:avoid; page-break-after:auto; tabstops:none;"></para>
+    <para styleclass="Code"><text styleclass="Code" translate="true">package scripts.task_custom_field_value;</text></para>
+    <para styleclass="Code"></para>
+    <para styleclass="Code"><text styleclass="Code" translate="true">import com.trackstudio.exception.GranException;</text></para>
+    <para styleclass="Code"><text styleclass="Code" translate="true">import com.trackstudio.external.TaskUDFValueScript;</text></para>
+    <para styleclass="Code"><text styleclass="Code" translate="true">import com.trackstudio.secured.SecuredMessageBean;</text></para>
+    <para styleclass="Code"><text styleclass="Code" translate="true">import com.trackstudio.secured.SecuredTaskBean;</text></para>
+    <para styleclass="Code"><text styleclass="Code" translate="true">import com.trackstudio.secured.SecuredUserBean;</text></para>
+    <para styleclass="Code"><text styleclass="Code" translate="true">import java.util.HashSet;</text></para>
+    <para styleclass="Code"></para>
+    <para styleclass="Code"><text styleclass="Code" translate="true">public class MultilistUdf implements TaskUDFValueScript{</text></para>
+    <para styleclass="Code"><text styleclass="Code" translate="true"> &#160; </text></para>
+    <para styleclass="Code"><text styleclass="Code" translate="true"> &#160; &#160;public void add(SecuredUserBean user, HashSet&lt;String&gt; emails) throws GranException{</text></para>
+    <para styleclass="Code"><text styleclass="Code" translate="true"> &#160; &#160; &#160; </text></para>
+    <para styleclass="Code"><text styleclass="Code" translate="true"> &#160; &#160; &#160; &#160;if(user!=null &amp;&amp; user.getEmail()!=null) emails.add(user.getEmail());</text></para>
+    <para styleclass="Code"><text styleclass="Code" translate="true"> &#160; &#160;}</text></para>
+    <para styleclass="Code"><text styleclass="Code" translate="true"> &#160; &#160;</text></para>
+    <para styleclass="Code"><text styleclass="Code" translate="true"> &#160; &#160;public Object calculate(SecuredTaskBean task) throws GranException{</text></para>
+    <para styleclass="Code"><text styleclass="Code" translate="true"> &#160; &#160; &#160; &#160;if(task.getMessageCount()!=0) &#160;{</text></para>
+    <para styleclass="Code"><text styleclass="Code" translate="true"> &#160; &#160; &#160; &#160; &#160; &#160;HashSet&lt;String&gt; emails = new HashSet&lt;String&gt;();</text></para>
+    <para styleclass="Code"><text styleclass="Code" translate="true"> &#160; &#160; &#160; &#160; &#160; &#160;for(SecuredMessageBean message:task.getMessages()) {</text></para>
+    <para styleclass="Code"><text styleclass="Code" translate="true"> &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160;add(message.getHandler(), emails);</text></para>
+    <para styleclass="Code"><text styleclass="Code" translate="true"> &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160;add(message.getSubmitter(), emails);</text></para>
+    <para styleclass="Code"><text styleclass="Code" translate="true"> &#160; &#160; &#160; &#160; &#160; &#160;}</text></para>
+    <para styleclass="Code"><text styleclass="Code" translate="true"> &#160; &#160; &#160; &#160; &#160; &#160;return emails;</text></para>
+    <para styleclass="Code"><text styleclass="Code" translate="true"> &#160; &#160; &#160; &#160;}</text></para>
+    <para styleclass="Code"><text styleclass="Code" translate="true"> &#160; &#160; &#160; &#160;else return null;</text></para>
+    <para styleclass="Code"><text styleclass="Code" translate="true"> &#160; &#160;}</text></para>
+    <para styleclass="Code"><text styleclass="Code" translate="true">}</text></para>
+    <para styleclass="Code Example" style="text-align:left; text-indent:37px; margin-top:0px; margin-right:0px; margin-bottom:0px; margin-left:0px; line-height:1.00; white-space:nowrap; page-break-before:always; page-break-inside:avoid; page-break-after:auto; tabstops:none;"></para>
+  </body>
+</topic>

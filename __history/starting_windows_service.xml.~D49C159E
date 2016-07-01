@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../helpproject.xsl" ?>
+<topic template="Default" lasteditedby="xp" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd">
+  <title translate="true">Запуск TrackStudio как сервиса Windows</title>
+  <body>
+    <header>
+      <para styleclass="Heading1"><text styleclass="Heading1" translate="true">Запуск TrackStudio как сервиса Windows</text></para>
+    </header>
+    <para styleclass="Normal" style="margin-top:16px; line-height:1.00; background-color:#ffffff; tabstops:none;"><text styleclass="Normal" style="font-family:Verdana; font-size:12pt; font-weight:bold; vertical-align:baseline; color:#666666;" translate="true">Jetty (сервер приложений, поставляемый с TrackStudio SA)</text></para>
+    <para styleclass="Heading2" style="text-align:left; text-indent:0px; margin-top:16px; margin-right:0px; margin-bottom:0px; margin-left:0px; line-height:1.50; background-color:#ffffff; white-space:normal; page-break-inside:auto; page-break-after:auto; border:none; tabstops:none;"><text styleclass="Heading2" style="font-family:Verdana; font-size:12pt; font-weight:bold; font-style:normal; text-decoration:none; text-transform:none; vertical-align:baseline; color:#666666; background-color:transparent; letter-spacing:normal; letter-scaling:100%;" translate="true">Чтобы установить Jetty как сервис Windows:</text></para>
+    <para styleclass="Code" style="line-height:1.00;"><text styleclass="Code" style="font-size:12pt;" translate="true">&gt;jettyService /install</text></para>
+    <para styleclass="Code" style="line-height:1.00;"><text styleclass="Code" style="font-size:12pt;" translate="true">Installed service &apos;jettyService&apos;.</text></para>
+    <para styleclass="Heading2" style="text-align:left; text-indent:0px; margin-top:16px; margin-right:0px; margin-bottom:0px; margin-left:0px; line-height:1.50; background-color:#ffffff; white-space:normal; page-break-inside:auto; page-break-after:auto; border:none; tabstops:none;"><text styleclass="Heading2" style="font-family:Verdana; font-size:12pt; font-weight:bold; font-style:normal; text-decoration:none; text-transform:none; vertical-align:baseline; color:#666666; background-color:transparent; letter-spacing:normal; letter-scaling:100%;" translate="true">Чтобы запустить TrackStudio как сервис:</text></para>
+    <para styleclass="Code" style="line-height:1.00;"><text styleclass="Code" style="font-size:12pt;" translate="true">&gt;jettyService /start</text></para>
+    <para styleclass="Code" style="line-height:1.00;"><text styleclass="Code" style="font-size:12pt;" translate="true">Starting service &apos;jettyService&apos;.</text></para>
+    <para styleclass="Heading2" style="text-align:left; text-indent:0px; margin-top:16px; margin-right:0px; margin-bottom:0px; margin-left:0px; line-height:1.50; background-color:#ffffff; white-space:normal; page-break-inside:auto; page-break-after:auto; border:none; tabstops:none;"><text styleclass="Heading2" style="font-family:Verdana; font-size:12pt; font-weight:bold; font-style:normal; text-decoration:none; text-transform:none; vertical-align:baseline; color:#666666; background-color:transparent; letter-spacing:normal; letter-scaling:100%;" translate="true">Чтобы остановить сервис TrackStudio:</text></para>
+    <para styleclass="Code" style="line-height:1.00;"><text styleclass="Code" style="font-size:12pt;" translate="true">&gt;jettyService /stop</text></para>
+    <para styleclass="Code" style="line-height:1.00;"><text styleclass="Code" style="font-size:12pt;" translate="true">Stopping service &apos;jettyService&apos;.</text></para>
+    <para styleclass="Code" style="line-height:1.00;"><text styleclass="Code" style="font-size:12pt;" translate="true">Service stopped</text></para>
+    <para styleclass="Heading2" style="text-align:left; text-indent:0px; margin-top:16px; margin-right:0px; margin-bottom:0px; margin-left:0px; line-height:1.50; background-color:#ffffff; white-space:normal; page-break-inside:auto; page-break-after:auto; border:none; tabstops:none;"><text styleclass="Heading2" style="font-family:Verdana; font-size:12pt; font-weight:bold; font-style:normal; text-decoration:none; text-transform:none; vertical-align:baseline; color:#666666; background-color:transparent; letter-spacing:normal; letter-scaling:100%;" translate="true">Чтобы деинсталлировать сервис TrackStudio:</text></para>
+    <para styleclass="Code" style="line-height:1.00;"><text styleclass="Code" style="font-size:12pt;" translate="true">&gt;jettyService /uninstall</text></para>
+    <para styleclass="Code" style="line-height:1.00;"><text styleclass="Code" style="font-size:12pt;" translate="true">Uninstalled service &apos;jettyService&apos;.</text></para>
+    <para style="page-break-before:always;"></para>
+  </body>
+</topic>

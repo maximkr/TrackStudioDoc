@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../helpproject.xsl" ?>
+<topic template="Default" lasteditedby="xp" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd">
+  <title translate="true">Список похожих задач</title>
+  <body>
+    <header>
+      <para styleclass="Heading1"><text styleclass="Heading1" translate="true">Список похожих задач</text></para>
+    </header>
+    <para styleclass="Normal" style="text-align:left; text-indent:37px; margin-top:0px; margin-right:0px; margin-bottom:0px; margin-left:0px; line-height:1.00; background-color:#ffffff; white-space:nowrap; page-break-inside:avoid; page-break-after:auto; tabstops:none;"><text styleclass="Normal" style="font-family:Verdana; font-size:12pt; vertical-align:baseline; color:#000000;" translate="true">Скрипт возвращает список похожих задач. Будет полезен при общении с пользователями через TrackStudio.</text></para>
+    <para styleclass="Normal" style="text-align:left; text-indent:37px; margin-top:0px; margin-right:0px; margin-bottom:0px; margin-left:0px; line-height:1.00; background-color:#ffffff; white-space:nowrap; page-break-inside:avoid; page-break-after:auto; tabstops:none;"></para>
+    <para styleclass="Code"><text styleclass="Code" translate="true">package scripts.task_custom_field_value;</text></para>
+    <para styleclass="Code"></para>
+    <para styleclass="Code"><text styleclass="Code" translate="true">import com.trackstudio.app.adapter.AdapterManager;</text></para>
+    <para styleclass="Code"><text styleclass="Code" translate="true">import com.trackstudio.exception.GranException;</text></para>
+    <para styleclass="Code"><text styleclass="Code" translate="true">import com.trackstudio.external.TaskUDFValueScript;</text></para>
+    <para styleclass="Code"><text styleclass="Code" translate="true">import com.trackstudio.secured.SecuredSearchTaskItem;</text></para>
+    <para styleclass="Code"><text styleclass="Code" translate="true">import com.trackstudio.secured.SecuredTaskBean;</text></para>
+    <para styleclass="Code"><text styleclass="Code" translate="true">import java.util.*;</text></para>
+    <para styleclass="Code"></para>
+    <para styleclass="Code"><text styleclass="Code" translate="true">/**</text></para>
+    <para styleclass="Code"><text styleclass="Code" translate="true"> * &#160;Возвращает список похожих задач</text></para>
+    <para styleclass="Code"><text styleclass="Code" translate="true"> */</text></para>
+    <para styleclass="Code"><text styleclass="Code" translate="true">public class AutoSimilarTasks implements TaskUDFValueScript {</text></para>
+    <para styleclass="Code"><text styleclass="Code" translate="true"> &#160; &#160;public static int LIMIT=25;</text></para>
+    <para styleclass="Code"></para>
+    <para styleclass="Code"><text styleclass="Code" translate="true"> &#160; &#160;public Object calculate(SecuredTaskBean securedTaskBean) throws GranException {</text></para>
+    <para styleclass="Code"><text styleclass="Code" translate="true"> &#160; &#160; &#160; &#160;HashMap&lt;SecuredTaskBean, Float&gt; tasks =AdapterManager.getInstance().</text></para>
+    <para styleclass="Code" style="text-align:left; text-indent:73px; margin-top:0px; margin-right:0px; margin-bottom:0px; margin-left:0px; line-height:1.00; white-space:normal; page-break-inside:auto; page-break-after:auto; tabstops:none;"><text styleclass="Code" translate="true">getSecuredTaskAdapterManager().</text></para>
+    <para styleclass="Code" style="text-align:left; text-indent:73px; margin-top:0px; margin-right:0px; margin-bottom:0px; margin-left:0px; line-height:1.00; white-space:normal; page-break-inside:auto; page-break-after:auto; tabstops:none;"><text styleclass="Code" translate="true">findSimilar(securedTaskBean.getSecure(), securedTaskBean.getId());</text></para>
+    <para styleclass="Code"><text styleclass="Code" translate="true">ArrayList&lt;SecuredSearchTaskItem&gt; results = new ArrayList&lt;SecuredSearchTaskItem&gt;();</text></para>
+    <para styleclass="Code"><text styleclass="Code" translate="true"> &#160; &#160; &#160; &#160;for (Map.Entry e : tasks.entrySet()) {</text></para>
+    <para styleclass="Code"><text styleclass="Code" translate="true"> &#160; &#160; &#160; &#160; &#160; &#160;Float ratio = (Float) e.getValue();</text></para>
+    <para styleclass="Code"><text styleclass="Code" translate="true"> &#160; &#160; &#160; &#160; &#160; &#160;SecuredSearchTaskItem sstask = new SecuredSearchTaskItem(</text></para>
+    <para styleclass="Code" style="text-align:left; text-indent:73px; margin-top:0px; margin-right:0px; margin-bottom:0px; margin-left:0px; line-height:1.00; white-space:normal; page-break-inside:auto; page-break-after:auto; tabstops:none;"><text styleclass="Code" translate="true">0, </text></para>
+    <para styleclass="Code" style="text-align:left; text-indent:73px; margin-top:0px; margin-right:0px; margin-bottom:0px; margin-left:0px; line-height:1.00; white-space:normal; page-break-inside:auto; page-break-after:auto; tabstops:none;"><text styleclass="Code" translate="true">ratio, </text></para>
+    <para styleclass="Code" style="text-align:left; text-indent:73px; margin-top:0px; margin-right:0px; margin-bottom:0px; margin-left:0px; line-height:1.00; white-space:normal; page-break-inside:auto; page-break-after:auto; tabstops:none;"><text styleclass="Code" translate="true">(SecuredTaskBean) e.getKey(), </text></para>
+    <para styleclass="Code" style="text-align:left; text-indent:73px; margin-top:0px; margin-right:0px; margin-bottom:0px; margin-left:0px; line-height:1.00; white-space:normal; page-break-inside:auto; page-break-after:auto; tabstops:none;"><text styleclass="Code" translate="true">&quot;&quot;, </text></para>
+    <para styleclass="Code" style="text-align:left; text-indent:73px; margin-top:0px; margin-right:0px; margin-bottom:0px; margin-left:0px; line-height:1.00; white-space:normal; page-break-inside:auto; page-break-after:auto; tabstops:none;"><text styleclass="Code" translate="true">&quot;&quot;);</text></para>
+    <para styleclass="Code"><text styleclass="Code" translate="true"> &#160; &#160; &#160; &#160; &#160; &#160;results.add(sstask);</text></para>
+    <para styleclass="Code"><text styleclass="Code" translate="true"> &#160; &#160; &#160; &#160;}</text></para>
+    <para styleclass="Code"><text styleclass="Code" translate="true"> &#160; &#160; &#160; &#160;Collections.sort(results);</text></para>
+    <para styleclass="Code"><text styleclass="Code" translate="true"> &#160; &#160; &#160; &#160;List&lt;String&gt; taskIds = new ArrayList&lt;String&gt;();</text></para>
+    <para styleclass="Code"><text styleclass="Code" translate="true"> &#160; &#160; &#160; &#160;for (int i=0; i&lt;LIMIT &amp;&amp; i&lt;results.size(); i++){</text></para>
+    <para styleclass="Code"><text styleclass="Code" translate="true"> &#160; &#160; &#160; &#160; &#160; &#160;taskIds.add(&apos;#&apos;+results.get(i).getTask().getNumber());</text></para>
+    <para styleclass="Code"><text styleclass="Code" translate="true"> &#160; &#160; &#160; &#160;}</text></para>
+    <para styleclass="Code"><text styleclass="Code" translate="true"> &#160; &#160; &#160;</text></para>
+    <para styleclass="Code"><text styleclass="Code" translate="true"> &#160; &#160; &#160; &#160;return taskIds;</text></para>
+    <para styleclass="Code"><text styleclass="Code" translate="true"> &#160; &#160;}</text></para>
+    <para styleclass="Code"><text styleclass="Code" translate="true">}</text></para>
+    <para styleclass="Code Example" style="text-align:left; text-indent:37px; margin-top:0px; margin-right:0px; margin-bottom:0px; margin-left:0px; line-height:1.00; white-space:nowrap; page-break-before:always; page-break-inside:avoid; page-break-after:auto; tabstops:none;"></para>
+  </body>
+</topic>

@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../helpproject.xsl" ?>
+<topic template="Default" lasteditedby="Dmitry" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd">
+  <title translate="true">Создание и настройка базы данных</title>
+  <body>
+    <header>
+      <para styleclass="Heading1"><text styleclass="Heading1" translate="true">Создание и настройка базы данных</text></para>
+    </header>
+    <list id="2" type="ul" listtype="bullet" formatstring="&#183;" format-charset="SYMBOL_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="Normal" style="font-family:Symbol; font-size:14pt; color:#000000;">
+      <li styleclass="Normal"><link displaytype="text" defaultstyle="true" type="topiclink" href="------PostgreSQL" styleclass="Normal" style="font-size:14pt;" translate="true">Создание и инициализация базы данных под PostgreSQL</link></li>
+      <li styleclass="Normal"><link displaytype="text" defaultstyle="true" type="topiclink" href="------HSQL" styleclass="Normal" style="font-size:14pt;" translate="true">Создание и инициализация базы данных под HSQL</link></li>
+      <li styleclass="Normal"><link displaytype="text" defaultstyle="true" type="topiclink" href="------ORACLE" styleclass="Normal" style="font-size:14pt;" translate="true">Создание и инициализация базы данных под ORACLE</link></li>
+      <li styleclass="Normal"><link displaytype="text" defaultstyle="true" type="topiclink" href="------MS-SQL-Server" styleclass="Normal" style="font-size:14pt;" translate="true">Создание и инициализация базы данных под MS SQL Server</link></li>
+      <li styleclass="Normal"><link displaytype="text" defaultstyle="true" type="topiclink" href="------MySQL" styleclass="Normal" style="font-size:14pt;" translate="true">Создание и инициализация базы данных под MySQL</link></li>
+      <li styleclass="Normal"><link displaytype="text" defaultstyle="true" type="topiclink" href="------DB2" styleclass="Normal" style="font-size:14pt;" translate="true">Создание и инициализация базы данных под DB2</link></li>
+      <li styleclass="Normal"><link displaytype="text" defaultstyle="true" type="topiclink" href="------Firebird" styleclass="Normal" style="font-size:14pt;" translate="true">Создание и инициализация базы данных под Firebird</link></li>
+      <li styleclass="Normal"><link displaytype="text" defaultstyle="true" type="topiclink" href="----_----" styleclass="Normal" style="font-size:14pt;" translate="true">Использование консольной утилиты для экспорта, импорта и инициализации данных</link></li>
+      <li styleclass="Normal"><link displaytype="text" defaultstyle="true" type="topiclink" href="----2" styleclass="Normal" style="font-size:14pt;" translate="true">Резервное копирование и восстановление данных</link></li>
+      <li styleclass="Normal"><link displaytype="text" defaultstyle="true" type="topiclink" href="----_-" styleclass="Normal" style="font-size:14pt;" translate="true">Экспорт и импорт базы данных. Миграция</link></li>
+    </list>
+  </body>
+</topic>

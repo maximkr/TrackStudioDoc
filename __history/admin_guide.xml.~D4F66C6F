@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../helpproject.xsl" ?>
+<topic template="Default" lasteditedby="xp" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd">
+  <title translate="true">Руководство администратора</title>
+  <body>
+    <header>
+      <para styleclass="Heading1"><text styleclass="Heading1" translate="true">Руководство администратора</text></para>
+    </header>
+    <para styleclass="Normal" style="text-indent:76px; margin-right:0px; margin-left:0px; tabstops:none;"><link displaytype="text" defaultstyle="true" type="topiclink" href="admin_guide_howto_change_status_list" styleclass="Normal" style="font-size:12pt;" translate="true">Как изменить список состояний у задачи</link></para>
+    <para styleclass="Normal" style="text-indent:76px; margin-right:0px; margin-left:0px; tabstops:none;"><link displaytype="text" defaultstyle="true" type="topiclink" href="admin_guide_howto_create_roles" styleclass="Normal" style="font-size:12pt;" translate="true">Как разделить пользователей на группы</link></para>
+    <para styleclass="Normal" style="text-indent:76px; margin-right:0px; margin-left:0px; tabstops:none;"><link displaytype="text" defaultstyle="true" type="topiclink" href="admin_guide_howto_allow_self_registration" styleclass="Normal" style="font-size:12pt;" translate="true">Как разрешить пользователям регистрироваться самостоятельно</link></para>
+    <para styleclass="Normal" style="text-indent:76px; margin-right:0px; margin-left:0px; tabstops:none;"><link displaytype="text" defaultstyle="true" type="topiclink" href="admin_guide_howto_create_category" styleclass="Normal" style="font-size:12pt;" translate="true">Как создать новую категорию</link></para>
+    <para styleclass="Normal" style="text-indent:76px; margin-right:0px; margin-left:0px; tabstops:none;"><link displaytype="text" defaultstyle="true" type="topiclink" href="admin_guide_howto_filter_tasks" styleclass="Normal" style="font-size:12pt;" translate="true">Как фильтровать задачи</link></para>
+    <para styleclass="Normal" style="text-indent:76px; margin-right:0px; margin-left:0px; page-break-before:always; tabstops:none;"></para>
+  </body>
+</topic>

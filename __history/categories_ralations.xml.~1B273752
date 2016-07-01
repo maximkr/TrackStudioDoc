@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../helpproject.xsl" ?>
+<topic template="Default" lasteditedby="xp" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd">
+  <title translate="true">Как настроить связи между категориями</title>
+  <body>
+    <header>
+      <para styleclass="Heading1"><text styleclass="Heading1" translate="true">Как настроить связи между категориями</text></para>
+    </header>
+    <para styleclass="Normal" style="margin-top:16px; line-height:1.0; background-color:#ffffff; tabstops:none;"><text styleclass="Normal" style="font-family:Verdana; vertical-align:baseline; color:#666666;" translate="true">Для того, чтобы использовать созданную категорию, вы должны связать ее с уже существующими категориями. Для этого перейдите через меню &quot;Управление задачами -&gt; Категории&quot; на страницу созданной вами категории и выберите вкладку &quot;</text><text styleclass="Normal" style="font-family:Verdana; font-weight:bold; vertical-align:baseline; color:#666666;" translate="true">Связи между категориями</text><text styleclass="Normal" style="font-family:Verdana; vertical-align:baseline; color:#666666;" translate="true">&quot;.</text></para>
+    <para styleclass="Normal" style="line-height:1.0; background-color:#ffffff; tabstops:none;"><text styleclass="Normal" style="font-family:Verdana; vertical-align:baseline; color:#666666;" translate="true">Вы увидите два списка. Перенесите в правый список те категории, в которых вы ходите создавать задачи с вашей. Например, обычно задачи можно создавать внутри проектов и версий, а проекты внутри задач — нельзя. Папки обычно могут быть вложены друг в друга, а ошибки — нет.</text></para>
+    <para styleclass="Normal" style="line-height:1.0; background-color:#ffffff; tabstops:none;"><text styleclass="Normal" style="font-family:Verdana; vertical-align:baseline; color:#666666;" translate="true">После изменения списков нажмите кнопку &quot;</text><text styleclass="Normal" style="font-family:Verdana; font-weight:bold; vertical-align:baseline; color:#666666;" translate="true">Сохранить</text><text styleclass="Normal" style="font-family:Verdana; vertical-align:baseline; color:#666666;" translate="true">&quot;.</text></para>
+    <para styleclass="Normal" style="margin-top:16px; line-height:1.0; background-color:#ffffff; tabstops:none;"><image src="categories_relation.png" scale="100.00%" padding="1 0 1 0" styleclass="Image Caption"></image></para>
+  </body>
+</topic>

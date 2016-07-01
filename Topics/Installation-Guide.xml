@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../helpproject.xsl" ?>
+<topic template="Default" lasteditedby="xp" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd">
+  <title translate="true">Installation Guide</title>
+  <body>
+    <header>
+      <para styleclass="Heading1"><text styleclass="Heading1" translate="true">Installation Guide</text></para>
+    </header>
+    <para styleclass="Normal"><link displaytype="text" defaultstyle="true" type="topiclink" href="Updating-TrackStudio" styleclass="Normal" style="font-size:12pt;" translate="true">Updating TrackStudio</link></para>
+    <para styleclass="Normal"><link displaytype="text" defaultstyle="true" type="topiclink" href="Upgrade-from-version-4_0_x-to-" styleclass="Normal" style="font-size:12pt;" translate="true">Upgrade from version 4.0.x to 5.0.x</link></para>
+    <para styleclass="Normal"><link displaytype="text" defaultstyle="true" type="topiclink" href="Upgrading-the-minor-versions-(" styleclass="Normal" style="font-size:12pt;" translate="true">Upgrading the minor versions (4.0.x)</link></para>
+    <para styleclass="Normal"><link displaytype="text" defaultstyle="true" type="topiclink" href="Upgrade-from-version-3_5" styleclass="Normal" style="font-size:12pt;" translate="true">Upgrade from version 3.5</link></para>
+    <para styleclass="Normal"><link displaytype="text" defaultstyle="true" type="topiclink" href="Installing-on-Windows" styleclass="Normal" style="font-size:12pt;" translate="true">Installing on Windows</link></para>
+    <para styleclass="Normal"><link displaytype="text" defaultstyle="true" type="topiclink" href="Installing-TrackStudio-Standal" styleclass="Normal" style="font-size:12pt;" translate="true">Installing TrackStudio Standalone in Windows</link></para>
+    <para styleclass="Normal"><link displaytype="text" defaultstyle="true" type="topiclink" href="Installing-TrackStudio-War-in-" styleclass="Normal" style="font-size:12pt;" translate="true">Installing TrackStudio War in Windows</link></para>
+    <para styleclass="Normal"><link displaytype="text" defaultstyle="true" type="topiclink" href="Starting-TrackStudio-as-a-Wind" styleclass="Normal" style="font-size:12pt;" translate="true">Starting TrackStudio as a Windows service</link></para>
+    <para styleclass="Normal"><link displaytype="text" defaultstyle="true" type="topiclink" href="Installing-on-Linux" styleclass="Normal" style="font-size:12pt;" translate="true">Installing on Linux</link></para>
+    <para styleclass="Normal"><link displaytype="text" defaultstyle="true" type="topiclink" href="Installing-TrackStudio-Standa2" styleclass="Normal" style="font-size:12pt;" translate="true">Installing TrackStudio Standalone in Linux</link></para>
+    <para styleclass="Normal"><link displaytype="text" defaultstyle="true" type="topiclink" href="Installing-TrackStudio-WAR-in2" styleclass="Normal" style="font-size:12pt;" translate="true">Installing TrackStudio WAR in Linux</link></para>
+    <para styleclass="Normal"><link displaytype="text" defaultstyle="true" type="topiclink" href="Connecting-to-a-Database" styleclass="Normal" style="font-size:12pt;" translate="true">Connecting to a Database</link></para>
+    <para styleclass="Normal"><link displaytype="text" defaultstyle="true" type="topiclink" href="Connecting-to-HSQL" styleclass="Normal" style="font-size:12pt;" translate="true">Connecting to HSQL</link></para>
+    <para styleclass="Normal"><link displaytype="text" defaultstyle="true" type="topiclink" href="Connecting-to-PostgreSQL" styleclass="Normal" style="font-size:12pt;" translate="true">Connecting to PostgreSQL</link></para>
+    <para styleclass="Normal"><link displaytype="text" defaultstyle="true" type="topiclink" href="Connecting-to-MS-SQL-Server" styleclass="Normal" style="font-size:12pt;" translate="true">Connecting to MS SQL Server</link></para>
+    <para styleclass="Normal"><link displaytype="text" defaultstyle="true" type="topiclink" href="Connecting-to-Oracle" styleclass="Normal" style="font-size:12pt;" translate="true">Connecting to Oracle</link></para>
+    <para styleclass="Normal"><link displaytype="text" defaultstyle="true" type="topiclink" href="Connecting-to-DB2" styleclass="Normal" style="font-size:12pt;" translate="true">Connecting to DB2</link></para>
+    <para styleclass="Normal"><link displaytype="text" defaultstyle="true" type="topiclink" href="Connecting-to-Firebird" styleclass="Normal" style="font-size:12pt;" translate="true">Connecting to Firebird</link></para>
+    <para styleclass="Normal"><link displaytype="text" defaultstyle="true" type="topiclink" href="Using-a-console-app-dbtool-for" styleclass="Normal" style="font-size:12pt;" translate="true">Using a console app dbtool for exporting and importing a database</link></para>
+    <para styleclass="Normal"><link displaytype="text" defaultstyle="true" type="topiclink" href="Installing-SSL-Certificate" styleclass="Normal" style="font-size:12pt;" translate="true">Installing SSL Certificate</link></para>
+    <para styleclass="Normal"><link displaytype="text" defaultstyle="true" type="topiclink" href="Configuring-NTLM-Authenticatio" styleclass="Normal" style="font-size:12pt;" translate="true">Configuring NTLM Authentication</link></para>
+    <para styleclass="Normal"><link displaytype="text" defaultstyle="true" type="topiclink" href="Creation-and-initialization-of" styleclass="Normal" style="font-size:12pt;" translate="true">Creation and initialization of database in PostgreSQL</link></para>
+  </body>
+</topic>

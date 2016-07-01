@@ -1,0 +1,127 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../helpproject.xsl" ?>
+<topic template="Default" lasteditedby="xp" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd">
+  <title translate="true">Установка TrackStudio Standalone под Windows</title>
+  <body>
+    <header>
+      <para styleclass="Heading1"><text styleclass="Heading1" translate="true">Установка TrackStudio Standalone под Windows</text></para>
+    </header>
+    <para styleclass="Normal" style="margin-top:16px; line-height:1.00; background-color:#ffffff; tabstops:none;"><text styleclass="Normal" style="font-family:Verdana; vertical-align:baseline; color:#666666;" translate="true">Для того, чтобы установить TrackStudio Standalone:</text></para>
+    <list id="1" type="ol" listtype="decimal" formatstring="&#37;&#48;&#58;&#115;&#46;" format-charset="DEFAULT_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="List" style="text-align:left; text-indent:0px; margin-top:0px; margin-right:0px; margin-bottom:0px; margin-left:0px; line-height:1.19; background-color:transparent; white-space:normal; page-break-inside:auto; page-break-after:auto; border:none; tabstops:none; font-family:Verdana; font-size:10pt; color:#666666;">
+      <li styleclass="List" style="text-align:left; text-indent:0px; margin-top:0px; margin-right:0px; margin-bottom:0px; margin-left:0px; line-height:1.19; background-color:transparent; white-space:normal; page-break-inside:auto; page-break-after:auto; border:none; tabstops:none;"><text styleclass="List" style="font-family:Verdana; font-size:10pt; font-weight:normal; font-style:normal; text-decoration:none; text-transform:none; vertical-align:baseline; color:#666666; background-color:transparent; letter-spacing:normal; letter-scaling:100%;" translate="true">Запустите TrackStudio Enterprise Server Manager (</text><text styleclass="List" style="font-family:Verdana; font-size:10pt; font-weight:bold; font-style:normal; text-decoration:none; text-transform:none; vertical-align:baseline; color:#666666; background-color:transparent; letter-spacing:normal; letter-scaling:100%;" translate="true">sman.exe</text><text styleclass="List" style="font-family:Verdana; font-size:10pt; font-weight:normal; font-style:normal; text-decoration:none; text-transform:none; vertical-align:baseline; color:#666666; background-color:transparent; letter-spacing:normal; letter-scaling:100%;" translate="true">).</text></li>
+      <li styleclass="List" style="text-align:left; text-indent:0px; margin-top:0px; margin-right:0px; margin-bottom:0px; margin-left:0px; line-height:1.19; background-color:transparent; white-space:normal; page-break-inside:auto; page-break-after:auto; border:none; tabstops:none;"><text styleclass="List" style="font-family:Verdana; font-size:10pt; font-weight:normal; font-style:normal; text-decoration:none; text-transform:none; vertical-align:baseline; color:#666666; background-color:transparent; letter-spacing:normal; letter-scaling:100%;" translate="true">Выберите &quot;Русский&quot; в меню File-&gt;Language, если отображаются надписи на английском языке.</text></li>
+      <li styleclass="List" style="text-align:left; text-indent:0px; margin-top:0px; margin-right:0px; margin-bottom:0px; margin-left:0px; line-height:1.19; background-color:transparent; white-space:normal; page-break-inside:auto; page-break-after:auto; border:none; tabstops:none;"><text styleclass="List" style="font-family:Verdana; font-size:10pt; font-weight:normal; font-style:normal; text-decoration:none; text-transform:none; vertical-align:baseline; color:#666666; background-color:transparent; letter-spacing:normal; letter-scaling:100%;" translate="true">В меню нажмите кнопку &quot;</text><text styleclass="List" style="font-family:Verdana; font-size:10pt; font-weight:bold; font-style:normal; text-decoration:none; text-transform:none; vertical-align:baseline; color:#666666; background-color:transparent; letter-spacing:normal; letter-scaling:100%;" translate="true">Создать БД</text><text styleclass="List" style="font-family:Verdana; font-size:10pt; font-weight:normal; font-style:normal; text-decoration:none; text-transform:none; vertical-align:baseline; color:#666666; background-color:transparent; letter-spacing:normal; letter-scaling:100%;" translate="true">&quot;</text></li>
+      <li styleclass="List" style="text-align:left; text-indent:0px; margin-top:0px; margin-right:0px; margin-bottom:0px; margin-left:0px; line-height:1.19; background-color:transparent; white-space:normal; page-break-inside:auto; page-break-after:auto; border:none; tabstops:none;"><text styleclass="List" style="font-family:Verdana; font-size:10pt; font-weight:normal; font-style:normal; text-decoration:none; text-transform:none; vertical-align:baseline; color:#666666; background-color:transparent; letter-spacing:normal; letter-scaling:100%;" translate="true">В появившемся окне выберите вариант базы данных для инициализации.</text></li>
+    </list>
+    <para styleclass="Normal" style="margin-top:16px; line-height:1.00; tabstops:none;"><image src="database_create_database_sman_ru.png" scale="100.00%" padding="1 0 1 0" styleclass="Image Caption"></image></para>
+    <list id="1" type="ol" listtype="decimal" formatstring="&#37;&#48;&#58;&#115;&#46;" format-charset="DEFAULT_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="List" style="text-align:left; text-indent:0px; margin-top:16px; margin-right:0px; margin-bottom:0px; margin-left:0px; line-height:1.19; background-color:transparent; white-space:normal; page-break-inside:auto; page-break-after:auto; border:none; tabstops:none; font-family:Verdana; font-size:10pt; color:#666666;">
+      <li styleclass="List" style="text-align:left; text-indent:0px; margin-top:16px; margin-right:0px; margin-bottom:0px; margin-left:0px; line-height:1.19; background-color:transparent; white-space:normal; page-break-inside:auto; page-break-after:auto; border:none; tabstops:none;"><text styleclass="List" style="font-family:Verdana; font-size:10pt; font-weight:normal; font-style:normal; text-decoration:none; text-transform:none; vertical-align:baseline; color:#666666; background-color:transparent; letter-spacing:normal; letter-scaling:100%;" translate="true">Нажмите кнопку &quot;</text><text styleclass="List" style="font-family:Verdana; font-size:10pt; font-weight:bold; font-style:normal; text-decoration:none; text-transform:none; vertical-align:baseline; color:#666666; background-color:transparent; letter-spacing:normal; letter-scaling:100%;" translate="true">ОК</text><text styleclass="List" style="font-family:Verdana; font-size:10pt; font-weight:normal; font-style:normal; text-decoration:none; text-transform:none; vertical-align:baseline; color:#666666; background-color:transparent; letter-spacing:normal; letter-scaling:100%;" translate="true">&quot;</text></li>
+      <li styleclass="List" style="text-align:left; text-indent:0px; margin-top:0px; margin-right:0px; margin-bottom:0px; margin-left:0px; line-height:1.19; background-color:transparent; white-space:normal; page-break-inside:auto; page-break-after:auto; border:none; tabstops:none;"><text styleclass="List" style="font-family:Verdana; font-size:10pt; font-weight:normal; font-style:normal; text-decoration:none; text-transform:none; vertical-align:baseline; color:#666666; background-color:transparent; letter-spacing:normal; letter-scaling:100%;" translate="true">После того, как база данных будет создана, нажмите кнопку</text><text styleclass="apple-converted-space" style="font-family:Verdana; font-size:10pt; font-weight:normal; font-style:normal; text-decoration:none; text-transform:none; vertical-align:baseline; color:#666666; background-color:transparent; letter-spacing:normal; letter-scaling:100%;" translate="true">&#32;</text><text styleclass="List" style="font-family:Verdana; font-size:10pt; font-weight:bold; font-style:normal; text-decoration:none; text-transform:none; vertical-align:baseline; color:#666666; background-color:transparent; letter-spacing:normal; letter-scaling:100%;" translate="true">Старт</text><text styleclass="List" style="font-family:Verdana; font-size:10pt; font-weight:normal; font-style:normal; text-decoration:none; text-transform:none; vertical-align:baseline; color:#666666; background-color:transparent; letter-spacing:normal; letter-scaling:100%;" translate="true">, чтобы запустить сервер TrackStudio.</text></li>
+      <li styleclass="List" style="text-align:left; text-indent:0px; margin-top:0px; margin-right:0px; margin-bottom:0px; margin-left:0px; line-height:1.19; background-color:transparent; white-space:normal; page-break-inside:auto; page-break-after:auto; border:none; tabstops:none;"><text styleclass="List" style="font-family:Verdana; font-size:10pt; font-weight:normal; font-style:normal; text-decoration:none; text-transform:none; vertical-align:baseline; color:#666666; background-color:transparent; letter-spacing:normal; letter-scaling:100%;" translate="true">Когда сервер запустится, нажмите кнопку &quot;</text><text styleclass="List" style="font-family:Verdana; font-size:10pt; font-weight:bold; font-style:normal; text-decoration:none; text-transform:none; vertical-align:baseline; color:#666666; background-color:transparent; letter-spacing:normal; letter-scaling:100%;" translate="true">Открыть в браузере</text><text styleclass="List" style="font-family:Verdana; font-size:10pt; font-weight:normal; font-style:normal; text-decoration:none; text-transform:none; vertical-align:baseline; color:#666666; background-color:transparent; letter-spacing:normal; letter-scaling:100%;" translate="true">&quot;.</text></li>
+    </list>
+    <para styleclass="Normal" style="margin-top:24px; line-height:1.00; background-color:#ffffff; tabstops:none;"><text styleclass="Normal" style="font-family:Verdana; font-weight:bold; vertical-align:baseline; color:#666666;" translate="true">Используйте следующие учетные записи:</text></para>
+    <para styleclass="Normal" style="line-height:1.00; tabstops:none;"><table rowcount="7" colcount="4" style="width:960px; cell-padding:1px; cell-spacing:0px; page-break-inside:auto; border-width:0px; border-spacing:0px; border-collapse:collapse; cell-border-width:1px; border-color:#808080; border-style:solid; background-color:#ffffff; head-row-background-color:none; alt-row-background-color:none;">
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:250px; background-color:#ffffff;">
+          <para><text styleclass="Normal" style="font-family:Verdana; font-weight:bold; vertical-align:baseline; color:#666666;" translate="true">Пользователь</text></para>
+        </td>
+        <td style="vertical-align:middle; width:299px; background-color:#ffffff;">
+          <para><text styleclass="Normal" style="font-family:Verdana; font-weight:bold; vertical-align:baseline; color:#666666;" translate="true">Группа</text></para>
+        </td>
+        <td style="vertical-align:middle; width:192px; background-color:#ffffff;">
+          <para><text styleclass="Normal" style="font-family:Verdana; font-weight:bold; vertical-align:baseline; color:#666666;" translate="true">Логин</text></para>
+        </td>
+        <td style="vertical-align:middle; width:203px; background-color:#ffffff;">
+          <para><text styleclass="Normal" style="font-family:Verdana; font-weight:bold; vertical-align:baseline; color:#666666;" translate="true">Пароль</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:250px; background-color:#ffffff;">
+          <para><text styleclass="Normal" style="font-family:Verdana; vertical-align:baseline; color:#666666;" translate="true">Администратор</text></para>
+        </td>
+        <td style="vertical-align:middle; width:299px; background-color:#ffffff;">
+          <para><text styleclass="Normal" style="font-family:Verdana; vertical-align:baseline; color:#666666;" translate="true">Администратор</text></para>
+        </td>
+        <td style="vertical-align:middle; width:192px; background-color:#ffffff;">
+          <para><text styleclass="Normal" style="font-family:Verdana; vertical-align:baseline; color:#666666;" translate="true">root</text></para>
+        </td>
+        <td style="vertical-align:middle; width:203px; background-color:#ffffff;">
+          <para><text styleclass="Normal" style="font-family:Verdana; vertical-align:baseline; color:#666666;" translate="true">root</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:250px; background-color:#ffffff;">
+          <para><text styleclass="Normal" style="font-family:Verdana; vertical-align:baseline; color:#666666;" translate="true">Сергей Менеджеров</text></para>
+        </td>
+        <td style="vertical-align:middle; width:299px; background-color:#ffffff;">
+          <para><text styleclass="Normal" style="font-family:Verdana; vertical-align:baseline; color:#666666;" translate="true">Менеджеры</text></para>
+        </td>
+        <td style="vertical-align:middle; width:192px; background-color:#ffffff;">
+          <para><text styleclass="Normal" style="font-family:Verdana; vertical-align:baseline; color:#666666;" translate="true">manager</text></para>
+        </td>
+        <td style="vertical-align:middle; width:203px; background-color:#ffffff;">
+          <para><text styleclass="Normal" style="font-family:Verdana; vertical-align:baseline; color:#666666;" translate="true">123</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:250px; background-color:#ffffff;">
+          <para><text styleclass="Normal" style="font-family:Verdana; vertical-align:baseline; color:#666666;" translate="true">Иван Аналитиков</text></para>
+        </td>
+        <td style="vertical-align:middle; width:299px; background-color:#ffffff;">
+          <para><text styleclass="Normal" style="font-family:Verdana; vertical-align:baseline; color:#666666;" translate="true">Аналитики</text></para>
+        </td>
+        <td style="vertical-align:middle; width:192px; background-color:#ffffff;">
+          <para><text styleclass="Normal" style="font-family:Verdana; vertical-align:baseline; color:#666666;" translate="true">analyst</text></para>
+        </td>
+        <td style="vertical-align:middle; width:203px; background-color:#ffffff;">
+          <para><text styleclass="Normal" style="font-family:Verdana; vertical-align:baseline; color:#666666;" translate="true">123</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:250px; background-color:#ffffff;">
+          <para><text styleclass="Normal" style="font-family:Verdana; vertical-align:baseline; color:#666666;" translate="true">Дмитрий Писателев</text></para>
+        </td>
+        <td style="vertical-align:middle; width:299px; background-color:#ffffff;">
+          <para><text styleclass="Normal" style="font-family:Verdana; vertical-align:baseline; color:#666666;" translate="true">Технические писатели</text></para>
+        </td>
+        <td style="vertical-align:middle; width:192px; background-color:#ffffff;">
+          <para><text styleclass="Normal" style="font-family:Verdana; vertical-align:baseline; color:#666666;" translate="true">writer</text></para>
+        </td>
+        <td style="vertical-align:middle; width:203px; background-color:#ffffff;">
+          <para><text styleclass="Normal" style="font-family:Verdana; vertical-align:baseline; color:#666666;" translate="true">123</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:250px; background-color:#ffffff;">
+          <para><text styleclass="Normal" style="font-family:Verdana; vertical-align:baseline; color:#666666;" translate="true">Степан Разработчиков</text></para>
+        </td>
+        <td style="vertical-align:middle; width:299px; background-color:#ffffff;">
+          <para><text styleclass="Normal" style="font-family:Verdana; vertical-align:baseline; color:#666666;" translate="true">Разработчики</text></para>
+        </td>
+        <td style="vertical-align:middle; width:192px; background-color:#ffffff;">
+          <para><text styleclass="Normal" style="font-family:Verdana; vertical-align:baseline; color:#666666;" translate="true">developer</text></para>
+        </td>
+        <td style="vertical-align:middle; width:203px; background-color:#ffffff;">
+          <para><text styleclass="Normal" style="font-family:Verdana; vertical-align:baseline; color:#666666;" translate="true">123</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:250px; background-color:#ffffff;">
+          <para><text styleclass="Normal" style="font-family:Verdana; vertical-align:baseline; color:#666666;" translate="true">Максим Тестеров</text></para>
+        </td>
+        <td style="vertical-align:middle; width:299px; background-color:#ffffff;">
+          <para><text styleclass="Normal" style="font-family:Verdana; vertical-align:baseline; color:#666666;" translate="true">Тестеры</text></para>
+        </td>
+        <td style="vertical-align:middle; width:192px; background-color:#ffffff;">
+          <para><text styleclass="Normal" style="font-family:Verdana; vertical-align:baseline; color:#666666;" translate="true">tester</text></para>
+        </td>
+        <td style="vertical-align:middle; width:203px; background-color:#ffffff;">
+          <para><text styleclass="Normal" style="font-family:Verdana; vertical-align:baseline; color:#666666;" translate="true">123</text></para>
+        </td>
+      </tr>
+    </table></para>
+    <para styleclass="Heading2" style="text-align:left; text-indent:0px; margin-top:8px; margin-right:0px; margin-bottom:0px; margin-left:0px; line-height:1.00; background-color:#ffffff; white-space:normal; page-break-inside:auto; page-break-after:auto; border:none; tabstops:none;"><text styleclass="Heading2" style="font-family:Verdana; font-size:14pt; font-weight:bold; font-style:normal; text-decoration:none; text-transform:none; vertical-align:baseline; color:#666666; background-color:transparent; letter-spacing:normal; letter-scaling:100%;" translate="true">Примечание</text></para>
+    <para styleclass="Normal" style="margin-top:16px; line-height:1.00; background-color:#ffffff; tabstops:none;"><text styleclass="Normal" style="font-family:Verdana; vertical-align:baseline; color:#666666;" translate="true">Если вы используете СУБД HSQLDB, файлы базы данных будут иметь вид</text><text styleclass="apple-converted-space" style="font-family:Verdana; font-size:10pt; font-weight:normal; font-style:normal; text-decoration:none; text-transform:none; vertical-align:baseline; color:#666666; background-color:transparent; letter-spacing:normal; letter-scaling:100%;" translate="true">&#32;</text><text styleclass="Normal" style="font-family:Verdana; font-style:italic; vertical-align:baseline; color:#666666;" translate="true">tsdb.lck, tsdb.log, tsdb.properties</text><text styleclass="apple-converted-space" style="font-family:Verdana; font-size:10pt; font-weight:normal; font-style:normal; text-decoration:none; text-transform:none; vertical-align:baseline; color:#666666; background-color:transparent; letter-spacing:normal; letter-scaling:100%;" translate="true">&#32;</text><text styleclass="Normal" style="font-family:Verdana; vertical-align:baseline; color:#666666;" translate="true">and</text><text styleclass="apple-converted-space" style="font-family:Verdana; font-size:10pt; font-weight:normal; font-style:normal; text-decoration:none; text-transform:none; vertical-align:baseline; color:#666666; background-color:transparent; letter-spacing:normal; letter-scaling:100%;" translate="true">&#32;</text><text styleclass="Normal" style="font-family:Verdana; font-style:italic; vertical-align:baseline; color:#666666;" translate="true">tsdb.script.</text><text styleclass="apple-converted-space" style="font-family:Verdana; font-size:10pt; font-weight:normal; font-style:normal; text-decoration:none; text-transform:none; vertical-align:baseline; color:#666666; background-color:transparent; letter-spacing:normal; letter-scaling:100%;" translate="true">&#32;</text><text styleclass="Normal" style="font-family:Verdana; vertical-align:baseline; color:#666666;" translate="true">Не удаляйте их.</text></para>
+    <para styleclass="Normal" style="margin-top:16px; line-height:1.00; background-color:#ffffff; page-break-before:always; tabstops:none;"></para>
+  </body>
+</topic>

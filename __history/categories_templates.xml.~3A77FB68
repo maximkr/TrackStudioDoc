@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../helpproject.xsl" ?>
+<topic template="Default" lasteditedby="xp" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd">
+  <title translate="true">Как задать образец для оформления задачи</title>
+  <body>
+    <header>
+      <para styleclass="Heading1"><text styleclass="Heading1" translate="true">Как задать образец для оформления задачи</text></para>
+    </header>
+    <para styleclass="Normal" style="margin-top:16px; line-height:1.00; background-color:#ffffff; tabstops:none;"><text styleclass="Normal" style="font-family:Verdana; vertical-align:baseline; color:#666666;" translate="true">Иногда требуется, чтобы при создании новой задачи ее описание было выполнено по определенному образцу, содержало определенные пункты и было оформлено в соответствии с требованиями. Используйте для этого шаблоны категорий. Шаблон — это обычный HTML-документ, созданный во встроенном редакторе точно так же, как задается обычное описание задачи.</text></para>
+    <para styleclass="Normal" style="line-height:1.00; background-color:#ffffff; tabstops:none;"><text styleclass="Normal" style="font-family:Verdana; vertical-align:baseline; color:#666666;" translate="true">Для того, чтобы задать шаблон для определенной категории, перейдите на страницу этой категории, а затем — на вкладку &quot;</text><text styleclass="Normal" style="font-family:Verdana; font-weight:bold; vertical-align:baseline; color:#666666;" translate="true">Шаблон новых задач</text><text styleclass="Normal" style="font-family:Verdana; vertical-align:baseline; color:#666666;" translate="true">&quot;. После того, как оформите шаблон в редакторе, нажмите кнопку &quot;</text><text styleclass="Normal" style="font-family:Verdana; font-weight:bold; vertical-align:baseline; color:#666666;" translate="true">Сохранить</text><text styleclass="Normal" style="font-family:Verdana; vertical-align:baseline; color:#666666;" translate="true">&quot;.</text></para>
+    <para styleclass="Normal" style="margin-top:16px; line-height:1.00; background-color:#ffffff; tabstops:none;"><image src="categories_template.png" scale="100.00%" padding="1 0 1 0" styleclass="Image Caption"></image></para>
+    <para styleclass="Normal" style="margin-top:16px; line-height:1.00; background-color:#ffffff; tabstops:none;"><text styleclass="Normal" style="font-family:Verdana; vertical-align:baseline; color:#666666;" translate="true">Описание задачи при ее создании будет выглядит вот так:</text></para>
+    <para styleclass="Normal" style="margin-top:16px; line-height:1.00; background-color:#ffffff; tabstops:none;"><image src="categories_template_result.png" scale="100.00%" padding="1 0 1 0" styleclass="Image Caption"></image></para>
+    <para styleclass="Normal" style="margin-top:16px; line-height:1.00; background-color:#ffffff; page-break-before:always; tabstops:none;"></para>
+  </body>
+</topic>

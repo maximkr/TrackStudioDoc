@@ -1,0 +1,168 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../helpproject.xsl" ?>
+<topic template="Default" lasteditedby="xp" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd">
+  <title translate="true">Как получить значения дополнительных полей</title>
+  <body>
+    <header>
+      <para styleclass="Heading1"><text styleclass="Heading1" translate="true">Как получить значения дополнительных полей</text></para>
+    </header>
+    <para styleclass="Normal" style="margin-top:16px; line-height:1.0; background-color:#ffffff; tabstops:none;"><text styleclass="Normal" style="font-family:Verdana; vertical-align:baseline; color:#666666;" translate="true">Получить значение дополнительного поля,</text><text styleclass="apple-converted-space" style="font-family:Verdana; font-size:10pt; font-weight:normal; font-style:normal; text-decoration:none; text-transform:none; vertical-align:baseline; color:#666666; background-color:transparent; letter-spacing:normal; letter-scaling:100%;" translate="true">&#32;</text><text styleclass="Normal" style="font-family:Verdana; font-weight:bold; vertical-align:baseline; color:#666666;" translate="true">если известен id поля</text><text styleclass="Normal" style="font-family:Verdana; vertical-align:baseline; color:#666666;" translate="true">, можно через HashMap</text></para>
+    <para styleclass="Code Example_workflow" style="text-align:left; text-indent:0px; margin-top:16px; margin-right:0px; margin-bottom:0px; margin-left:0px; line-height:1.0; background-color:#ffffcc; white-space:nowrap; page-break-inside:auto; page-break-after:auto; border:none; tabstops:none;"><text styleclass="workflow" style="font-family:&apos;Courier New&apos;; font-size:10pt; font-weight:normal; font-style:normal; text-decoration:none; text-transform:none; vertical-align:baseline; color:#666666; background-color:transparent; letter-spacing:normal; letter-scaling:100%;" translate="true"> &#160; &#160; &#160; &#160;Object result = task.getUDFValues().get(&quot;udfid&quot;).getValue();</text></para>
+    <para styleclass="Code Example_workflow" style="text-align:left; text-indent:0px; margin-top:0px; margin-right:0px; margin-bottom:0px; margin-left:0px; line-height:1.0; background-color:#ffffcc; white-space:nowrap; page-break-inside:auto; page-break-after:auto; border:none; tabstops:none;"><text styleclass="workflow" style="font-family:&apos;Courier New&apos;; font-size:10pt; font-weight:normal; font-style:normal; text-decoration:none; text-transform:none; vertical-align:baseline; color:#666666; background-color:transparent; letter-spacing:normal; letter-scaling:100%;" translate="true"> &#160; &#160; &#160; &#160;Object result = message.getUDFValues().get(&quot;udfid&quot;).getValue();</text></para>
+    <para styleclass="Normal" style="margin-top:16px; line-height:1.0; background-color:#ffffff; tabstops:none;"><text styleclass="Normal" style="font-family:Verdana; vertical-align:baseline; color:#666666;" translate="true">Если</text><text styleclass="apple-converted-space" style="font-family:Verdana; font-size:10pt; font-weight:normal; font-style:normal; text-decoration:none; text-transform:none; vertical-align:baseline; color:#666666; background-color:transparent; letter-spacing:normal; letter-scaling:100%;" translate="true">&#32;</text><text styleclass="Normal" style="font-family:Verdana; font-weight:bold; vertical-align:baseline; color:#666666;" translate="true">id поля нет</text><text styleclass="Normal" style="font-family:Verdana; vertical-align:baseline; color:#666666;" translate="true">, можно получить значение через список</text></para>
+    <para styleclass="Code Example_workflow" style="text-align:left; text-indent:0px; margin-top:16px; margin-right:0px; margin-bottom:0px; margin-left:0px; line-height:1.0; background-color:#ffffcc; white-space:nowrap; page-break-inside:auto; page-break-after:auto; border:none; tabstops:none;"><text styleclass="workflow" style="font-family:&apos;Courier New&apos;; font-size:10pt; font-weight:normal; font-style:normal; text-decoration:none; text-transform:none; vertical-align:baseline; color:#666666; background-color:transparent; letter-spacing:normal; letter-scaling:100%;" translate="true"> Object result; &#160; &#160;</text></para>
+    <para styleclass="Code Example_workflow" style="text-align:left; text-indent:0px; margin-top:0px; margin-right:0px; margin-bottom:0px; margin-left:0px; line-height:1.0; background-color:#ffffcc; white-space:nowrap; page-break-inside:auto; page-break-after:auto; border:none; tabstops:none;"><text styleclass="workflow" style="font-family:&apos;Courier New&apos;; font-size:10pt; font-weight:normal; font-style:normal; text-decoration:none; text-transform:none; vertical-align:baseline; color:#666666; background-color:transparent; letter-spacing:normal; letter-scaling:100%;" translate="true"> &#160; &#160; &#160; &#160; &#160; for(SecuredUDFValueBean valueBean:task.getUdfValuesList()) {</text></para>
+    <para styleclass="Code Example_workflow" style="text-align:left; text-indent:0px; margin-top:0px; margin-right:0px; margin-bottom:0px; margin-left:0px; line-height:1.0; background-color:#ffffcc; white-space:nowrap; page-break-inside:auto; page-break-after:auto; border:none; tabstops:none;"><text styleclass="workflow" style="font-family:&apos;Courier New&apos;; font-size:10pt; font-weight:normal; font-style:normal; text-decoration:none; text-transform:none; vertical-align:baseline; color:#666666; background-color:transparent; letter-spacing:normal; letter-scaling:100%;" translate="true"> &#160; &#160; &#160; &#160; &#160; &#160; &#160; if(valueBean.getCaption().equals(&quot;udf name&quot;))</text></para>
+    <para styleclass="Code Example_workflow" style="text-align:left; text-indent:0px; margin-top:0px; margin-right:0px; margin-bottom:0px; margin-left:0px; line-height:1.0; background-color:#ffffcc; white-space:nowrap; page-break-inside:auto; page-break-after:auto; border:none; tabstops:none;"><text styleclass="workflow" style="font-family:&apos;Courier New&apos;; font-size:10pt; font-weight:normal; font-style:normal; text-decoration:none; text-transform:none; vertical-align:baseline; color:#666666; background-color:transparent; letter-spacing:normal; letter-scaling:100%;" translate="true"> &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; result = valueBean.getValue();</text></para>
+    <para styleclass="Code Example_workflow" style="text-align:left; text-indent:0px; margin-top:0px; margin-right:0px; margin-bottom:0px; margin-left:0px; line-height:1.0; background-color:#ffffcc; white-space:nowrap; page-break-inside:auto; page-break-after:auto; border:none; tabstops:none;"><text styleclass="workflow" style="font-family:&apos;Courier New&apos;; font-size:10pt; font-weight:normal; font-style:normal; text-decoration:none; text-transform:none; vertical-align:baseline; color:#666666; background-color:transparent; letter-spacing:normal; letter-scaling:100%;" translate="true"> &#160; &#160; &#160; &#160; &#160; }</text></para>
+    <para styleclass="Code Example_workflow" style="text-align:left; text-indent:0px; margin-top:0px; margin-right:0px; margin-bottom:0px; margin-left:0px; line-height:1.0; background-color:#ffffcc; white-space:nowrap; page-break-inside:auto; page-break-after:auto; border:none; tabstops:none;"><text styleclass="workflow" style="font-family:&apos;Courier New&apos;; font-size:10pt; font-weight:normal; font-style:normal; text-decoration:none; text-transform:none; vertical-align:baseline; color:#666666; background-color:transparent; letter-spacing:normal; letter-scaling:100%;" translate="true"> Object result; &#160; &#160;</text></para>
+    <para styleclass="Code Example_workflow" style="text-align:left; text-indent:0px; margin-top:0px; margin-right:0px; margin-bottom:0px; margin-left:0px; line-height:1.0; background-color:#ffffcc; white-space:nowrap; page-break-inside:auto; page-break-after:auto; border:none; tabstops:none;"><text styleclass="workflow" style="font-family:&apos;Courier New&apos;; font-size:10pt; font-weight:normal; font-style:normal; text-decoration:none; text-transform:none; vertical-align:baseline; color:#666666; background-color:transparent; letter-spacing:normal; letter-scaling:100%;" translate="true"> &#160; &#160; &#160; &#160; &#160; for(SecuredUDFValueBean valueBean:message.getUdfValuesList()) {</text></para>
+    <para styleclass="Code Example_workflow" style="text-align:left; text-indent:0px; margin-top:0px; margin-right:0px; margin-bottom:0px; margin-left:0px; line-height:1.0; background-color:#ffffcc; white-space:nowrap; page-break-inside:auto; page-break-after:auto; border:none; tabstops:none;"><text styleclass="workflow" style="font-family:&apos;Courier New&apos;; font-size:10pt; font-weight:normal; font-style:normal; text-decoration:none; text-transform:none; vertical-align:baseline; color:#666666; background-color:transparent; letter-spacing:normal; letter-scaling:100%;" translate="true"> &#160; &#160; &#160; &#160; &#160; &#160; &#160; if(valueBean.getCaption().equals(&quot;udf name&quot;))</text></para>
+    <para styleclass="Code Example_workflow" style="text-align:left; text-indent:0px; margin-top:0px; margin-right:0px; margin-bottom:0px; margin-left:0px; line-height:1.0; background-color:#ffffcc; white-space:nowrap; page-break-inside:auto; page-break-after:auto; border:none; tabstops:none;"><text styleclass="workflow" style="font-family:&apos;Courier New&apos;; font-size:10pt; font-weight:normal; font-style:normal; text-decoration:none; text-transform:none; vertical-align:baseline; color:#666666; background-color:transparent; letter-spacing:normal; letter-scaling:100%;" translate="true"> &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; result = valueBean.getValue();</text></para>
+    <para styleclass="Code Example_workflow" style="text-align:left; text-indent:0px; margin-top:0px; margin-right:0px; margin-bottom:0px; margin-left:0px; line-height:1.0; background-color:#ffffcc; white-space:nowrap; page-break-inside:auto; page-break-after:auto; border:none; tabstops:none;"><text styleclass="workflow" style="font-family:&apos;Courier New&apos;; font-size:10pt; font-weight:normal; font-style:normal; text-decoration:none; text-transform:none; vertical-align:baseline; color:#666666; background-color:transparent; letter-spacing:normal; letter-scaling:100%;" translate="true"> &#160; &#160; &#160; &#160; &#160; }</text></para>
+    <para styleclass="Normal" style="margin-top:16px; line-height:1.0; background-color:#ffffff; tabstops:none;"><text styleclass="Normal" style="font-family:Verdana; vertical-align:baseline; color:#666666;" translate="true">Чтобы использовать такой результат в скрипте, его необходимо привести к нужному типу данных.</text></para>
+    <para styleclass="Normal" style="margin-top:16px; line-height:1.0; tabstops:none;"><table rowcount="11" colcount="3" style="width:960px; cell-padding:1px; cell-spacing:0px; page-break-inside:auto; border-width:0px; border-spacing:0px; border-collapse:collapse; cell-border-width:1px; border-color:#808080; border-style:solid; background-color:#ffffff; head-row-background-color:none; alt-row-background-color:none;">
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; background-color:#ffffff;">
+          <para><text styleclass="Normal" style="font-family:Verdana; font-weight:bold; vertical-align:baseline; color:#666666;" translate="true">Тип поля</text></para>
+        </td>
+        <td style="vertical-align:middle; background-color:#ffffff;">
+          <para><text styleclass="Normal" style="font-family:Verdana; font-weight:bold; vertical-align:baseline; color:#666666;" translate="true">Тип результата</text></para>
+        </td>
+        <td style="vertical-align:middle; background-color:#ffffff;">
+          <para><text styleclass="Normal" style="font-family:Verdana; font-weight:bold; vertical-align:baseline; color:#666666;" translate="true">Примечание</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; background-color:#ffffff;">
+          <para><text styleclass="Normal" style="font-family:Verdana; vertical-align:baseline; color:#666666;" translate="true">Строка</text></para>
+        </td>
+        <td style="vertical-align:middle; background-color:#ffffff;">
+          <para><text styleclass="Normal" style="font-family:Verdana; vertical-align:baseline; color:#666666;" translate="true">String</text></para>
+        </td>
+        <td style="vertical-align:middle; background-color:#ffffff;">
+          <para><text styleclass="Normal" style="font-family:Verdana; vertical-align:baseline; color:#666666;" translate="true">&#32;</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; background-color:#ffffff;">
+          <para><text styleclass="Normal" style="font-family:Verdana; vertical-align:baseline; color:#666666;" translate="true">Целое</text></para>
+        </td>
+        <td style="vertical-align:middle; background-color:#ffffff;">
+          <para><text styleclass="Normal" style="font-family:Verdana; vertical-align:baseline; color:#666666;" translate="true">Integer</text></para>
+        </td>
+        <td style="vertical-align:middle; background-color:#ffffff;">
+          <para><text styleclass="Normal" style="font-family:Verdana; vertical-align:baseline; color:#666666;" translate="true">&#32;</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; background-color:#ffffff;">
+          <para><text styleclass="Normal" style="font-family:Verdana; vertical-align:baseline; color:#666666;" translate="true">Дата</text></para>
+        </td>
+        <td style="vertical-align:middle; background-color:#ffffff;">
+          <para><text styleclass="Normal" style="font-family:Verdana; vertical-align:baseline; color:#666666;" translate="true">Calendar</text></para>
+        </td>
+        <td style="vertical-align:middle; background-color:#ffffff;">
+          <para><text styleclass="Normal" style="font-family:Verdana; vertical-align:baseline; color:#666666;" translate="true">&#32;</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; background-color:#ffffff;">
+          <para><text styleclass="Normal" style="font-family:Verdana; vertical-align:baseline; color:#666666;" translate="true">Список</text></para>
+        </td>
+        <td style="vertical-align:middle; background-color:#ffffff;">
+          <para><text styleclass="Normal" style="font-family:Verdana; vertical-align:baseline; color:#666666;" translate="true">com.trackstudio.tools.Pair</text></para>
+        </td>
+        <td style="vertical-align:middle; background-color:#ffffff;">
+          <para><text styleclass="Normal" style="font-family:Verdana; vertical-align:baseline; color:#666666;" translate="true">Содержится в trackstudio.jar. Конструктор Pair(String key, String value)</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; background-color:#ffffff;">
+          <para><text styleclass="Normal" style="font-family:Verdana; vertical-align:baseline; color:#666666;" translate="true">Дробное</text></para>
+        </td>
+        <td style="vertical-align:middle; background-color:#ffffff;">
+          <para><text styleclass="Normal" style="font-family:Verdana; vertical-align:baseline; color:#666666;" translate="true">Double</text></para>
+        </td>
+        <td style="vertical-align:middle; background-color:#ffffff;">
+          <para><text styleclass="Normal" style="font-family:Verdana; vertical-align:baseline; color:#666666;" translate="true">&#32;</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; background-color:#ffffff;">
+          <para><text styleclass="Normal" style="font-family:Verdana; vertical-align:baseline; color:#666666;" translate="true">Текст</text></para>
+        </td>
+        <td style="vertical-align:middle; background-color:#ffffff;">
+          <para><text styleclass="Normal" style="font-family:Verdana; vertical-align:baseline; color:#666666;" translate="true">String</text></para>
+        </td>
+        <td style="vertical-align:middle; background-color:#ffffff;">
+          <para><text styleclass="Normal" style="font-family:Verdana; vertical-align:baseline; color:#666666;" translate="true">&#32;</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; background-color:#ffffff;">
+          <para><text styleclass="Normal" style="font-family:Verdana; vertical-align:baseline; color:#666666;" translate="true">Множественный список</text></para>
+        </td>
+        <td style="vertical-align:middle; background-color:#ffffff;">
+          <para><text styleclass="Normal" style="font-family:Verdana; vertical-align:baseline; color:#666666;" translate="true">List&lt;Pair&gt;</text></para>
+        </td>
+        <td style="vertical-align:middle; background-color:#ffffff;">
+          <para><text styleclass="Normal" style="font-family:Verdana; vertical-align:baseline; color:#666666;" translate="true">&#32;</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; background-color:#ffffff;">
+          <para><text styleclass="Normal" style="font-family:Verdana; vertical-align:baseline; color:#666666;" translate="true">Задача</text></para>
+        </td>
+        <td style="vertical-align:middle; background-color:#ffffff;">
+          <para><text styleclass="Normal" style="font-family:Verdana; vertical-align:baseline; color:#666666;" translate="true">ArrayList&lt;SecuredTaskBean&gt;</text></para>
+        </td>
+        <td style="vertical-align:middle; background-color:#ffffff;">
+          <para><text styleclass="Normal" style="font-family:Verdana; vertical-align:baseline; color:#666666;" translate="true">&#32;</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; background-color:#ffffff;">
+          <para><text styleclass="Normal" style="font-family:Verdana; vertical-align:baseline; color:#666666;" translate="true">Пользователь</text></para>
+        </td>
+        <td style="vertical-align:middle; background-color:#ffffff;">
+          <para><text styleclass="Normal" style="font-family:Verdana; vertical-align:baseline; color:#666666;" translate="true">ArrayList&lt;SecuredUserBean&gt;</text></para>
+        </td>
+        <td style="vertical-align:middle; background-color:#ffffff;">
+          <para><text styleclass="Normal" style="font-family:Verdana; vertical-align:baseline; color:#666666;" translate="true">&#32;</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; background-color:#ffffff;">
+          <para><text styleclass="Normal" style="font-family:Verdana; vertical-align:baseline; color:#666666;" translate="true">URL</text></para>
+        </td>
+        <td style="vertical-align:middle; background-color:#ffffff;">
+          <para><text styleclass="Normal" style="font-family:Verdana; vertical-align:baseline; color:#666666;" translate="true">com.trackstudio.containers.Link</text></para>
+        </td>
+        <td style="vertical-align:middle; background-color:#ffffff;">
+          <para><text styleclass="Normal" style="font-family:Verdana; vertical-align:baseline; color:#666666;" translate="true">Содержится в trackstudio.jar. Конструктор Link(String link, String description)</text></para>
+        </td>
+      </tr>
+    </table></para>
+    <para styleclass="Normal" style="margin-top:16px; line-height:1.0; background-color:#ffffff; tabstops:none;"><text styleclass="Normal" style="font-family:Verdana; vertical-align:baseline; color:#666666;" translate="true">Ниже приведен пример скрипта, который возвращает список имен задач, которые являются значениями поля типа задача.</text></para>
+    <para styleclass="Code Example_workflow" style="text-align:left; text-indent:0px; margin-top:16px; margin-right:0px; margin-bottom:0px; margin-left:0px; line-height:1.0; background-color:#ffffcc; white-space:nowrap; page-break-inside:auto; page-break-after:auto; border:none; tabstops:none;"><text styleclass="workflow" style="font-family:&apos;Courier New&apos;; font-size:10pt; font-weight:normal; font-style:normal; text-decoration:none; text-transform:none; vertical-align:baseline; color:#666666; background-color:transparent; letter-spacing:normal; letter-scaling:100%;" translate="true">package scripts.task_custom_field_value;</text></para>
+    <para styleclass="Code Example_workflow" style="text-align:left; text-indent:0px; margin-top:0px; margin-right:0px; margin-bottom:0px; margin-left:0px; line-height:1.0; background-color:#ffffcc; white-space:nowrap; page-break-inside:auto; page-break-after:auto; border:none; tabstops:none;"><text styleclass="workflow" style="font-family:&apos;Courier New&apos;; font-size:10pt; font-weight:normal; font-style:normal; text-decoration:none; text-transform:none; vertical-align:baseline; color:#666666; background-color:transparent; letter-spacing:normal; letter-scaling:100%;" translate="true">import com.trackstudio.exception.GranException;</text></para>
+    <para styleclass="Code Example_workflow" style="text-align:left; text-indent:0px; margin-top:0px; margin-right:0px; margin-bottom:0px; margin-left:0px; line-height:1.0; background-color:#ffffcc; white-space:nowrap; page-break-inside:auto; page-break-after:auto; border:none; tabstops:none;"><text styleclass="workflow" style="font-family:&apos;Courier New&apos;; font-size:10pt; font-weight:normal; font-style:normal; text-decoration:none; text-transform:none; vertical-align:baseline; color:#666666; background-color:transparent; letter-spacing:normal; letter-scaling:100%;" translate="true">import com.trackstudio.external.TaskUDFValueScript;</text></para>
+    <para styleclass="Code Example_workflow" style="text-align:left; text-indent:0px; margin-top:0px; margin-right:0px; margin-bottom:0px; margin-left:0px; line-height:1.0; background-color:#ffffcc; white-space:nowrap; page-break-inside:auto; page-break-after:auto; border:none; tabstops:none;"><text styleclass="workflow" style="font-family:&apos;Courier New&apos;; font-size:10pt; font-weight:normal; font-style:normal; text-decoration:none; text-transform:none; vertical-align:baseline; color:#666666; background-color:transparent; letter-spacing:normal; letter-scaling:100%;" translate="true">import com.trackstudio.secured.SecuredTaskBean;</text></para>
+    <para styleclass="Code Example_workflow" style="text-align:left; text-indent:0px; margin-top:0px; margin-right:0px; margin-bottom:0px; margin-left:0px; line-height:1.0; background-color:#ffffcc; white-space:nowrap; page-break-inside:auto; page-break-after:auto; border:none; tabstops:none;"><text styleclass="workflow" style="font-family:&apos;Courier New&apos;; font-size:10pt; font-weight:normal; font-style:normal; text-decoration:none; text-transform:none; vertical-align:baseline; color:#666666; background-color:transparent; letter-spacing:normal; letter-scaling:100%;" translate="true">import com.trackstudio.secured.SecuredUDFValueBean;</text></para>
+    <para styleclass="Code Example_workflow" style="text-align:left; text-indent:0px; margin-top:0px; margin-right:0px; margin-bottom:0px; margin-left:0px; line-height:1.0; background-color:#ffffcc; white-space:nowrap; page-break-inside:auto; page-break-after:auto; border:none; tabstops:none;"><text styleclass="workflow" style="font-family:&apos;Courier New&apos;; font-size:10pt; font-weight:normal; font-style:normal; text-decoration:none; text-transform:none; vertical-align:baseline; color:#666666; background-color:transparent; letter-spacing:normal; letter-scaling:100%;" translate="true">import java.util.ArrayList;</text></para>
+    <para styleclass="Code Example_workflow" style="text-align:left; text-indent:0px; margin-top:0px; margin-right:0px; margin-bottom:0px; margin-left:0px; line-height:1.0; background-color:#ffffcc; white-space:nowrap; page-break-inside:auto; page-break-after:auto; border:none; tabstops:none;"><text styleclass="workflow" style="font-family:&apos;Courier New&apos;; font-size:10pt; font-weight:normal; font-style:normal; text-decoration:none; text-transform:none; vertical-align:baseline; color:#666666; background-color:transparent; letter-spacing:normal; letter-scaling:100%;" translate="true">class Example implements TaskUDFValueScript {</text></para>
+    <para styleclass="Code Example_workflow" style="text-align:left; text-indent:0px; margin-top:0px; margin-right:0px; margin-bottom:0px; margin-left:0px; line-height:1.0; background-color:#ffffcc; white-space:nowrap; page-break-inside:auto; page-break-after:auto; border:none; tabstops:none;"><text styleclass="workflow" style="font-family:&apos;Courier New&apos;; font-size:10pt; font-weight:normal; font-style:normal; text-decoration:none; text-transform:none; vertical-align:baseline; color:#666666; background-color:transparent; letter-spacing:normal; letter-scaling:100%;" translate="true"> &#160; </text></para>
+    <para styleclass="Code Example_workflow" style="text-align:left; text-indent:0px; margin-top:0px; margin-right:0px; margin-bottom:0px; margin-left:0px; line-height:1.0; background-color:#ffffcc; white-space:nowrap; page-break-inside:auto; page-break-after:auto; border:none; tabstops:none;"><text styleclass="workflow" style="font-family:&apos;Courier New&apos;; font-size:10pt; font-weight:normal; font-style:normal; text-decoration:none; text-transform:none; vertical-align:baseline; color:#666666; background-color:transparent; letter-spacing:normal; letter-scaling:100%;" translate="true"> &#160; &#160;public Object calculate(SecuredTaskBean task) throws GranException {</text></para>
+    <para styleclass="Code Example_workflow" style="text-align:left; text-indent:0px; margin-top:0px; margin-right:0px; margin-bottom:0px; margin-left:0px; line-height:1.0; background-color:#ffffcc; white-space:nowrap; page-break-inside:auto; page-break-after:auto; border:none; tabstops:none;"><text styleclass="workflow" style="font-family:&apos;Courier New&apos;; font-size:10pt; font-weight:normal; font-style:normal; text-decoration:none; text-transform:none; vertical-align:baseline; color:#666666; background-color:transparent; letter-spacing:normal; letter-scaling:100%;" translate="true"> &#160; &#160; &#160; &#160;String udfid = &quot;4028808a1947f52201194818b51900ad&quot;; &#160;/*ID поля, из которого нужно получить значение*/</text></para>
+    <para styleclass="Code Example_workflow" style="text-align:left; text-indent:0px; margin-top:0px; margin-right:0px; margin-bottom:0px; margin-left:0px; line-height:1.0; background-color:#ffffcc; white-space:nowrap; page-break-inside:auto; page-break-after:auto; border:none; tabstops:none;"><text styleclass="workflow" style="font-family:&apos;Courier New&apos;; font-size:10pt; font-weight:normal; font-style:normal; text-decoration:none; text-transform:none; vertical-align:baseline; color:#666666; background-color:transparent; letter-spacing:normal; letter-scaling:100%;" translate="true"> &#160; &#160; &#160; &#160;ArrayList&lt;String&gt; names = new ArrayList&lt;String&gt;();</text></para>
+    <para styleclass="Code Example_workflow" style="text-align:left; text-indent:0px; margin-top:0px; margin-right:0px; margin-bottom:0px; margin-left:0px; line-height:1.0; background-color:#ffffcc; white-space:nowrap; page-break-inside:auto; page-break-after:auto; border:none; tabstops:none;"><text styleclass="workflow" style="font-family:&apos;Courier New&apos;; font-size:10pt; font-weight:normal; font-style:normal; text-decoration:none; text-transform:none; vertical-align:baseline; color:#666666; background-color:transparent; letter-spacing:normal; letter-scaling:100%;" translate="true"> &#160; &#160; &#160; &#160;SecuredUDFValueBean result = task.getUDFValues().get(udfid);</text></para>
+    <para styleclass="Code Example_workflow" style="text-align:left; text-indent:0px; margin-top:0px; margin-right:0px; margin-bottom:0px; margin-left:0px; line-height:1.0; background-color:#ffffcc; white-space:nowrap; page-break-inside:auto; page-break-after:auto; border:none; tabstops:none;"><text styleclass="workflow" style="font-family:&apos;Courier New&apos;; font-size:10pt; font-weight:normal; font-style:normal; text-decoration:none; text-transform:none; vertical-align:baseline; color:#666666; background-color:transparent; letter-spacing:normal; letter-scaling:100%;" translate="true"> &#160; &#160; &#160; &#160;if(result!= null) {</text></para>
+    <para styleclass="Code Example_workflow" style="text-align:left; text-indent:0px; margin-top:0px; margin-right:0px; margin-bottom:0px; margin-left:0px; line-height:1.0; background-color:#ffffcc; white-space:nowrap; page-break-inside:auto; page-break-after:auto; border:none; tabstops:none;"><text styleclass="workflow" style="font-family:&apos;Courier New&apos;; font-size:10pt; font-weight:normal; font-style:normal; text-decoration:none; text-transform:none; vertical-align:baseline; color:#666666; background-color:transparent; letter-spacing:normal; letter-scaling:100%;" translate="true"> &#160; &#160; &#160; &#160; &#160; &#160;for(SecuredTaskBean securedTaskBean:(ArrayList&lt;SecuredTaskBean&gt;)result.getValue()) &#160;{</text></para>
+    <para styleclass="Code Example_workflow" style="text-align:left; text-indent:0px; margin-top:0px; margin-right:0px; margin-bottom:0px; margin-left:0px; line-height:1.0; background-color:#ffffcc; white-space:nowrap; page-break-inside:auto; page-break-after:auto; border:none; tabstops:none;"><text styleclass="workflow" style="font-family:&apos;Courier New&apos;; font-size:10pt; font-weight:normal; font-style:normal; text-decoration:none; text-transform:none; vertical-align:baseline; color:#666666; background-color:transparent; letter-spacing:normal; letter-scaling:100%;" translate="true"> &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160;names.add(securedTaskBean.getName());</text></para>
+    <para styleclass="Code Example_workflow" style="text-align:left; text-indent:0px; margin-top:0px; margin-right:0px; margin-bottom:0px; margin-left:0px; line-height:1.0; background-color:#ffffcc; white-space:nowrap; page-break-inside:auto; page-break-after:auto; border:none; tabstops:none;"><text styleclass="workflow" style="font-family:&apos;Courier New&apos;; font-size:10pt; font-weight:normal; font-style:normal; text-decoration:none; text-transform:none; vertical-align:baseline; color:#666666; background-color:transparent; letter-spacing:normal; letter-scaling:100%;" translate="true"> &#160; &#160; &#160; &#160; &#160; &#160;}</text></para>
+    <para styleclass="Code Example_workflow" style="text-align:left; text-indent:0px; margin-top:0px; margin-right:0px; margin-bottom:0px; margin-left:0px; line-height:1.0; background-color:#ffffcc; white-space:nowrap; page-break-inside:auto; page-break-after:auto; border:none; tabstops:none;"><text styleclass="workflow" style="font-family:&apos;Courier New&apos;; font-size:10pt; font-weight:normal; font-style:normal; text-decoration:none; text-transform:none; vertical-align:baseline; color:#666666; background-color:transparent; letter-spacing:normal; letter-scaling:100%;" translate="true"> &#160; &#160; &#160; &#160;} &#160; &#160;return names;</text></para>
+    <para styleclass="Code Example_workflow" style="text-align:left; text-indent:0px; margin-top:0px; margin-right:0px; margin-bottom:0px; margin-left:0px; line-height:1.0; background-color:#ffffcc; white-space:nowrap; page-break-inside:auto; page-break-after:auto; border:none; tabstops:none;"><text styleclass="workflow" style="font-family:&apos;Courier New&apos;; font-size:10pt; font-weight:normal; font-style:normal; text-decoration:none; text-transform:none; vertical-align:baseline; color:#666666; background-color:transparent; letter-spacing:normal; letter-scaling:100%;" translate="true"> &#160; &#160;}</text></para>
+    <para styleclass="Code Example_workflow" style="text-align:left; text-indent:0px; margin-top:0px; margin-right:0px; margin-bottom:0px; margin-left:0px; line-height:1.0; background-color:#ffffcc; white-space:nowrap; page-break-inside:auto; page-break-after:auto; border:none; tabstops:none;"><text styleclass="workflow" style="font-family:&apos;Courier New&apos;; font-size:10pt; font-weight:normal; font-style:normal; text-decoration:none; text-transform:none; vertical-align:baseline; color:#666666; background-color:transparent; letter-spacing:normal; letter-scaling:100%;" translate="true">}</text></para>
+  </body>
+</topic>

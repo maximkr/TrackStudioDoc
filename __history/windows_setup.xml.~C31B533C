@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../helpproject.xsl" ?>
+<topic template="Default" lasteditedby="xp" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd">
+  <title translate="true">Установка под Windows</title>
+  <body>
+    <header>
+      <para styleclass="Heading1"><text styleclass="Heading1" translate="true">Установка под Windows</text></para>
+    </header>
+    <para styleclass="Normal" style="margin-top:16px; line-height:1.00; background-color:#ffffff; tabstops:none;"><text styleclass="Normal" style="font-family:Verdana; vertical-align:baseline; color:#666666;" translate="true">Мы настоятельно рекомендуем скачивать и устанавливать TrackStudio Enterprise Standalone, используйте WAR версию только в исключительных случаях, т.к. она значительно сложнее в установке и использовании и не имеет особых преимуществ.</text></para>
+    <para styleclass="Normal" style="margin-top:16px; line-height:1.00; background-color:#ffffff; tabstops:none;"><text styleclass="Normal" style="font-family:Verdana; vertical-align:baseline; color:#666666;" translate="true">Вариант Standalone поставляется с утилитой для конфигурирования и запуска TrackStudio Server Manager. В комплект также входит сервер приложений jetty, почтовый сервер jes и СУБД Hypersonic SQL. Данный вариант работает фактически &quot;из коробки&quot;, то есть вы можете после установки сразу же запустить TrackStudio без настройки, чтобы ознакомиться с системой.</text></para>
+    <para styleclass="Normal" style="line-height:1.00; background-color:#ffffff; tabstops:none;"><text styleclass="Normal" style="font-family:Verdana; vertical-align:baseline; color:#666666;" translate="true">Также Server Manager понадобится вам для экспорта и импорта данных из базы.</text></para>
+    <para styleclass="Normal" style="margin-top:16px; margin-bottom:16px; line-height:1.00; background-color:#ffffff; tabstops:none;"><text styleclass="Normal" style="font-family:Verdana; vertical-align:baseline; color:#666666;" translate="true">Вариант WAR предназначен для запуска под имеющимся у вас сервером приложений (обычно это Tomcat). Он содержит нескомпилированные JSP, которые Tomcat собирает сам. Этот вариант настраивается путем редактирования файлов properties. Вы также можете перенести предварительно настроенные в Server Manager файлы properties с другой машины.</text></para>
+    <list id="1" type="ul" listtype="bullet" formatstring="&#183;" format-charset="SYMBOL_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="Normal" style="font-family:Symbol; font-size:12pt; color:#000000;">
+      <li styleclass="Normal"><link displaytype="text" defaultstyle="true" type="topiclink" href="windows_setup_sa" styleclass="Normal" style="font-size:12pt;" translate="true">Установка TrackStudio Standalone под Windows</link></li>
+      <li styleclass="Normal"><link displaytype="text" defaultstyle="true" type="topiclink" href="windows_setup_war" styleclass="Normal" style="font-size:12pt;" translate="true">Установка WAR-версии TrackStudio под Windows</link></li>
+      <li styleclass="Normal"><link displaytype="text" defaultstyle="true" type="topiclink" href="starting_windows_service" styleclass="Normal" style="font-size:12pt;" translate="true">Запуск TrackStudio как сервиса Windows</link></li>
+    </list>
+    <para styleclass="Normal" style="page-break-before:always;"></para>
+  </body>
+</topic>

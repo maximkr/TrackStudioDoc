@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../helpproject.xsl" ?>
+<topic template="Default" lasteditedby="Dmitry" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd">
+  <title translate="true">Руководство по установке</title>
+  <body>
+    <header>
+      <para styleclass="Heading1"><text styleclass="Heading1" translate="true">Руководство по установке</text></para>
+    </header>
+    <para><link displaytype="text" defaultstyle="true" type="topiclink" href="-TrackStudio" styleclass="Normal" translate="true">Обновление TrackStudio</link></para>
+    <para styleclass="Normal"><link displaytype="text" defaultstyle="true" type="topiclink" href="---5_0_x" styleclass="Normal" translate="true">Обновление минорных версий (5.0.x)</link></para>
+    <para styleclass="Normal"><link displaytype="text" defaultstyle="true" type="topiclink" href="-c--4_0_x--5_0_x" styleclass="Normal" translate="true">Обновление c версии 4.0.x до 5.0.x</link></para>
+    <para styleclass="Normal"><link displaytype="text" defaultstyle="true" type="topiclink" href="---4_0_x" styleclass="Normal" translate="true">Обновление минорных версий (4.0.x)</link></para>
+    <para styleclass="Normal"><link displaytype="text" defaultstyle="true" type="topiclink" href="-c--3_5_x--4_0_x" styleclass="Normal" translate="true">Обновление c версии 3.5.x до 4.0.x</link></para>
+    <para styleclass="Normal"><link displaytype="text" defaultstyle="true" type="topiclink" href="--Windows" styleclass="Normal" translate="true">Установка под Windows</link></para>
+    <para styleclass="Normal"><link displaytype="text" defaultstyle="true" type="topiclink" href="-TrackStudio-Standalone--Windo" styleclass="Normal" translate="true">Установка TrackStudio Standalone под Windows</link></para>
+    <para styleclass="Normal"><link displaytype="text" defaultstyle="true" type="topiclink" href="-WAR--TrackStudio--Windows" styleclass="Normal" translate="true">Установка WAR-версии TrackStudio под Windows</link></para>
+    <para styleclass="Normal"><link displaytype="text" defaultstyle="true" type="topiclink" href="-TrackStudio---Windows" styleclass="Normal" translate="true">Запуск TrackStudio как сервиса Windows</link></para>
+    <para styleclass="Normal"><link displaytype="text" defaultstyle="true" type="topiclink" href="--Linux" styleclass="Normal" translate="true">Установка под Linux</link></para>
+    <para styleclass="Normal"><link displaytype="text" defaultstyle="true" type="topiclink" href="-X-Window" styleclass="Normal" translate="true">Настройка X Window</link></para>
+    <para styleclass="Normal"><link displaytype="text" defaultstyle="true" type="topiclink" href="-TrackStudio-Standalone" styleclass="Normal" translate="true">Установка TrackStudio Standalone</link></para>
+    <para styleclass="Normal"><link displaytype="text" defaultstyle="true" type="topiclink" href="-TrackStudio-Standalone--" styleclass="Normal" translate="true">Установка TrackStudio Standalone из консоли</link></para>
+    <para styleclass="Normal"><link displaytype="text" defaultstyle="true" type="topiclink" href="-TrackStudio-WAR" styleclass="Normal" translate="true">Установка TrackStudio WAR</link></para>
+    <para styleclass="Normal"><link displaytype="text" defaultstyle="true" type="topiclink" href="----" styleclass="Normal" translate="true">Создание и настройка базы данных</link></para>
+    <para styleclass="Normal"><link displaytype="text" defaultstyle="true" type="topiclink" href="------PostgreSQL" styleclass="Normal" translate="true">Создание и инициализация базы данных под PostgreSQL</link></para>
+    <para styleclass="Normal"><link displaytype="text" defaultstyle="true" type="topiclink" href="------HSQL" styleclass="Normal" translate="true">Создание и инициализация базы данных под HSQL</link></para>
+    <para styleclass="Normal"><link displaytype="text" defaultstyle="true" type="topiclink" href="------ORACLE" styleclass="Normal" translate="true">Создание и инициализация базы данных под ORACLE</link></para>
+    <para styleclass="Normal"><link displaytype="text" defaultstyle="true" type="topiclink" href="------MS-SQL-Server" styleclass="Normal" translate="true">Создание и инициализация базы данных под MS SQL Server</link></para>
+    <para styleclass="Normal"><link displaytype="text" defaultstyle="true" type="topiclink" href="------MySQL" styleclass="Normal" translate="true">Создание и инициализация базы данных под MySQL</link></para>
+    <para styleclass="Normal"><link displaytype="text" defaultstyle="true" type="topiclink" href="------DB2" styleclass="Normal" translate="true">Создание и инициализация базы данных под DB2</link></para>
+    <para styleclass="Normal"><link displaytype="text" defaultstyle="true" type="topiclink" href="------Firebird" styleclass="Normal" translate="true">Создание и инициализация базы данных под Firebird</link></para>
+    <para styleclass="Normal"><link displaytype="text" defaultstyle="true" type="topiclink" href="----_----" styleclass="Normal" translate="true">Использование консольной утилиты для экспорта, импорта и инициализации данных</link></para>
+    <para styleclass="Normal"><link displaytype="text" defaultstyle="true" type="topiclink" href="----2" styleclass="Normal" translate="true">Резервное копирование и восстановление данных</link></para>
+    <para styleclass="Normal"><link displaytype="text" defaultstyle="true" type="topiclink" href="----_-" styleclass="Normal" translate="true">Экспорт и импорт базы данных. Миграция</link></para>
+  </body>
+</topic>

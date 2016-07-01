@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../helpproject.xsl" ?>
+<topic template="Default" lasteditedby="xp" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd">
+  <title translate="true">Примеры конфигураций для TrackStudio 4.0</title>
+  <body>
+    <header>
+      <para styleclass="Heading1"><text styleclass="Heading1" translate="true">Примеры конфигураций для TrackStudio 4.0</text></para>
+    </header>
+    <para styleclass="Normal"><link displaytype="text" defaultstyle="true" type="topiclink" href="configuration_scrum" styleclass="Normal" translate="true">БД TrackStudio для управления проектами по SCRUM</link></para>
+    <para styleclass="Normal"><link displaytype="text" defaultstyle="true" type="weblink" href="http://download.trackstudio.com/doc/ru/40/Asset7.zip" target="_blank" styleclass="Normal" translate="true">БД TrackStudio для управления имуществом. Документация.</link></para>
+    <para styleclass="Normal"><link displaytype="text" defaultstyle="true" type="topiclink" href="configuration_itil" styleclass="Normal" translate="true">Конфигурация TrackStudio для IT Service Management / Helpdesk. Документация.</link></para>
+    <para styleclass="Normal"><link displaytype="text" defaultstyle="true" type="weblink" href="http://download.trackstudio.com/doc/ru/40/telecom.zip" target="_blank" styleclass="Normal" translate="true">БД TrackStudio для провайдера, реализован процесс подключения клиента</link></para>
+  </body>
+</topic>

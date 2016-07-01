@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../helpproject.xsl" ?>
+<topic template="Default" lasteditedby="xp" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd">
+  <title translate="true">Вычисляем дату и время начала работ по задаче</title>
+  <body>
+    <header>
+      <para styleclass="Heading1"><text styleclass="Heading1" translate="true">Вычисляем дату и время начала работ по задаче</text></para>
+    </header>
+    <para styleclass="Code"><text styleclass="Code" translate="true">package scripts.task_custom_field_value;</text></para>
+    <para styleclass="Code"></para>
+    <para styleclass="Code"><text styleclass="Code" translate="true">import com.trackstudio.exception.GranException;</text></para>
+    <para styleclass="Code"><text styleclass="Code" translate="true">import com.trackstudio.external.TaskUDFValueScript;</text></para>
+    <para styleclass="Code"><text styleclass="Code" translate="true">import com.trackstudio.secured.SecuredMessageBean;</text></para>
+    <para styleclass="Code"><text styleclass="Code" translate="true">import com.trackstudio.secured.SecuredTaskBean;</text></para>
+    <para styleclass="Code"><text styleclass="Code" translate="true">import java.util.ArrayList;</text></para>
+    <para styleclass="Code"></para>
+    <para styleclass="Code"><text styleclass="Code" translate="true">/**</text></para>
+    <para styleclass="Code"><text styleclass="Code" translate="true"> * Возвращает дату и время начала работ по задаче - время отправки первого сообщения типа &quot;start&quot;</text></para>
+    <para styleclass="Code"><text styleclass="Code" translate="true"> */</text></para>
+    <para styleclass="Code"><text styleclass="Code" translate="true">public class ActualStartDate implements TaskUDFValueScript {</text></para>
+    <para styleclass="Code"></para>
+    <para styleclass="Code"><text styleclass="Code" translate="true"> &#160; &#160;public Object calculate(SecuredTaskBean task) throws GranException {</text></para>
+    <para styleclass="Code"><text styleclass="Code" translate="true"> &#160; &#160; &#160; &#160;ArrayList&lt;SecuredMessageBean&gt; list = task.getMessages();</text></para>
+    <para styleclass="Code"><text styleclass="Code" translate="true"> &#160; &#160; &#160; &#160;if (list != null &amp;&amp; !list.isEmpty()) {</text></para>
+    <para styleclass="Code"><text styleclass="Code" translate="true"> &#160; &#160; &#160; &#160; &#160; &#160;for (SecuredMessageBean message : list) {</text></para>
+    <para styleclass="Code"><text styleclass="Code" translate="true"> &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160;if (message.getMstatus().getName().equals(&quot;start&quot;)) {</text></para>
+    <para styleclass="Code"><text styleclass="Code" translate="true"> &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160;return message.getTime();</text></para>
+    <para styleclass="Code"><text styleclass="Code" translate="true"> &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160;}</text></para>
+    <para styleclass="Code"><text styleclass="Code" translate="true"> &#160; &#160; &#160; &#160; &#160; &#160;}</text></para>
+    <para styleclass="Code"><text styleclass="Code" translate="true"> &#160; &#160; &#160; &#160;}</text></para>
+    <para styleclass="Code"><text styleclass="Code" translate="true"> &#160; &#160; &#160; &#160;return null;</text></para>
+    <para styleclass="Code"><text styleclass="Code" translate="true"> &#160; &#160;}</text></para>
+    <para styleclass="Code"><text styleclass="Code" translate="true">}</text></para>
+    <para styleclass="Code" style="page-break-before:always;"></para>
+  </body>
+</topic>
