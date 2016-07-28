@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../helpproject.xsl" ?>
+<topic template="Default" lasteditedby="xp" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd">
+  <title translate="true">Developer&apos;s Guide</title>
+  <body>
+    <header>
+      <para styleclass="Heading1"><text styleclass="Heading1" translate="true">Developer&apos;s Guide</text></para>
+    </header>
+    <para styleclass="Normal"><link displaytype="text" defaultstyle="true" type="topiclink" href="How-to-build-project-from-mave" styleclass="Normal" translate="true">How to build project from maven template</link></para>
+    <para styleclass="Normal"><link displaytype="text" defaultstyle="true" type="topiclink" href="How-to-write-and-debug-scripts" styleclass="Normal" translate="true">How to write and debug scripts in IntelliJ IDEA</link></para>
+    <para styleclass="Normal"><link displaytype="text" defaultstyle="true" type="topiclink" href="How-to-use-SOAP-integration-in" styleclass="Normal" translate="true">How to use SOAP integration in TrackStudio</link></para>
+    <para styleclass="Normal"><link displaytype="text" defaultstyle="true" type="topiclink" href="Compiling-TrackStudio-from-sou" styleclass="Normal" translate="true">Compiling TrackStudio from source code</link></para>
+    <para styleclass="Normal"><link displaytype="text" defaultstyle="true" type="topiclink" href="How-to-Make-Dynamic-List-of-Po" styleclass="Normal" translate="true">How to Make Dynamic List of Possible Values of Custom Field</link></para>
+    <para styleclass="Normal"><link displaytype="text" defaultstyle="true" type="topiclink" href="How-to-Make-the-Value-of-Custo" styleclass="Normal" translate="true">How to Make the Value of Custom Field Computable</link></para>
+    <para styleclass="Normal"><link displaytype="text" defaultstyle="true" type="topiclink" href="Date-(Calendar)" styleclass="Normal" translate="true">Date (Calendar)</link></para>
+    <para styleclass="Normal"><link displaytype="text" defaultstyle="true" type="topiclink" href="Integer" styleclass="Normal" translate="true">Integer</link></para>
+    <para styleclass="Normal"><link displaytype="text" defaultstyle="true" type="topiclink" href="Number-of-days-since-task-upda" styleclass="Normal" translate="true">Number of days since task update</link></para>
+    <para styleclass="Normal"><link displaytype="text" defaultstyle="true" type="topiclink" href="How-to-Perform-Automatic-Task-" styleclass="Normal" translate="true">How to Perform Automatic Task Escalation</link></para>
+    <para styleclass="Normal"><link displaytype="text" defaultstyle="true" type="topiclink" href="How-to-Save-the-History-of-Cha" styleclass="Normal" translate="true">How to Save the History of Changes in Task Parameters</link></para>
+    <para styleclass="Normal"><link displaytype="text" defaultstyle="true" type="topiclink" href="How-to-check-data-before-savin" styleclass="Normal" translate="true">How to check data before saving the task (Before Task Edit Trigger)</link></para>
+    <para styleclass="Normal"><link displaytype="text" defaultstyle="true" type="topiclink" href="How-to-copy-access-control-rul" styleclass="Normal" translate="true">How to copy access control rules into other project using single button</link></para>
+    <para styleclass="Normal"><link displaytype="text" defaultstyle="true" type="topiclink" href="How-to-import-emails-from-user" styleclass="Normal" translate="true">How to import emails from users to tasks</link></para>
+    <para styleclass="Normal"><link displaytype="text" defaultstyle="true" type="topiclink" href="How-to-perform-actions-on-mult" styleclass="Normal" translate="true">How to perform actions on multiple tasks</link></para>
+    <para styleclass="Normal"><link displaytype="text" defaultstyle="true" type="topiclink" href="How-to-use-REST-API" styleclass="Normal" translate="true">How to use REST API</link></para>
+    <para styleclass="Normal"><link displaytype="text" defaultstyle="true" type="topiclink" href="List-of-Similar-Tasks" styleclass="Normal" translate="true">List of Similar Tasks</link></para>
+  </body>
+</topic>

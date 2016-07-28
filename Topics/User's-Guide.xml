@@ -6,22 +6,22 @@
     <header>
       <para styleclass="Heading1"><text styleclass="Heading1" translate="true">User&apos;s Guide</text></para>
     </header>
-    <para styleclass="Normal"><link displaytype="text" defaultstyle="true" type="topiclink" href="Project-Overview" styleclass="Normal" translate="true">Project Overview</link></para>
-    <para styleclass="Normal"><link displaytype="text" defaultstyle="true" type="topiclink" href="Basic-Definitions-in-TrackStud" styleclass="Normal" translate="true">Basic Definitions in TrackStudio</link></para>
-    <para styleclass="Normal"><link displaytype="text" defaultstyle="true" type="topiclink" href="Administrator&apos;s-Manual" styleclass="Normal" translate="true">Administrator&apos;s Manual</link></para>
-    <para styleclass="Normal"><link displaytype="text" defaultstyle="true" type="topiclink" href="How-to-Allow-Independent-Regis" styleclass="Normal" translate="true">How to Allow Independent Registration of Users</link></para>
-    <para styleclass="Normal"><link displaytype="text" defaultstyle="true" type="topiclink" href="How-to-Create-New-Category" styleclass="Normal" translate="true">How to Create New Category</link></para>
-    <para styleclass="Normal"><link displaytype="text" defaultstyle="true" type="topiclink" href="How-to-Divide-Users-into-Group" styleclass="Normal" translate="true">How to Divide Users into Groups</link></para>
-    <para styleclass="Normal"><link displaytype="text" defaultstyle="true" type="topiclink" href="How-to-change-the-States-List-" styleclass="Normal" translate="true">How to change the States List in a Task</link></para>
-    <para styleclass="Normal"><link displaytype="text" defaultstyle="true" type="topiclink" href="How-to-Filter-the-Tasks" styleclass="Normal" translate="true">How to Filter the Tasks</link></para>
-    <para styleclass="Normal"><link displaytype="text" defaultstyle="true" type="topiclink" href="User-Manual" styleclass="Normal" translate="true">User Manual</link></para>
-    <para styleclass="Normal"><link displaytype="text" defaultstyle="true" type="topiclink" href="How-to-Create-New-User" styleclass="Normal" translate="true">How to Create New User</link></para>
-    <para styleclass="Normal"><link displaytype="text" defaultstyle="true" type="topiclink" href="How-to-Filter-the-Tasks-List" styleclass="Normal" translate="true">How to Filter the Tasks List</link></para>
-    <para styleclass="Normal"><link displaytype="text" defaultstyle="true" type="topiclink" href="How-to-Create-Project-or-Versi" styleclass="Normal" translate="true">How to Create Project or Version</link></para>
-    <para styleclass="Normal"><link displaytype="text" defaultstyle="true" type="topiclink" href="How-to-Create-List-of-Requirem" styleclass="Normal" translate="true">How to Create List of Requirements/ Bugs (Errors)/ Test Documentation/ Completions</link></para>
-    <para styleclass="Normal"><link displaytype="text" defaultstyle="true" type="topiclink" href="How-to-Create-Requirement" styleclass="Normal" translate="true">How to Create Requirement</link></para>
-    <para styleclass="Normal"><link displaytype="text" defaultstyle="true" type="topiclink" href="How-to-Change-the-State-of-Tas" styleclass="Normal" translate="true">How to Change the State of Task, Assignee, and Deadlines etc</link></para>
-    <para styleclass="Normal"><link displaytype="text" defaultstyle="true" type="topiclink" href="How-to-indicate-for-testing-wh" styleclass="Normal" translate="true">How to indicate for testing which Requirement the Test Case is meant</link></para>
-    <para styleclass="Normal"><link displaytype="text" defaultstyle="true" type="topiclink" href="How-to-indicate-which-Test-Cas" styleclass="Normal" translate="true">How to indicate which Test Case is to be used for Testing the Requirement</link></para>
+    <para styleclass="Normal"><link displaytype="text" defaultstyle="true" type="topiclink" href="Project-Overview" styleclass="Normal" style="font-size:12pt;" translate="true">Project Overview</link></para>
+    <para styleclass="Normal"><link displaytype="text" defaultstyle="true" type="topiclink" href="Basic-Definitions-in-TrackStud" styleclass="Normal" style="font-size:12pt;" translate="true">Basic Definitions in TrackStudio</link></para>
+    <para styleclass="Normal"><link displaytype="text" defaultstyle="true" type="topiclink" href="Administrator&apos;s-Manual" styleclass="Normal" style="font-size:12pt;" translate="true">Administrator&apos;s Manual</link></para>
+    <para styleclass="Normal"><link displaytype="text" defaultstyle="true" type="topiclink" href="How-to-Allow-Independent-Regis" styleclass="Normal" style="font-size:12pt;" translate="true">How to Allow Independent Registration of Users</link></para>
+    <para styleclass="Normal"><link displaytype="text" defaultstyle="true" type="topiclink" href="How-to-Create-New-Category" styleclass="Normal" style="font-size:12pt;" translate="true">How to Create New Category</link></para>
+    <para styleclass="Normal"><link displaytype="text" defaultstyle="true" type="topiclink" href="How-to-Divide-Users-into-Group" styleclass="Normal" style="font-size:12pt;" translate="true">How to Divide Users into Groups</link></para>
+    <para styleclass="Normal"><link displaytype="text" defaultstyle="true" type="topiclink" href="How-to-change-the-States-List-" styleclass="Normal" style="font-size:12pt;" translate="true">How to change the States List in a Task</link></para>
+    <para styleclass="Normal"><link displaytype="text" defaultstyle="true" type="topiclink" href="How-to-Filter-the-Tasks" styleclass="Normal" style="font-size:12pt;" translate="true">How to Filter the Tasks</link></para>
+    <para styleclass="Normal"><link displaytype="text" defaultstyle="true" type="topiclink" href="User-Manual" styleclass="Normal" style="font-size:12pt;" translate="true">User Manual</link></para>
+    <para styleclass="Normal"><link displaytype="text" defaultstyle="true" type="topiclink" href="How-to-Create-New-User" styleclass="Normal" style="font-size:12pt;" translate="true">How to Create New User</link></para>
+    <para styleclass="Normal"><link displaytype="text" defaultstyle="true" type="topiclink" href="How-to-Filter-the-Tasks-List" styleclass="Normal" style="font-size:12pt;" translate="true">How to Filter the Tasks List</link></para>
+    <para styleclass="Normal"><link displaytype="text" defaultstyle="true" type="topiclink" href="How-to-Create-Project-or-Versi" styleclass="Normal" style="font-size:12pt;" translate="true">How to Create Project or Version</link></para>
+    <para styleclass="Normal"><link displaytype="text" defaultstyle="true" type="topiclink" href="How-to-Create-List-of-Requirem" styleclass="Normal" style="font-size:12pt;" translate="true">How to Create List of Requirements/ Bugs (Errors)/ Test Documentation/ Completions</link></para>
+    <para styleclass="Normal"><link displaytype="text" defaultstyle="true" type="topiclink" href="How-to-Create-Requirement" styleclass="Normal" style="font-size:12pt;" translate="true">How to Create Requirement</link></para>
+    <para styleclass="Normal"><link displaytype="text" defaultstyle="true" type="topiclink" href="How-to-Change-the-State-of-Tas" styleclass="Normal" style="font-size:12pt;" translate="true">How to Change the State of Task, Assignee, and Deadlines etc</link></para>
+    <para styleclass="Normal"><link displaytype="text" defaultstyle="true" type="topiclink" href="How-to-indicate-for-testing-wh" styleclass="Normal" style="font-size:12pt;" translate="true">How to indicate for testing which Requirement the Test Case is meant</link></para>
+    <para styleclass="Normal"><link displaytype="text" defaultstyle="true" type="topiclink" href="How-to-indicate-which-Test-Cas" styleclass="Normal" style="font-size:12pt;" translate="true">How to indicate which Test Case is to be used for Testing the Requirement</link></para>
   </body>
 </topic>

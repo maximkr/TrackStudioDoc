@@ -1,9 +1,15 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="../helpproject.xsl" ?>
-<topic template="Default" status="" lasteditedby="xp" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd">
-  <title>Administrator&apos;s Manual</title>
+<topic template="Default" lasteditedby="xp" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd">
+  <title translate="true">Administrator&apos;s Manual</title>
   <body>
-    <header><para styleclass="Heading1">Administrator&apos;s Manual</para></header>
-    <para styleclass="Normal">Enter topic text here.</para>
+    <header>
+      <para styleclass="Heading1"><text styleclass="Heading1" translate="true">Administrator&apos;s Manual</text></para>
+    </header>
+    <para styleclass="Normal"><link displaytype="text" defaultstyle="true" type="topiclink" href="How-to-Allow-Independent-Regis" styleclass="Normal" style="font-size:12pt;" translate="true">How to Allow Independent Registration of Users</link></para>
+    <para styleclass="Normal"><link displaytype="text" defaultstyle="true" type="topiclink" href="How-to-Create-New-Category" styleclass="Normal" style="font-size:12pt;" translate="true">How to Create New Category</link></para>
+    <para styleclass="Normal"><link displaytype="text" defaultstyle="true" type="topiclink" href="How-to-Divide-Users-into-Group" styleclass="Normal" style="font-size:12pt;" translate="true">How to Divide Users into Groups</link></para>
+    <para styleclass="Normal"><link displaytype="text" defaultstyle="true" type="topiclink" href="How-to-change-the-States-List-" styleclass="Normal" style="font-size:12pt;" translate="true">How to change the States List in a Task</link></para>
+    <para styleclass="Normal"><link displaytype="text" defaultstyle="true" type="topiclink" href="How-to-Filter-the-Tasks" styleclass="Normal" style="font-size:12pt;" translate="true">How to Filter the Tasks</link></para>
   </body>
 </topic>
