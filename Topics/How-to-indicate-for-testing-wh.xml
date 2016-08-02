@@ -6,8 +6,8 @@
     <header>
       <para styleclass="Heading1"><text styleclass="Heading1" translate="true">How to indicate for testing which Requirement the Test Case is meant</text></para>
     </header>
-    <para styleclass="Normal" style="margin-top:16px; line-height:1.00; background-color:#ffffff; tabstops:none;"><text styleclass="Normal" style="font-family:Verdana; text-decoration:none; vertical-align:baseline; color:#666666;" translate="true">While creating test case, indicate the requirement in the corresponding field.</text></para>
+    <para styleclass="Normal" style="margin-top:16px; line-height:1.00; background-color:#ffffff; tabstops:none;"><text styleclass="Normal" style="font-family:Verdana; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">While creating test case, indicate the requirement in the corresponding field.</text></para>
     <para styleclass="Normal" style="line-height:1.00; background-color:#ffffff; tabstops:none;"><link displaytype="image" src="edit-test-req-ru.png" type="weblink" href="http://www.trackstudio.com/sites/default/files/gallery_assist/32/gallery_assist157/edit-test-req-ru.png"></link></para>
-    <para styleclass="Normal" style="margin-top:16px; margin-bottom:16px; line-height:1.00; background-color:#ffffff; tabstops:none;"><text styleclass="Normal" style="font-family:Verdana; text-decoration:none; vertical-align:baseline; color:#666666;" translate="true">If you need to change this parameter, go to the view of test case, then press Edit and in the respective field indicate the requirement, to which this case corresponds. Save the changes.</text></para>
+    <para styleclass="Normal" style="margin-top:16px; margin-bottom:16px; line-height:1.00; background-color:#ffffff; tabstops:none;"><text styleclass="Normal" style="font-family:Verdana; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">If you need to change this parameter, go to the view of test case, then press Edit and in the respective field indicate the requirement, to which this case corresponds. Save the changes.</text></para>
   </body>
 </topic>

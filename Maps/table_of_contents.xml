@@ -48,6 +48,9 @@
         <topicref type="topic" id="425457531633903" build="ALL" modified="2016-06-24T16:02:26.075Z" icon="0" href="Connecting-to-MS-SQL-Server">
           <caption translate="true">Connecting to MS SQL Server</caption>
         </topicref>
+        <topicref type="topic" id="425829670785617" build="ALL" modified="2016-07-31T22:15:31.683Z" icon="0" href="Connecting-to-MySQL">
+          <caption translate="true">Connecting to MySQL</caption>
+        </topicref>
         <topicref type="topic" id="425455657012573" build="ALL" modified="2016-06-24T16:02:26.237Z" icon="0" href="Connecting-to-Oracle">
           <caption translate="true">Connecting to Oracle</caption>
         </topicref>
