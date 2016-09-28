@@ -6,6 +6,9 @@
       <caption translate="true">Installation Guide</caption>
       <topicref type="topic" id="425457650527280" build="ALL" modified="2016-06-24T16:02:23.792Z" icon="0" href="Updating-TrackStudio">
         <caption translate="true">Updating TrackStudio</caption>
+        <topicref type="topic" id="426047761278124" build="ALL" modified="2016-08-22T18:13:02.647Z" icon="0" href="Upgrading-the-minor-versions-5">
+          <caption translate="true">Upgrading the minor versions (5.0.x)</caption>
+        </topicref>
         <topicref type="topic" id="425456925213725" build="ALL" modified="2016-06-24T16:02:23.954Z" icon="0" href="Upgrade-from-version-4_0_x-to-">
           <caption translate="true">Upgrade from version 4.0.x to 5.0.x</caption>
         </topicref>

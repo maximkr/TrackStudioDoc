@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="../helpproject.xsl" ?>
-<topic template="Default" lasteditedby="Administrator" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd">
+<topic template="Default" lasteditedby="xp" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd">
   <title translate="true">Installation Guide</title>
   <body>
     <header>
@@ -28,6 +28,5 @@
     <para styleclass="Normal"><link displaytype="text" defaultstyle="true" type="topiclink" href="Installing-SSL-Certificate" styleclass="Normal" style="font-size:12pt;" translate="true">Installing SSL Certificate</link></para>
     <para styleclass="Normal"><link displaytype="text" defaultstyle="true" type="topiclink" href="Configuring-NTLM-Authenticatio" styleclass="Normal" style="font-size:12pt;" translate="true">Configuring NTLM Authentication</link></para>
     <para styleclass="Normal"><link displaytype="text" defaultstyle="true" type="topiclink" href="Creation-and-initialization-of" styleclass="Normal" style="font-size:12pt;" translate="true">Creation and initialization of database in PostgreSQL</link></para>
-    <para styleclass="Normal" style="page-break-before:always;"></para>
   </body>
 </topic>
