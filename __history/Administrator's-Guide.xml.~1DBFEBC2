@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../helpproject.xsl" ?>
+<topic template="Default" lasteditedby="xp" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd">
+  <title translate="true">Administrator&apos;s Guide</title>
+  <body>
+    <header>
+      <para styleclass="Heading1"><text styleclass="Heading1" translate="true">Administrator&apos;s Guide</text></para>
+    </header>
+    <para styleclass="Normal"><link displaytype="text" defaultstyle="true" type="topiclink" href="How-to-define-and-configure-th" styleclass="Normal" style="font-size:12pt;" translate="true">Enter topic text here.</link></para>
+    <para styleclass="Normal"><link displaytype="text" defaultstyle="true" type="topiclink" href="How-to-configure-properties-of" styleclass="Normal" style="font-size:12pt;" translate="true">How to configure properties of the task with a particular category</link></para>
+    <para styleclass="Normal"><link displaytype="text" defaultstyle="true" type="topiclink" href="How-to-configure-relations-bet" styleclass="Normal" style="font-size:12pt;" translate="true">How to configure relations between categories</link></para>
+    <para styleclass="Normal"><link displaytype="text" defaultstyle="true" type="topiclink" href="How-to-configure-user-rules-fo" styleclass="Normal" style="font-size:12pt;" translate="true">How to configure user rules for tasks with a particular category</link></para>
+    <para styleclass="Normal"><link displaytype="text" defaultstyle="true" type="topiclink" href="How-to-assign-triggers-for-cre" styleclass="Normal" style="font-size:12pt;" translate="true">How to assign triggers for creating and editing the tasks</link></para>
+    <para styleclass="Normal"><link displaytype="text" defaultstyle="true" type="topiclink" href="How-to-set-the-specimen-for-fo" styleclass="Normal" style="font-size:12pt;" translate="true">How to set the specimen for formatting of Task</link></para>
+    <para styleclass="Normal"><link displaytype="text" defaultstyle="true" type="topiclink" href="How-to-temporarily-disable-unu" styleclass="Normal" style="font-size:12pt;" translate="true">How to temporarily disable unused categories</link></para>
+    <para styleclass="Normal"><link displaytype="text" defaultstyle="true" type="topiclink" href="How-to-Copy-a-Category" styleclass="Normal" style="font-size:12pt;" translate="true">How to Copy a Category</link></para>
+    <para styleclass="Normal"><link displaytype="text" defaultstyle="true" type="topiclink" href="How-to-delete-an-unused-catego" styleclass="Normal" style="font-size:12pt;" translate="true">How to delete an unused category</link></para>
+    <para styleclass="Normal"><link displaytype="text" defaultstyle="true" type="topiclink" href="How-to-define-and-configure-t2" styleclass="Normal" style="font-size:12pt;" translate="true">How to define and configure the workflows</link></para>
+    <para styleclass="Normal"><link displaytype="text" defaultstyle="true" type="topiclink" href="How-to-configure-states-set-fo" styleclass="Normal" style="font-size:12pt;" translate="true">How to configure states set for the workflow</link></para>
+    <para styleclass="Normal"><link displaytype="text" defaultstyle="true" type="topiclink" href="How-to-configure-the-set-of-pr" styleclass="Normal" style="font-size:12pt;" translate="true">How to configure the set of priorities for a workflow</link></para>
+    <para styleclass="Normal"><link displaytype="text" defaultstyle="true" type="topiclink" href="How-to-configure-the-list-of-o" styleclass="Normal" style="font-size:12pt;" translate="true">How to configure the list of operations with task</link></para>
+    <para styleclass="Normal"><link displaytype="text" defaultstyle="true" type="topiclink" href="How-to-configure-permissions-f" styleclass="Normal" style="font-size:12pt;" translate="true">How to configure permissions for users in operations</link></para>
+    <para styleclass="Normal"><link displaytype="text" defaultstyle="true" type="topiclink" href="Configuring-UDF-Permissions-fo" styleclass="Normal" style="font-size:12pt;" translate="true">Configuring UDF Permissions for custom fields in operations</link></para>
+    <para styleclass="Normal"><link displaytype="text" defaultstyle="true" type="topiclink" href="How-to-configure-triggers-for-" styleclass="Normal" style="font-size:12pt;" translate="true">How to configure triggers for operations</link></para>
+    <para styleclass="Normal"><link displaytype="text" defaultstyle="true" type="topiclink" href="How-to-define-resolutions-set" styleclass="Normal" style="font-size:12pt;" translate="true">How to define resolutions set</link></para>
+    <para styleclass="Normal"><link displaytype="text" defaultstyle="true" type="topiclink" href="How-to-configure-custom-fields" styleclass="Normal" style="font-size:12pt;" translate="true">How to configure custom fields for the workflow</link></para>
+    <para styleclass="Normal"><link displaytype="text" defaultstyle="true" type="topiclink" href="Who-is-assignee-and-why-is-he-" styleclass="Normal" style="font-size:12pt;" translate="true">Who is assignee and why is he required?</link></para>
+    <para styleclass="Normal"><link displaytype="text" defaultstyle="true" type="topiclink" href="How-to-Manage-Roles-of-Users" styleclass="Normal" style="font-size:12pt;" translate="true">How to Manage Roles of Users</link></para>
+    <para styleclass="Normal"><link displaytype="text" defaultstyle="true" type="topiclink" href="How-to-create-a-new-role" styleclass="Normal" style="font-size:12pt;" translate="true">How to create a new role</link></para>
+    <para styleclass="Normal"><link displaytype="text" defaultstyle="true" type="topiclink" href="How-to-define-the-roles-and-or" styleclass="Normal" style="font-size:12pt;" translate="true">How to define the roles and organize the users into groups</link></para>
+    <para styleclass="Normal"><link displaytype="text" defaultstyle="true" type="topiclink" href="Extending-and-Overriding-the-R" styleclass="Normal" style="font-size:12pt;" translate="true">Extending and Overriding the Roles</link></para>
+    <para styleclass="Normal"><link displaytype="text" defaultstyle="true" type="topiclink" href="How-to-Track-the-History-of-Ch" styleclass="Normal" style="font-size:12pt;" translate="true">How to Track the History of Changes in Task Parameters</link></para>
+    <para styleclass="Normal"><link displaytype="text" defaultstyle="true" type="topiclink" href="How-to-change-TrackStudio-URL" styleclass="Normal" style="font-size:12pt;" translate="true">How to change TrackStudio URL</link></para>
+    <para styleclass="Normal"><link displaytype="text" defaultstyle="true" type="topiclink" href="How-to-import-tasks-from-e-mai" styleclass="Normal" style="font-size:12pt;" translate="true">How to import tasks from e-mails sent by unregistered users</link></para>
+    <para styleclass="Normal"><link displaytype="text" defaultstyle="true" type="topiclink" href="Security-Settings" styleclass="Normal" style="font-size:12pt;" translate="true">Security Settings</link></para>
+    <para styleclass="Normal"><link displaytype="text" defaultstyle="true" type="topiclink" href="Time-Tracking-in-TrackStudio" styleclass="Normal" style="font-size:12pt;" translate="true">Time Tracking in TrackStudio</link></para>
+  </body>
+</topic>

@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../helpproject.xsl" ?>
+<topic template="Default" lasteditedby="Administrator" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd">
+  <title translate="true">How to delete an unused category</title>
+  <body>
+    <header>
+      <para styleclass="Heading1"><text styleclass="Heading1" translate="true">How to delete an unused category</text></para>
+    </header>
+    <para styleclass="Normal" style="text-align:left; text-indent:48px; margin-top:0px; margin-right:0px; margin-bottom:0px; margin-left:0px; line-height:1.00; background-color:#ffffff; white-space:normal; page-break-inside:auto; page-break-after:auto; tabstops:none;"><text styleclass="Normal" style="font-family:Verdana; font-size:12pt; vertical-align:baseline; color:#000000;" translate="true">You can permanently delete unused categories from the system.</text></para>
+    <para styleclass="Normal" style="text-align:left; text-indent:48px; margin-top:0px; margin-right:0px; margin-bottom:0px; margin-left:0px; line-height:1.00; background-color:#ffffff; white-space:normal; page-break-inside:auto; page-break-after:auto; tabstops:none;"><text styleclass="Normal" style="font-family:Verdana; font-size:12pt; vertical-align:baseline; color:#000000;" translate="true">So as to delete the category, you need to go to the list of categories through the menu, check the required category and press the button “</text><text styleclass="Normal" style="font-family:Verdana; font-size:12pt; font-weight:bold; vertical-align:baseline; color:#000000;" translate="true">Delete</text><text styleclass="Normal" style="font-family:Verdana; font-size:12pt; vertical-align:baseline; color:#000000;" translate="true">”.</text></para>
+    <para styleclass="Normal" style="text-align:left; text-indent:48px; margin-top:0px; margin-right:0px; margin-bottom:0px; margin-left:0px; line-height:1.00; background-color:#ffffff; white-space:normal; page-break-inside:auto; page-break-after:auto; tabstops:none;"></para>
+    <para styleclass="Normal" style="text-align:left; text-indent:48px; margin-top:0px; margin-right:0px; margin-bottom:0px; margin-left:0px; line-height:1.00; background-color:#ffffff; white-space:normal; page-break-inside:auto; page-break-after:auto; tabstops:none;"><image src="category_delete_en.png" scale="100.00%" padding="1 0 1 0" styleclass="Image Caption"></image></para>
+  </body>
+</topic>

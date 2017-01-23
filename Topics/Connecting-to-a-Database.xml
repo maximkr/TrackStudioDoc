@@ -8,7 +8,8 @@
     </header>
     <para styleclass="Normal"><link displaytype="text" defaultstyle="true" type="topiclink" href="Connecting-to-HSQL" styleclass="Normal" style="font-size:12pt;" translate="true">Connecting to HSQL</link></para>
     <para styleclass="Normal"><link displaytype="text" defaultstyle="true" type="topiclink" href="Connecting-to-PostgreSQL" styleclass="Normal" style="font-size:12pt;" translate="true">Connecting to PostgreSQL</link></para>
-    <para styleclass="Normal"><link displaytype="text" defaultstyle="true" type="topiclink" href="Connecting-to-MS-SQL-Server" styleclass="Normal" style="font-size:12pt;" translate="true">Connecting to MS SQL Server</link></para>
+    <para styleclass="Normal"><link displaytype="text" defaultstyle="true" type="topiclink" href="Connecting-to-MS-SQL-Server" styleclass="Normal" style="font-size:12pt;" translate="true">Connecting to MS SQL Server </link></para>
+    <para styleclass="Normal"><link displaytype="text" defaultstyle="true" type="topiclink" href="Connecting-to-MySQL" styleclass="Normal" style="font-size:12pt;" translate="true">Connecting to MySQL</link></para>
     <para styleclass="Normal"><link displaytype="text" defaultstyle="true" type="topiclink" href="Connecting-to-Oracle" styleclass="Normal" style="font-size:12pt;" translate="true">Connecting to Oracle</link></para>
     <para styleclass="Normal"><link displaytype="text" defaultstyle="true" type="topiclink" href="Connecting-to-DB2" styleclass="Normal" style="font-size:12pt;" translate="true">Connecting to DB2</link></para>
     <para styleclass="Normal"><link displaytype="text" defaultstyle="true" type="topiclink" href="Connecting-to-Firebird" styleclass="Normal" style="font-size:12pt;" translate="true">Connecting to Firebird</link></para>
