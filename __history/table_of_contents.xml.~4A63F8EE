@@ -6,60 +6,69 @@
       <caption translate="true">Installation Guide</caption>
       <topicref type="topic" id="425457650527280" build="ALL" modified="2016-06-24T16:02:23.792Z" icon="0" href="Updating-TrackStudio">
         <caption translate="true">Updating TrackStudio</caption>
-      </topicref>
-      <topicref type="topic" id="425456925213725" build="ALL" modified="2016-06-24T16:02:23.954Z" icon="0" href="Upgrade-from-version-4_0_x-to-">
-        <caption translate="true">Upgrade from version 4.0.x to 5.0.x</caption>
-      </topicref>
-      <topicref type="topic" id="425456740293694" build="ALL" modified="2016-06-24T16:02:24.129Z" icon="0" href="Upgrading-the-minor-versions-(">
-        <caption translate="true">Upgrading the minor versions (4.0.x)</caption>
-      </topicref>
-      <topicref type="topic" id="42546350550313" build="ALL" modified="2016-06-24T16:02:24.292Z" icon="0" href="Upgrade-from-version-3_5">
-        <caption translate="true">Upgrade from version 3.5</caption>
+        <topicref type="topic" id="426047761278124" build="ALL" modified="2016-08-22T18:13:02.647Z" icon="0" href="Upgrading-the-minor-versions-5">
+          <caption translate="true">Upgrading the minor versions (5.0.x)</caption>
+        </topicref>
+        <topicref type="topic" id="425456925213725" build="ALL" modified="2016-06-24T16:02:23.954Z" icon="0" href="Upgrade-from-version-4_0_x-to-">
+          <caption translate="true">Upgrade from version 4.0.x to 5.0.x</caption>
+        </topicref>
+        <topicref type="topic" id="425456740293694" build="ALL" modified="2016-06-24T16:02:24.129Z" icon="0" href="Upgrading-the-minor-versions-(">
+          <caption translate="true">Upgrading the minor versions (4.0.x)</caption>
+        </topicref>
+        <topicref type="topic" id="42546350550313" build="ALL" modified="2016-06-24T16:02:24.292Z" icon="0" href="Upgrade-from-version-3_5">
+          <caption translate="true">Upgrade from version 3.5</caption>
+        </topicref>
       </topicref>
       <topicref type="topic" id="42545035518867" build="ALL" modified="2016-06-24T16:02:24.454Z" icon="0" href="Installing-on-Windows">
         <caption translate="true">Installing on Windows</caption>
-      </topicref>
-      <topicref type="topic" id="425458177991618" build="ALL" modified="2016-06-24T16:02:24.629Z" icon="0" href="Installing-TrackStudio-Standal">
-        <caption translate="true">Installing TrackStudio Standalone in Windows</caption>
-      </topicref>
-      <topicref type="topic" id="425454761402144" build="ALL" modified="2016-06-24T16:02:24.791Z" icon="0" href="Installing-TrackStudio-War-in-">
-        <caption translate="true">Installing TrackStudio War in Windows</caption>
-      </topicref>
-      <topicref type="topic" id="42546268021203" build="ALL" modified="2016-06-24T16:02:24.940Z" icon="0" href="Starting-TrackStudio-as-a-Wind">
-        <caption translate="true">Starting TrackStudio as a Windows service</caption>
+        <topicref type="topic" id="425458177991618" build="ALL" modified="2016-06-24T16:02:24.629Z" icon="0" href="Installing-TrackStudio-Standal">
+          <caption translate="true">Installing TrackStudio Standalone in Windows</caption>
+        </topicref>
+        <topicref type="topic" id="425454761402144" build="ALL" modified="2016-06-24T16:02:24.791Z" icon="0" href="Installing-TrackStudio-War-in-">
+          <caption translate="true">Installing TrackStudio War in Windows</caption>
+        </topicref>
+        <topicref type="topic" id="42546268021203" build="ALL" modified="2016-06-24T16:02:24.940Z" icon="0" href="Starting-TrackStudio-as-a-Wind">
+          <caption translate="true">Starting TrackStudio as a Windows service</caption>
+        </topicref>
       </topicref>
       <topicref type="topic" id="4256691037881" build="ALL" modified="2016-06-24T16:02:25.116Z" icon="0" href="Installing-on-Linux">
         <caption translate="true">Installing on Linux</caption>
-      </topicref>
-      <topicref type="topic" id="42543704603292" build="ALL" modified="2016-06-24T16:02:25.264Z" icon="0" href="Installing-TrackStudio-Standa2">
-        <caption translate="true">Installing TrackStudio Standalone in Linux</caption>
-      </topicref>
-      <topicref type="topic" id="42546309662103" build="ALL" modified="2016-06-24T16:02:25.426Z" icon="0" href="Installing-TrackStudio-WAR-in2">
-        <caption translate="true">Installing TrackStudio WAR in Linux</caption>
+        <topicref type="topic" id="42543704603292" build="ALL" modified="2016-06-24T16:02:25.264Z" icon="0" href="Installing-TrackStudio-Standa2">
+          <caption translate="true">Installing TrackStudio Standalone in Linux</caption>
+        </topicref>
+        <topicref type="topic" id="42546309662103" build="ALL" modified="2016-06-24T16:02:25.426Z" icon="0" href="Installing-TrackStudio-WAR-in2">
+          <caption translate="true">Installing TrackStudio WAR in Linux</caption>
+        </topicref>
+        <topicref type="topic" id="426468284690266" build="ALL" modified="2016-10-03T20:33:12.439Z" icon="0" href="Configuring-X-Window">
+          <caption translate="true">Configuring X Window</caption>
+        </topicref>
       </topicref>
       <topicref type="topic" id="42545464537375" build="ALL" modified="2016-06-24T16:02:25.588Z" icon="0" href="Connecting-to-a-Database">
         <caption translate="true">Connecting to a Database</caption>
-      </topicref>
-      <topicref type="topic" id="42543945782800" build="ALL" modified="2016-06-24T16:02:25.750Z" icon="0" href="Connecting-to-HSQL">
-        <caption translate="true">Connecting to HSQL</caption>
-      </topicref>
-      <topicref type="topic" id="425456479324887" build="ALL" modified="2016-06-24T16:02:25.913Z" icon="0" href="Connecting-to-PostgreSQL">
-        <caption translate="true">Connecting to PostgreSQL</caption>
-      </topicref>
-      <topicref type="topic" id="425457531633903" build="ALL" modified="2016-06-24T16:02:26.075Z" icon="0" href="Connecting-to-MS-SQL-Server">
-        <caption translate="true">Connecting to MS SQL Server</caption>
-      </topicref>
-      <topicref type="topic" id="425455657012573" build="ALL" modified="2016-06-24T16:02:26.237Z" icon="0" href="Connecting-to-Oracle">
-        <caption translate="true">Connecting to Oracle</caption>
-      </topicref>
-      <topicref type="topic" id="425455133135924" build="ALL" modified="2016-06-24T16:02:26.387Z" icon="0" href="Connecting-to-DB2">
-        <caption translate="true">Connecting to DB2</caption>
-      </topicref>
-      <topicref type="topic" id="425456069298508" build="ALL" modified="2016-06-24T16:02:26.533Z" icon="0" href="Connecting-to-Firebird">
-        <caption translate="true">Connecting to Firebird</caption>
-      </topicref>
-      <topicref type="topic" id="425457809234490" build="ALL" modified="2016-06-24T16:02:26.678Z" icon="0" href="Using-a-console-app-dbtool-for">
-        <caption translate="true">Using a console app dbtool for exporting and importing a database</caption>
+        <topicref type="topic" id="42543945782800" build="ALL" modified="2016-06-24T16:02:25.750Z" icon="0" href="Connecting-to-HSQL">
+          <caption translate="true">Connecting to HSQL</caption>
+        </topicref>
+        <topicref type="topic" id="425456479324887" build="ALL" modified="2016-06-24T16:02:25.913Z" icon="0" href="Connecting-to-PostgreSQL">
+          <caption translate="true">Connecting to PostgreSQL</caption>
+        </topicref>
+        <topicref type="topic" id="425457531633903" build="ALL" modified="2016-06-24T16:02:26.075Z" icon="0" href="Connecting-to-MS-SQL-Server">
+          <caption translate="true">Connecting to MS SQL Server</caption>
+        </topicref>
+        <topicref type="topic" id="425829670785617" build="ALL" modified="2016-07-31T22:15:31.683Z" icon="0" href="Connecting-to-MySQL">
+          <caption translate="true">Connecting to MySQL</caption>
+        </topicref>
+        <topicref type="topic" id="425455657012573" build="ALL" modified="2016-06-24T16:02:26.237Z" icon="0" href="Connecting-to-Oracle">
+          <caption translate="true">Connecting to Oracle</caption>
+        </topicref>
+        <topicref type="topic" id="425455133135924" build="ALL" modified="2016-06-24T16:02:26.387Z" icon="0" href="Connecting-to-DB2">
+          <caption translate="true">Connecting to DB2</caption>
+        </topicref>
+        <topicref type="topic" id="425456069298508" build="ALL" modified="2016-06-24T16:02:26.533Z" icon="0" href="Connecting-to-Firebird">
+          <caption translate="true">Connecting to Firebird</caption>
+        </topicref>
+        <topicref type="topic" id="425457809234490" build="ALL" modified="2016-06-24T16:02:26.678Z" icon="0" href="Using-a-console-app-dbtool-for">
+          <caption translate="true">Using a console app dbtool for exporting and importing a database</caption>
+        </topicref>
       </topicref>
       <topicref type="topic" id="425456838681295" build="ALL" modified="2016-06-24T16:02:26.812Z" icon="0" href="Installing-SSL-Certificate">
         <caption translate="true">Installing SSL Certificate</caption>
@@ -70,77 +79,80 @@
       <topicref type="topic" id="425457865674207" build="ALL" modified="2016-06-24T16:02:27.092Z" icon="0" href="Creation-and-initialization-of">
         <caption translate="true">Creation and initialization of database in PostgreSQL</caption>
       </topicref>
+      <topicref type="topic" id="426478091814893" build="ALL" modified="2016-10-04T17:13:07.544Z" icon="0" href="X_509-Authorization-Settings">
+        <caption translate="true">X.509 Authorization Settings</caption>
+      </topicref>
     </topicref>
     <topicref type="topic" id="425454776978753" build="ALL" modified="2016-06-24T16:02:27.226Z" icon="0" href="Administrator's-Guide">
       <caption translate="true">Administrator's Guide</caption>
       <topicref type="topic" id="425455329490358" build="ALL" modified="2016-06-24T16:02:27.517Z" icon="0" href="How-to-define-and-configure-th">
         <caption translate="true">How to define and configure the categories of tasks?</caption>
-      </topicref>
-      <topicref type="topic" id="425458101502386" build="ALL" modified="2016-06-24T16:02:27.663Z" icon="0" href="How-to-configure-properties-of">
-        <caption translate="true">How to configure properties of the task with a particular category</caption>
-      </topicref>
-      <topicref type="topic" id="425455931982244" build="ALL" modified="2016-06-24T16:02:27.797Z" icon="0" href="How-to-configure-relations-bet">
-        <caption translate="true">How to configure relations between categories</caption>
-      </topicref>
-      <topicref type="topic" id="425457227643332" build="ALL" modified="2016-06-24T16:02:27.943Z" icon="0" href="How-to-configure-user-rules-fo">
-        <caption translate="true">How to configure user rules for tasks with a particular category</caption>
-      </topicref>
-      <topicref type="topic" id="425457433542612" build="ALL" modified="2016-06-24T16:02:28.077Z" icon="0" href="How-to-assign-triggers-for-cre">
-        <caption translate="true">How to assign triggers for creating and editing the tasks</caption>
-      </topicref>
-      <topicref type="topic" id="425454565833586" build="ALL" modified="2016-06-24T16:02:28.223Z" icon="0" href="How-to-set-the-specimen-for-fo">
-        <caption translate="true">How to set the specimen for formatting of Task</caption>
-      </topicref>
-      <topicref type="topic" id="425455206613188" build="ALL" modified="2016-06-24T16:02:28.368Z" icon="0" href="How-to-temporarily-disable-unu">
-        <caption translate="true">How to temporarily disable unused categories</caption>
-      </topicref>
-      <topicref type="topic" id="425458400002404" build="ALL" modified="2016-06-24T16:02:28.502Z" icon="0" href="How-to-Copy-a-Category">
-        <caption translate="true">How to Copy a Category</caption>
-      </topicref>
-      <topicref type="topic" id="425455558315546" build="ALL" modified="2016-06-24T16:02:28.648Z" icon="0" href="How-to-delete-an-unused-catego">
-        <caption translate="true">How to delete an unused category</caption>
+        <topicref type="topic" id="425458101502386" build="ALL" modified="2016-06-24T16:02:27.663Z" icon="0" href="How-to-configure-properties-of">
+          <caption translate="true">How to configure properties of the task with a particular category</caption>
+        </topicref>
+        <topicref type="topic" id="425455931982244" build="ALL" modified="2016-06-24T16:02:27.797Z" icon="0" href="How-to-configure-relations-bet">
+          <caption translate="true">How to configure relations between categories</caption>
+        </topicref>
+        <topicref type="topic" id="425457227643332" build="ALL" modified="2016-06-24T16:02:27.943Z" icon="0" href="How-to-configure-user-rules-fo">
+          <caption translate="true">How to configure user rules for tasks with a particular category</caption>
+        </topicref>
+        <topicref type="topic" id="425457433542612" build="ALL" modified="2016-06-24T16:02:28.077Z" icon="0" href="How-to-assign-triggers-for-cre">
+          <caption translate="true">How to assign triggers for creating and editing the tasks</caption>
+        </topicref>
+        <topicref type="topic" id="425454565833586" build="ALL" modified="2016-06-24T16:02:28.223Z" icon="0" href="How-to-set-the-specimen-for-fo">
+          <caption translate="true">How to set the specimen for formatting of Task</caption>
+        </topicref>
+        <topicref type="topic" id="425455206613188" build="ALL" modified="2016-06-24T16:02:28.368Z" icon="0" href="How-to-temporarily-disable-unu">
+          <caption translate="true">How to temporarily disable unused categories</caption>
+        </topicref>
+        <topicref type="topic" id="425458400002404" build="ALL" modified="2016-06-24T16:02:28.502Z" icon="0" href="How-to-Copy-a-Category">
+          <caption translate="true">How to Copy a Category</caption>
+        </topicref>
+        <topicref type="topic" id="425455558315546" build="ALL" modified="2016-06-24T16:02:28.648Z" icon="0" href="How-to-delete-an-unused-catego">
+          <caption translate="true">How to delete an unused category</caption>
+        </topicref>
       </topicref>
       <topicref type="topic" id="425455799575294" build="ALL" modified="2016-06-24T16:02:28.794Z" icon="0" href="How-to-define-and-configure-t2">
         <caption translate="true">How to define and configure the workflows</caption>
-      </topicref>
-      <topicref type="topic" id="425458071972135" build="ALL" modified="2016-06-24T16:02:28.928Z" icon="0" href="How-to-configure-states-set-fo">
-        <caption translate="true">How to configure states set for the workflow</caption>
-      </topicref>
-      <topicref type="topic" id="425457682483864" build="ALL" modified="2016-06-24T16:02:29.074Z" icon="0" href="How-to-configure-the-set-of-pr">
-        <caption translate="true">How to configure the set of priorities for a workflow</caption>
-      </topicref>
-      <topicref type="topic" id="425454997324906" build="ALL" modified="2016-06-24T16:02:29.219Z" icon="0" href="How-to-configure-the-list-of-o">
-        <caption translate="true">How to configure the list of operations with task</caption>
-      </topicref>
-      <topicref type="topic" id="425457560486062" build="ALL" modified="2016-06-24T16:02:29.365Z" icon="0" href="How-to-configure-permissions-f">
-        <caption translate="true">How to configure permissions for users in operations</caption>
-      </topicref>
-      <topicref type="topic" id="425457143336599" build="ALL" modified="2016-06-24T16:02:29.536Z" icon="0" href="Configuring-UDF-Permissions-fo">
-        <caption translate="true">Configuring UDF Permissions for custom fields in operations</caption>
-      </topicref>
-      <topicref type="topic" id="425457091304682" build="ALL" modified="2016-06-24T16:02:29.681Z" icon="0" href="How-to-configure-triggers-for-">
-        <caption translate="true">How to configure triggers for operations</caption>
-      </topicref>
-      <topicref type="topic" id="425457070983707" build="ALL" modified="2016-06-24T16:02:29.827Z" icon="0" href="How-to-define-resolutions-set">
-        <caption translate="true">How to define resolutions set</caption>
-      </topicref>
-      <topicref type="topic" id="425454945150554" build="ALL" modified="2016-06-24T16:02:29.985Z" icon="0" href="How-to-configure-custom-fields">
-        <caption translate="true">How to configure custom fields for the workflow</caption>
+        <topicref type="topic" id="425458071972135" build="ALL" modified="2016-06-24T16:02:28.928Z" icon="0" href="How-to-configure-states-set-fo">
+          <caption translate="true">How to configure states set for the workflow</caption>
+        </topicref>
+        <topicref type="topic" id="425457682483864" build="ALL" modified="2016-06-24T16:02:29.074Z" icon="0" href="How-to-configure-the-set-of-pr">
+          <caption translate="true">How to configure the set of priorities for a workflow</caption>
+        </topicref>
+        <topicref type="topic" id="425454997324906" build="ALL" modified="2016-06-24T16:02:29.219Z" icon="0" href="How-to-configure-the-list-of-o">
+          <caption translate="true">How to configure the list of operations with task</caption>
+          <topicref type="topic" id="425457560486062" build="ALL" modified="2016-06-24T16:02:29.365Z" icon="0" href="How-to-configure-permissions-f">
+            <caption translate="true">How to configure permissions for users in operations</caption>
+          </topicref>
+          <topicref type="topic" id="425457143336599" build="ALL" modified="2016-06-24T16:02:29.536Z" icon="0" href="Configuring-UDF-Permissions-fo">
+            <caption translate="true">Configuring UDF Permissions for custom fields in operations</caption>
+          </topicref>
+          <topicref type="topic" id="425457091304682" build="ALL" modified="2016-06-24T16:02:29.681Z" icon="0" href="How-to-configure-triggers-for-">
+            <caption translate="true">How to configure triggers for operations</caption>
+          </topicref>
+          <topicref type="topic" id="425457070983707" build="ALL" modified="2016-06-24T16:02:29.827Z" icon="0" href="How-to-define-resolutions-set">
+            <caption translate="true">How to define resolutions set</caption>
+          </topicref>
+        </topicref>
+        <topicref type="topic" id="425454945150554" build="ALL" modified="2016-06-24T16:02:29.985Z" icon="0" href="How-to-configure-custom-fields">
+          <caption translate="true">How to configure custom fields for the workflow</caption>
+        </topicref>
       </topicref>
       <topicref type="topic" id="42545341681022" build="ALL" modified="2016-06-24T16:02:30.131Z" icon="0" href="Who-is-assignee-and-why-is-he-">
         <caption translate="true">Who is assignee and why is he required?</caption>
       </topicref>
       <topicref type="topic" id="425456373981373" build="ALL" modified="2016-06-24T16:02:30.265Z" icon="0" href="How-to-Manage-Roles-of-Users">
         <caption translate="true">How to Manage Roles of Users</caption>
-      </topicref>
-      <topicref type="topic" id="425457649264825" build="ALL" modified="2016-06-24T16:02:30.411Z" icon="0" href="How-to-create-a-new-role">
-        <caption translate="true">How to create a new role</caption>
-      </topicref>
-      <topicref type="topic" id="425454576290327" build="ALL" modified="2016-06-24T16:02:30.557Z" icon="0" href="How-to-define-the-roles-and-or">
-        <caption translate="true">How to define the roles and organize the users into groups</caption>
-      </topicref>
-      <topicref type="topic" id="425457669666895" build="ALL" modified="2016-06-24T16:02:30.703Z" icon="0" href="Extending-and-Overriding-the-R">
-        <caption translate="true">Extending and Overriding the Roles</caption>
+        <topicref type="topic" id="425457649264825" build="ALL" modified="2016-06-24T16:02:30.411Z" icon="0" href="How-to-create-a-new-role">
+          <caption translate="true">How to create a new role</caption>
+        </topicref>
+        <topicref type="topic" id="425454576290327" build="ALL" modified="2016-06-24T16:02:30.557Z" icon="0" href="How-to-define-the-roles-and-or">
+          <caption translate="true">How to define the roles and organize the users into groups</caption>
+          <topicref type="topic" id="425457669666895" build="ALL" modified="2016-06-24T16:02:30.703Z" icon="0" href="Extending-and-Overriding-the-R">
+            <caption translate="true">Extending and Overriding the Roles</caption>
+          </topicref>
+        </topicref>
       </topicref>
       <topicref type="topic" id="425455488263556" build="ALL" modified="2016-06-24T16:02:30.849Z" icon="0" href="How-to-Track-the-History-of-Ch">
         <caption translate="true">How to Track the History of Changes in Task Parameters</caption>
@@ -157,6 +169,9 @@
       <topicref type="topic" id="425455578715900" build="ALL" modified="2016-06-24T16:02:31.444Z" icon="0" href="Time-Tracking-in-TrackStudio">
         <caption translate="true">Time Tracking in TrackStudio</caption>
       </topicref>
+      <topicref type="topic" id="42758857781888" build="ALL" modified="2017-01-23T22:52:36.440Z" icon="0" href="video-service_en">
+        <caption translate="true">Using TrackStudio as video service</caption>
+      </topicref>
     </topicref>
     <topicref type="topic" id="425456072322265" build="ALL" modified="2016-06-24T16:02:31.590Z" icon="0" href="User's-Guide">
       <caption translate="true">User's Guide</caption>
@@ -168,48 +183,48 @@
       </topicref>
       <topicref type="topic" id="425457628760169" build="ALL" modified="2016-06-24T16:02:32.174Z" icon="0" href="Administrator's-Manual">
         <caption translate="true">Administrator's Manual</caption>
-      </topicref>
-      <topicref type="topic" id="425454966784409" build="ALL" modified="2016-06-24T16:02:32.307Z" icon="0" href="How-to-Allow-Independent-Regis">
-        <caption translate="true">How to Allow Independent Registration of Users</caption>
-      </topicref>
-      <topicref type="topic" id="42545153498789" build="ALL" modified="2016-06-24T16:02:32.453Z" icon="0" href="How-to-Create-New-Category">
-        <caption translate="true">How to Create New Category</caption>
-      </topicref>
-      <topicref type="topic" id="425456821922973" build="ALL" modified="2016-06-24T16:02:32.587Z" icon="0" href="How-to-Divide-Users-into-Group">
-        <caption translate="true">How to Divide Users into Groups</caption>
-      </topicref>
-      <topicref type="topic" id="425457981927000" build="ALL" modified="2016-06-24T16:02:32.733Z" icon="0" href="How-to-change-the-States-List-">
-        <caption translate="true">How to change the States List in a Task</caption>
-      </topicref>
-      <topicref type="topic" id="425456337382249" build="ALL" modified="2016-06-24T16:02:32.867Z" icon="0" href="How-to-Filter-the-Tasks">
-        <caption translate="true">How to Filter the Tasks</caption>
+        <topicref type="topic" id="425454966784409" build="ALL" modified="2016-06-24T16:02:32.307Z" icon="0" href="How-to-Allow-Independent-Regis">
+          <caption translate="true">How to Allow Independent Registration of Users</caption>
+        </topicref>
+        <topicref type="topic" id="42545153498789" build="ALL" modified="2016-06-24T16:02:32.453Z" icon="0" href="How-to-Create-New-Category">
+          <caption translate="true">How to Create New Category</caption>
+        </topicref>
+        <topicref type="topic" id="425456821922973" build="ALL" modified="2016-06-24T16:02:32.587Z" icon="0" href="How-to-Divide-Users-into-Group">
+          <caption translate="true">How to Divide Users into Groups</caption>
+        </topicref>
+        <topicref type="topic" id="425457981927000" build="ALL" modified="2016-06-24T16:02:32.733Z" icon="0" href="How-to-change-the-States-List-">
+          <caption translate="true">How to change the States List in a Task</caption>
+        </topicref>
+        <topicref type="topic" id="425456337382249" build="ALL" modified="2016-06-24T16:02:32.867Z" icon="0" href="How-to-Filter-the-Tasks">
+          <caption translate="true">How to Filter the Tasks</caption>
+        </topicref>
       </topicref>
       <topicref type="topic" id="425454675537935" build="ALL" modified="2016-06-24T16:02:33.013Z" icon="0" href="User-Manual">
         <caption translate="true">User Manual</caption>
-      </topicref>
-      <topicref type="topic" id="425456258882949" build="ALL" modified="2016-06-24T16:02:33.159Z" icon="0" href="How-to-Create-New-User">
-        <caption translate="true">How to Create New User</caption>
-      </topicref>
-      <topicref type="topic" id="425457905221789" build="ALL" modified="2016-06-24T16:02:33.304Z" icon="0" href="How-to-Filter-the-Tasks-List">
-        <caption translate="true">How to Filter the Tasks List</caption>
-      </topicref>
-      <topicref type="topic" id="425458498998523" build="ALL" modified="2016-06-24T16:02:33.438Z" icon="0" href="How-to-Create-Project-or-Versi">
-        <caption translate="true">How to Create Project or Version</caption>
-      </topicref>
-      <topicref type="topic" id="425457048200558" build="ALL" modified="2016-06-24T16:02:33.584Z" icon="0" href="How-to-Create-List-of-Requirem">
-        <caption translate="true">How to Create List of Requirements/ Bugs (Errors)/ Test Documentation/ Completions</caption>
-      </topicref>
-      <topicref type="topic" id="425455410144836" build="ALL" modified="2016-06-24T16:02:33.730Z" icon="0" href="How-to-Create-Requirement">
-        <caption translate="true">How to Create Requirement</caption>
-      </topicref>
-      <topicref type="topic" id="425963921406" build="ALL" modified="2016-06-24T16:02:33.864Z" icon="0" href="How-to-Change-the-State-of-Tas">
-        <caption translate="true">How to Change the State of Task, Assignee, and Deadlines etc</caption>
-      </topicref>
-      <topicref type="topic" id="425454779352081" build="ALL" modified="2016-06-24T16:02:34.010Z" icon="0" href="How-to-indicate-for-testing-wh">
-        <caption translate="true">How to indicate for testing which Requirement the Test Case is meant</caption>
-      </topicref>
-      <topicref type="topic" id="425454716882759" build="ALL" modified="2016-06-24T16:02:34.152Z" icon="0" href="How-to-indicate-which-Test-Cas">
-        <caption translate="true">How to indicate which Test Case is to be used for Testing the Requirement</caption>
+        <topicref type="topic" id="425456258882949" build="ALL" modified="2016-06-24T16:02:33.159Z" icon="0" href="How-to-Create-New-User">
+          <caption translate="true">How to Create New User</caption>
+        </topicref>
+        <topicref type="topic" id="425457905221789" build="ALL" modified="2016-06-24T16:02:33.304Z" icon="0" href="How-to-Filter-the-Tasks-List">
+          <caption translate="true">How to Filter the Tasks List</caption>
+        </topicref>
+        <topicref type="topic" id="425458498998523" build="ALL" modified="2016-06-24T16:02:33.438Z" icon="0" href="How-to-Create-Project-or-Versi">
+          <caption translate="true">How to Create Project or Version</caption>
+        </topicref>
+        <topicref type="topic" id="425457048200558" build="ALL" modified="2016-06-24T16:02:33.584Z" icon="0" href="How-to-Create-List-of-Requirem">
+          <caption translate="true">How to Create List of Requirements/ Bugs (Errors)/ Test Documentation/ Completions</caption>
+        </topicref>
+        <topicref type="topic" id="425455410144836" build="ALL" modified="2016-06-24T16:02:33.730Z" icon="0" href="How-to-Create-Requirement">
+          <caption translate="true">How to Create Requirement</caption>
+        </topicref>
+        <topicref type="topic" id="425963921406" build="ALL" modified="2016-06-24T16:02:33.864Z" icon="0" href="How-to-Change-the-State-of-Tas">
+          <caption translate="true">How to Change the State of Task, Assignee, and Deadlines etc</caption>
+        </topicref>
+        <topicref type="topic" id="425454779352081" build="ALL" modified="2016-06-24T16:02:34.010Z" icon="0" href="How-to-indicate-for-testing-wh">
+          <caption translate="true">How to indicate for testing which Requirement the Test Case is meant</caption>
+        </topicref>
+        <topicref type="topic" id="425454716882759" build="ALL" modified="2016-06-24T16:02:34.152Z" icon="0" href="How-to-indicate-which-Test-Cas">
+          <caption translate="true">How to indicate which Test Case is to be used for Testing the Requirement</caption>
+        </topicref>
       </topicref>
     </topicref>
     <topicref type="topic" id="425456975659030" build="ALL" modified="2016-06-24T16:02:34.312Z" icon="0" href="Developer's-Guide">
@@ -219,9 +234,9 @@
       </topicref>
       <topicref type="topic" id="425458729513717" build="ALL" modified="2016-06-24T16:02:34.780Z" icon="0" href="How-to-write-and-debug-scripts">
         <caption translate="true">How to write and debug scripts in IntelliJ IDEA</caption>
-      </topicref>
-      <topicref type="topic" id="425455901591866" build="ALL" modified="2016-06-24T16:02:34.941Z" icon="0" href="How-to-use-SOAP-integration-in">
-        <caption translate="true">How to use SOAP integration in TrackStudio</caption>
+        <topicref type="topic" id="425455901591866" build="ALL" modified="2016-06-24T16:02:34.941Z" icon="0" href="How-to-use-SOAP-integration-in">
+          <caption translate="true">How to use SOAP integration in TrackStudio</caption>
+        </topicref>
       </topicref>
       <topicref type="topic" id="425458502842726" build="ALL" modified="2016-06-24T16:02:35.101Z" icon="0" href="Compiling-TrackStudio-from-sou">
         <caption translate="true">Compiling TrackStudio from source code</caption>
@@ -231,15 +246,12 @@
       </topicref>
       <topicref type="topic" id="425456577845120" build="ALL" modified="2016-06-24T16:02:35.409Z" icon="0" href="How-to-Make-the-Value-of-Custo">
         <caption translate="true">How to Make the Value of Custom Field Computable</caption>
-      </topicref>
-      <topicref type="topic" id="425458384610824" build="ALL" modified="2016-06-24T16:02:35.556Z" icon="0" href="Date-(Calendar)">
-        <caption translate="true">Date (Calendar)</caption>
-      </topicref>
-      <topicref type="topic" id="425458456700023" build="ALL" modified="2016-06-24T16:02:35.717Z" icon="0" href="Integer">
-        <caption translate="true">Integer</caption>
-      </topicref>
-      <topicref type="topic" id="425457345393455" build="ALL" modified="2016-06-24T16:02:35.877Z" icon="0" href="Number-of-days-since-task-upda">
-        <caption translate="true">Number of days since task update</caption>
+        <topicref type="topic" id="425458456700023" build="ALL" modified="2016-06-24T16:02:35.717Z" icon="0" href="Integer">
+          <caption translate="true">Integer</caption>
+          <topicref type="topic" id="425457345393455" build="ALL" modified="2016-06-24T16:02:35.877Z" icon="0" href="Number-of-days-since-task-upda">
+            <caption translate="true">Number of days since task update</caption>
+          </topicref>
+        </topicref>
       </topicref>
       <topicref type="topic" id="425455897158182" build="ALL" modified="2016-06-24T16:02:36.037Z" icon="0" href="How-to-Perform-Automatic-Task-">
         <caption translate="true">How to Perform Automatic Task Escalation</caption>
@@ -577,6 +589,9 @@
       <topicref type="topic" id="422867101845132" build="ALL" modified="2015-10-13T17:59:28.841Z" icon="0" href="howto_hide_frame">
         <caption translate="true">Как скрыть фрейм с деревом задач</caption>
       </topicref>
+      <topicref type="topic" id="427583171463384" build="ALL" modified="2017-01-23T11:48:27.846Z" icon="0" href="video-service">
+        <caption translate="true">Как использовать TrackStudio в качестве видеосервиса</caption>
+      </topicref>
     </topicref>
     <topicref type="topic" id="42251713244239" build="ALL" modified="2015-10-13T18:05:31.190Z" icon="0" href="user_guide">
       <caption translate="true">Руководство пользователя</caption>
@@ -752,6 +767,9 @@
         </topicref>
         <topicref type="topic" id="422895684867582" build="ALL" modified="2015-10-15T16:11:16.639Z" icon="0" href="scheduler">
           <caption translate="true">Как использовать настройки операций по расписанию</caption>
+          <topicref type="topic" id="42550463599985" build="ALL" modified="2016-06-29T21:20:32.442Z" icon="0" href="dynamic-scheduler">
+            <caption translate="true">Как сделать динамический интервал для операций по расписанию</caption>
+          </topicref>
         </topicref>
         <topicref type="topic" id="422894074522418" build="ALL" modified="2015-10-15T16:11:33.561Z" icon="0" href="charts">
           <caption translate="true">Как построить графики в TrackStudio по вашим данным</caption>

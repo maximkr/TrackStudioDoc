@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="../helpproject.xsl" ?>
-<topic template="Default" lasteditedby="Administrator" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd">
+<topic template="Default" lasteditedby="xp" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd">
   <title translate="true">Руководство администратора</title>
   <body>
     <header>
@@ -78,7 +78,6 @@
     <para styleclass="Normal" style="text-indent:0px; margin-right:0px; margin-left:0px; line-height:1.00; tabstops:none;"><link displaytype="text" defaultstyle="true" type="topiclink" href="time_tracking" styleclass="Normal" style="font-size:12pt;" translate="true">Как с помощью TrackStudio учитывать рабочее время</link></para>
     <para styleclass="Normal" style="text-indent:0px; margin-right:0px; margin-left:0px; line-height:1.00; tabstops:none;"><link displaytype="text" defaultstyle="true" type="topiclink" href="yourkit" styleclass="Normal" style="font-size:12pt;" translate="true">Как оценить быстродействие и использование памяти с помощью YourKit</link></para>
     <para styleclass="Normal" style="text-indent:0px; margin-right:0px; margin-left:0px; line-height:1.00; tabstops:none;"><link displaytype="text" defaultstyle="true" type="topiclink" href="howto_hide_frame" styleclass="Normal" style="font-size:12pt;" translate="true">Как скрыть фрейм с деревом задач</link></para>
-    <para styleclass="Normal" style="text-indent:0px; margin-right:0px; margin-left:0px; line-height:1.00; tabstops:none;"><link displaytype="text" defaultstyle="true" type="topiclink" href="video-service" styleclass="Normal" style="font-size:12pt;" translate="true">Как использовать TrackStudio в качестве видеосервиса</link></para>
     <para styleclass="Normal" style="line-height:1.00; page-break-before:always; tabstops:none;"></para>
   </body>
 </topic>
