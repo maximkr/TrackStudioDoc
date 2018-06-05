@@ -1,12 +1,13 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="../helpproject.xsl" ?>
-<topic template="Default" lasteditedby="xp" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd">
+<topic template="Default" lasteditedby="Administrator" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd">
   <title translate="true">How to Create List of Requirements/ Bugs (Errors)/ Test Documentation/ Completions</title>
   <body>
     <header>
       <para styleclass="Heading1"><text styleclass="Heading1" translate="true">How to Create List of Requirements/ Bugs (Errors)/ Test Documentation/ Completions</text></para>
     </header>
-    <para styleclass="Normal" style="line-height:1.00; tabstops:none;"><text styleclass="Normal" style="font-family:Verdana; text-decoration:none; vertical-align:baseline; color:#000000; background-color:#ffffff;" translate="true">Lists serve as containers (folders) for similar entities within the scope of a project. Lists are created in the same way as any other task in TrackStudio i.e. through buttons in the toolbar or dropdown menu.</text></para>
-    <para styleclass="Normal" style="line-height:1.00; tabstops:none;"><link displaytype="image" src="create-new-list-req-ru.PNG" type="weblink" href="http://www.trackstudio.com/sites/default/files/gallery_assist/32/gallery_assist157/create-new-list-req-ru.PNG"></link></para>
+    <para styleclass="Normal" style="text-indent:48px;"><text styleclass="Normal" style="font-family:Verdana; font-size:12pt; vertical-align:baseline; color:#000000; background-color:#ffffff;" translate="true">Lists serve as containers (folders) for similar entities within the scope of a project. Lists are created in the same way as any other task in TrackStudio i.e. through buttons in the toolbar or dropdown menu.</text></para>
+    <para styleclass="Normal" style="text-align:center; line-height:1.00; tabstops:none;"><image src="create-new-list-req-ru.PNG" scale="100.00%" styleclass="Normal" style="font-size:12pt;"></image></para>
+    <para styleclass="Normal" style="line-height:1.00; page-break-before:always; tabstops:none;"></para>
   </body>
 </topic>

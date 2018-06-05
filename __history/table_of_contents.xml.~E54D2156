@@ -6,6 +6,9 @@
       <caption translate="true">Installation Guide</caption>
       <topicref type="topic" id="425457650527280" build="ALL" modified="2016-06-24T16:02:23.792Z" icon="0" href="Updating-TrackStudio">
         <caption translate="true">Updating TrackStudio</caption>
+        <topicref type="topic" id="426047761278124" build="ALL" modified="2016-08-22T18:13:02.647Z" icon="0" href="Upgrading-the-minor-versions-5">
+          <caption translate="true">Upgrading the minor versions (5.0.x)</caption>
+        </topicref>
         <topicref type="topic" id="425456925213725" build="ALL" modified="2016-06-24T16:02:23.954Z" icon="0" href="Upgrade-from-version-4_0_x-to-">
           <caption translate="true">Upgrade from version 4.0.x to 5.0.x</caption>
         </topicref>
@@ -36,6 +39,9 @@
         <topicref type="topic" id="42546309662103" build="ALL" modified="2016-06-24T16:02:25.426Z" icon="0" href="Installing-TrackStudio-WAR-in2">
           <caption translate="true">Installing TrackStudio WAR in Linux</caption>
         </topicref>
+        <topicref type="topic" id="426468284690266" build="ALL" modified="2016-10-03T20:33:12.439Z" icon="0" href="Configuring-X-Window">
+          <caption translate="true">Configuring X Window</caption>
+        </topicref>
       </topicref>
       <topicref type="topic" id="42545464537375" build="ALL" modified="2016-06-24T16:02:25.588Z" icon="0" href="Connecting-to-a-Database">
         <caption translate="true">Connecting to a Database</caption>
@@ -47,6 +53,9 @@
         </topicref>
         <topicref type="topic" id="425457531633903" build="ALL" modified="2016-06-24T16:02:26.075Z" icon="0" href="Connecting-to-MS-SQL-Server">
           <caption translate="true">Connecting to MS SQL Server</caption>
+        </topicref>
+        <topicref type="topic" id="425829670785617" build="ALL" modified="2016-07-31T22:15:31.683Z" icon="0" href="Connecting-to-MySQL">
+          <caption translate="true">Connecting to MySQL</caption>
         </topicref>
         <topicref type="topic" id="425455657012573" build="ALL" modified="2016-06-24T16:02:26.237Z" icon="0" href="Connecting-to-Oracle">
           <caption translate="true">Connecting to Oracle</caption>
@@ -69,6 +78,9 @@
       </topicref>
       <topicref type="topic" id="425457865674207" build="ALL" modified="2016-06-24T16:02:27.092Z" icon="0" href="Creation-and-initialization-of">
         <caption translate="true">Creation and initialization of database in PostgreSQL</caption>
+      </topicref>
+      <topicref type="topic" id="426478091814893" build="ALL" modified="2016-10-04T17:13:07.544Z" icon="0" href="X_509-Authorization-Settings">
+        <caption translate="true">X.509 Authorization Settings</caption>
       </topicref>
     </topicref>
     <topicref type="topic" id="425454776978753" build="ALL" modified="2016-06-24T16:02:27.226Z" icon="0" href="Administrator's-Guide">
@@ -157,6 +169,12 @@
       <topicref type="topic" id="425455578715900" build="ALL" modified="2016-06-24T16:02:31.444Z" icon="0" href="Time-Tracking-in-TrackStudio">
         <caption translate="true">Time Tracking in TrackStudio</caption>
       </topicref>
+      <topicref type="topic" id="427693528807403" build="ALL" modified="2017-02-03T12:16:06.573Z" icon="0" href="localizeEn">
+        <caption translate="true">How to Localize TrackStudio Interface</caption>
+      </topicref>
+      <topicref type="topic" id="42758857781888" build="ALL" modified="2017-01-23T22:52:36.440Z" icon="0" href="video-service_en">
+        <caption translate="true">Using TrackStudio as video service</caption>
+      </topicref>
     </topicref>
     <topicref type="topic" id="425456072322265" build="ALL" modified="2016-06-24T16:02:31.590Z" icon="0" href="User's-Guide">
       <caption translate="true">User's Guide</caption>
@@ -219,9 +237,9 @@
       </topicref>
       <topicref type="topic" id="425458729513717" build="ALL" modified="2016-06-24T16:02:34.780Z" icon="0" href="How-to-write-and-debug-scripts">
         <caption translate="true">How to write and debug scripts in IntelliJ IDEA</caption>
-      </topicref>
-      <topicref type="topic" id="425455901591866" build="ALL" modified="2016-06-24T16:02:34.941Z" icon="0" href="How-to-use-SOAP-integration-in">
-        <caption translate="true">How to use SOAP integration in TrackStudio</caption>
+        <topicref type="topic" id="425455901591866" build="ALL" modified="2016-06-24T16:02:34.941Z" icon="0" href="How-to-use-SOAP-integration-in">
+          <caption translate="true">How to use SOAP integration in TrackStudio</caption>
+        </topicref>
       </topicref>
       <topicref type="topic" id="425458502842726" build="ALL" modified="2016-06-24T16:02:35.101Z" icon="0" href="Compiling-TrackStudio-from-sou">
         <caption translate="true">Compiling TrackStudio from source code</caption>
@@ -573,6 +591,9 @@
       </topicref>
       <topicref type="topic" id="422867101845132" build="ALL" modified="2015-10-13T17:59:28.841Z" icon="0" href="howto_hide_frame">
         <caption translate="true">Как скрыть фрейм с деревом задач</caption>
+      </topicref>
+      <topicref type="topic" id="427583171463384" build="ALL" modified="2017-01-23T11:48:27.846Z" icon="0" href="video-service">
+        <caption translate="true">Как использовать TrackStudio в качестве видеосервиса</caption>
       </topicref>
     </topicref>
     <topicref type="topic" id="42251713244239" build="ALL" modified="2015-10-13T18:05:31.190Z" icon="0" href="user_guide">

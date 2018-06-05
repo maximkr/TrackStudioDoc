@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<helpproject xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="helpproject.xsd" version="1.9" isskin="false" isrepository="false">
+<helpproject xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="helpproject.xsd" version="2.0" isskin="false" isrepository="false">
   <config>
     <namespaces/>
     <export-task-groups>
@@ -7,15 +7,15 @@
         <export-tasks>
           <export-task name="Publish as HTM" format="HTM">
             <task-config-group name="settings">
-              <task-config-value name="outputfile">..\..\nginx-1.8.0\html\publish\index.html</task-config-value>
-              <task-config-value name="skin">$(HMSYS)Templates\HTML Skins\Webhelp, Two Frames Classic Skin Blue.hmskin</task-config-value>
+              <task-config-value name="outputfile">..\bin\nginx-1.8.0\html\publish\index.html</task-config-value>
+              <task-config-value name="skin">$(HMSYS)Templates\HTML Skins\Webhelp, iFrames Responsive, Blue.hmskin</task-config-value>
               <task-config-value name="make3include">HTML</task-config-value>
               <task-config-value name="make3status">*</task-config-value>
             </task-config-group>
           </export-task>
           <export-task name="Publish as PDF" format="PDF">
             <task-config-group name="settings">
-              <task-config-value name="outputfile">..\publish\Documentation.pdf</task-config-value>
+              <task-config-value name="outputfile">..\Documentation.pdf</task-config-value>
               <task-config-value name="template">.\EC Software\HelpAndManual7\Templates\PDF\Classic_manual_A4_mod.mnl</task-config-value>
               <task-config-value name="highlighthotspots">0</task-config-value>
               <task-config-value name="exportcomments">0</task-config-value>
@@ -90,8 +90,8 @@
       <config-group name="spellcheck">
         <config-value name="project">1</config-value>
         <config-value name="maindictionaries">dict-en.oxt::en_AU.aff::en_AU.dic;dict_ru_ru-0.6.oxt::ru_RU.aff::ru_RU.dic</config-value>
-        <config-value name="customdictionaries">..\..\HMGlobalUserDict.adu;</config-value>
-        <config-value name="activecustomdict">..\..\HMGlobalUserDict.adu</config-value>
+        <config-value name="customdictionaries">..\HMGlobalUserDict.adu;</config-value>
+        <config-value name="activecustomdict">..\HMGlobalUserDict.adu</config-value>
       </config-group>
     </config-group>
     <config-group name="pdf">
@@ -103,7 +103,7 @@
       <config-value name="insertseealsostyle">1</config-value>
       <config-value name="linkcolor">-1</config-value>
       <config-value name="ignoreblank">1</config-value>
-      <config-value name="outputfile">..\publish\Documentation.pdf</config-value>
+      <config-value name="outputfile">..\Documentation.pdf</config-value>
       <config-value name="template">.\EC Software\HelpAndManual7\Templates\PDF\Classic_manual_A4_mod.mnl</config-value>
       <config-value name="highlighthotspots">0</config-value>
       <config-value name="exportcomments">0</config-value>
@@ -142,8 +142,8 @@
       <config-value name="imageconversion">1</config-value>
       <config-value name="jpgquality">90</config-value>
       <config-value name="htmlpopup">3</config-value>
-      <config-value name="outputfile">..\..\nginx-1.8.0\html\publish\index.html</config-value>
-      <config-value name="skin">$(HMSYS)Templates\HTML Skins\Webhelp, Two Frames Classic Skin Blue.hmskin</config-value>
+      <config-value name="outputfile">..\bin\nginx-1.8.0\html\publish\index.html</config-value>
+      <config-value name="skin">$(HMSYS)Templates\HTML Skins\Webhelp, iFrames Responsive, Blue.hmskin</config-value>
       <config-value name="topiceditor">1</config-value>
       <config-value name="topicsimpleheadercolor">#D0D0D0</config-value>
       <config-value name="topicsimpletextcolor">#FFFFFF</config-value>
@@ -356,6 +356,12 @@
       <config-group name="administrator">
         <config-group name="project">
           <config-value name="lastexport">4</config-value>
+        </config-group>
+        <config-group name="report">
+          <config-value name="type">3</config-value>
+          <config-value name="sort">0</config-value>
+          <config-value name="include">*</config-value>
+          <config-value name="topicclasses">Popup,</config-value>
         </config-group>
       </config-group>
     </config-group>

@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../helpproject.xsl" ?>
+<topic template="Default" lasteditedby="xp" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd">
+  <title translate="true">How to indicate which Test Case is to be used for Testing the Requirement</title>
+  <body>
+    <header>
+      <para styleclass="Heading1"><text styleclass="Heading1" translate="true">How to indicate which Test Case is to be used for Testing the Requirement</text></para>
+    </header>
+    <para styleclass="Normal" style="margin-top:16px; line-height:1.00; background-color:#ffffff; tabstops:none;"><text styleclass="Normal" style="font-family:Verdana; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">While creating the requirement, indicate the test case in the corresponding field.</text></para>
+    <para styleclass="Normal" style="line-height:1.00; background-color:#ffffff; tabstops:none;"><image src="edit-requirements-req-ru.png" type="weblink" href="http://www.trackstudio.com/sites/default/files/gallery_assist/32/gallery_assist157/edit-requirements-req-ru/></para>
+    <para styleclass="Normal" style="margin-top:16px; margin-bottom:16px; line-height:1.00; background-color:#ffffff; tabstops:none;"><text styleclass="Normal" style="font-family:Verdana; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">If you need this parameter to be changed, go to the view of requirement, then press</text><text styleclass="apple-converted-space" style="font-family:Verdana; font-size:12pt; font-weight:normal; font-style:normal; text-decoration:none; text-transform:none; vertical-align:baseline; color:#000000; background-color:transparent; letter-spacing:normal; letter-scaling:100%;" translate="true">&#32;</text><text styleclass="Normal" style="font-family:Verdana; font-weight:bold; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">Edit</text><text styleclass="apple-converted-space" style="font-family:Verdana; font-size:12pt; font-weight:normal; font-style:normal; text-decoration:none; text-transform:none; vertical-align:baseline; color:#000000; background-color:transparent; letter-spacing:normal; letter-scaling:100%;" translate="true">&#32;</text><text styleclass="Normal" style="font-family:Verdana; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">and in the corresponding field indicate which test case is to be used for testing the requirement, and subsequently save the changes.</text></para>
+  </body>
+</topic>
